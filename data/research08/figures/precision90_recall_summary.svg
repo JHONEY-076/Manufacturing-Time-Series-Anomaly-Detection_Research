@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720" viewBox="0 0 1100 720">
+  <rect width="1100" height="720" fill="#ffffff"/>
+  <style>
+    .title { font-family: "Malgun Gothic", "Apple SD Gothic Neo", Arial, sans-serif; font-size: 32px; font-weight: 700; fill: #111; }
+    .axis { stroke: #333; stroke-width: 1.5; }
+    .grid { stroke: #d7d7d7; stroke-width: 1; stroke-dasharray: 5 5; }
+    .tick { font-family: Arial, sans-serif; font-size: 17px; fill: #222; }
+    .label { font-family: "Malgun Gothic", "Apple SD Gothic Neo", Arial, sans-serif; font-size: 21px; font-weight: 700; fill: #111; }
+    .method { font-family: Arial, "Malgun Gothic", sans-serif; font-size: 19px; fill: #111; }
+    .value { font-family: Arial, sans-serif; font-size: 18px; font-weight: 700; fill: #111; }
+  </style>
+
+  <text x="550" y="55" text-anchor="middle" class="title">Recall Summary Under Precision ≥ 0.90</text>
+
+  <!-- Plot area: x=95~1015, y=95~590 -->
+  <line x1="95" y1="590" x2="1015" y2="590" class="axis"/>
+  <line x1="95" y1="590" x2="95" y2="95" class="axis"/>
+  <line x1="95" y1="491" x2="1015" y2="491" class="grid"/>
+  <line x1="95" y1="392" x2="1015" y2="392" class="grid"/>
+  <line x1="95" y1="293" x2="1015" y2="293" class="grid"/>
+  <line x1="95" y1="194" x2="1015" y2="194" class="grid"/>
+  <line x1="95" y1="95" x2="1015" y2="95" class="grid"/>
+
+  <text x="80" y="596" text-anchor="end" class="tick">0.0</text>
+  <text x="80" y="497" text-anchor="end" class="tick">0.2</text>
+  <text x="80" y="398" text-anchor="end" class="tick">0.4</text>
+  <text x="80" y="299" text-anchor="end" class="tick">0.6</text>
+  <text x="80" y="200" text-anchor="end" class="tick">0.8</text>
+  <text x="80" y="101" text-anchor="end" class="tick">1.0</text>
+  <text x="34" y="342" text-anchor="middle" transform="rotate(-90 34 342)" class="label">Value</text>
+
+  <defs>
+    <linearGradient id="blueBar" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f6ed5"/>
+      <stop offset="100%" stop-color="#0756ad"/>
+    </linearGradient>
+  </defs>
+
+  <!-- y = 590 - value*495 -->
+  <!-- Magnitude warping: mean 0.586, std 0.195 -->
+  <rect x="220" y="299.93" width="48" height="290.07" fill="url(#blueBar)"/>
+  <rect x="310" y="493.475" width="48" height="96.525" fill="#ff6b00"/>
+  <text x="244" y="291" text-anchor="middle" class="value">0.586</text>
+  <text x="334" y="485" text-anchor="middle" class="value">0.195</text>
+
+  <!-- Filtered MD 750: mean 0.598, std 0.157 -->
+  <rect x="525" y="293.99" width="48" height="296.01" fill="url(#blueBar)"/>
+  <rect x="615" y="512.285" width="48" height="77.715" fill="#ff6b00"/>
+  <text x="549" y="285" text-anchor="middle" class="value">0.598</text>
+  <text x="639" y="504" text-anchor="middle" class="value">0.157</text>
+
+  <!-- Masking Diffusion: mean 0.613, std 0.163 -->
+  <rect x="830" y="286.565" width="48" height="303.435" fill="url(#blueBar)"/>
+  <rect x="920" y="509.315" width="48" height="80.685" fill="#ff6b00"/>
+  <text x="854" y="278" text-anchor="middle" class="value">0.613</text>
+  <text x="944" y="501" text-anchor="middle" class="value">0.163</text>
+
+  <text x="289" y="625" text-anchor="middle" class="method">Magnitude warping</text>
+  <text x="594" y="625" text-anchor="middle" class="method">Filtered MD 750</text>
+  <text x="899" y="625" text-anchor="middle" class="method">Masking Diffusion</text>
+  <text x="550" y="674" text-anchor="middle" class="label">Method</text>
+
+  <g font-family="Arial, sans-serif" font-size="16" fill="#222">
+    <rect x="390" y="655" width="18" height="18" fill="#0f6ed5"/>
+    <text x="418" y="670">Mean Recall</text>
+    <rect x="548" y="655" width="18" height="18" fill="#ff6b00"/>
+    <text x="576" y="670">Recall Std. Dev.</text>
+  </g>
+</svg>

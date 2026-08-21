@@ -1,0 +1,183 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' width='1280' height='820' viewBox='0 0 1280 820'>
+<style>
+text { font-family: Arial, sans-serif; fill: #202020; }
+.title { font-size: 24px; font-weight: 700; }
+.subtitle { font-size: 13px; fill: #555; }
+.panel-title { font-size: 17px; font-weight: 700; }
+.axis { stroke: #333; stroke-width: 1.2; }
+.grid { stroke: #dddddd; stroke-width: 1; }
+.tick { font-size: 11px; fill: #555; }
+.xlabel { font-size: 11px; fill: #333; }
+.value { font-size: 10px; font-weight: 700; fill: #222; }
+.bar.masking { fill: #3569a8; }
+.bar.transform { fill: #d67b35; }
+.legend-text { font-size: 13px; fill: #333; }
+</style>
+<rect x='0' y='0' width='1280' height='820' fill='#ffffff'/>
+<text x='640' y='35' class='title' text-anchor='middle'>Masking-based vs Transformation-based Augmentation Performance</text>
+<text x='640' y='58' class='subtitle' text-anchor='middle'>Research08, augmentation count = 1000, final test performance</text>
+<rect x='475' y='70' width='16' height='16' class='bar masking'/>
+<text x='498' y='83' class='legend-text'>Masking-based</text>
+<rect x='620' y='70' width='16' height='16' class='bar transform'/>
+<text x='643' y='83' class='legend-text'>Transformation-based</text>
+<text x='340' y='73' class='panel-title' text-anchor='middle'>Precision</text>
+<line x1='70' y1='340' x2='610' y2='340' class='axis'/>
+<line x1='70' y1='95' x2='70' y2='340' class='axis'/>
+<line x1='70' y1='340' x2='610' y2='340' class='grid'/>
+<text x='58' y='344' class='tick' text-anchor='end'>0.00</text>
+<line x1='70' y1='278.75' x2='610' y2='278.75' class='grid'/>
+<text x='58' y='282.75' class='tick' text-anchor='end'>0.25</text>
+<line x1='70' y1='217.5' x2='610' y2='217.5' class='grid'/>
+<text x='58' y='221.5' class='tick' text-anchor='end'>0.50</text>
+<line x1='70' y1='156.25' x2='610' y2='156.25' class='grid'/>
+<text x='58' y='160.25' class='tick' text-anchor='end'>0.75</text>
+<line x1='70' y1='95' x2='610' y2='95' class='grid'/>
+<text x='58' y='99' class='tick' text-anchor='end'>1.00</text>
+<rect x='84.5714285714286' y='130.296610169492' width='48' height='209.703389830508' rx='2' class='bar masking'/>
+<text x='108.571428571429' y='123.296610169492' class='value' text-anchor='middle'>0.856</text>
+<text x='108.571428571429' y='362' class='xlabel' text-anchor='middle'>Masking</text>
+<text x='108.571428571429' y='377' class='xlabel' text-anchor='middle'>Diffusion</text>
+<rect x='161.714285714286' y='121.849315068493' width='48' height='218.150684931507' rx='2' class='bar masking'/>
+<text x='185.714285714286' y='114.849315068493' class='value' text-anchor='middle'>0.890</text>
+<text x='185.714285714286' y='362' class='xlabel' text-anchor='middle'>Masking</text>
+<text x='185.714285714286' y='377' class='xlabel' text-anchor='middle'>GT-GAN</text>
+<rect x='238.857142857143' y='97.0081967213115' width='48' height='242.991803278689' rx='2' class='bar transform'/>
+<text x='262.857142857143' y='90.0081967213115' class='value' text-anchor='middle'>0.992</text>
+<text x='262.857142857143' y='362' class='xlabel' text-anchor='middle'>Noise</text>
+<text x='262.857142857143' y='377' class='xlabel' text-anchor='middle'>injection</text>
+<rect x='316' y='112.051282051282' width='48' height='227.948717948718' rx='2' class='bar transform'/>
+<text x='340' y='105.051282051282' class='value' text-anchor='middle'>0.930</text>
+<text x='340' y='362' class='xlabel' text-anchor='middle'>Magnitude</text>
+<text x='340' y='377' class='xlabel' text-anchor='middle'>warping</text>
+<rect x='393.142857142857' y='136.666666666667' width='48' height='203.333333333333' rx='2' class='bar transform'/>
+<text x='417.142857142857' y='129.666666666667' class='value' text-anchor='middle'>0.830</text>
+<text x='417.142857142857' y='362' class='xlabel' text-anchor='middle'>Frequency</text>
+<text x='417.142857142857' y='377' class='xlabel' text-anchor='middle'>domain</text>
+<rect x='470.285714285714' y='160.9963099631' width='48' height='179.0036900369' rx='2' class='bar transform'/>
+<text x='494.285714285714' y='153.9963099631' class='value' text-anchor='middle'>0.731</text>
+<text x='494.285714285714' y='362' class='xlabel' text-anchor='middle'>Time</text>
+<text x='494.285714285714' y='377' class='xlabel' text-anchor='middle'>warping</text>
+<rect x='547.428571428571' y='102.39224137931' width='48' height='237.60775862069' rx='2' class='bar transform'/>
+<text x='571.428571428571' y='95.3922413793103' class='value' text-anchor='middle'>0.970</text>
+<text x='571.428571428571' y='362' class='xlabel' text-anchor='middle'>Comprehensive</text>
+<text x='960' y='73' class='panel-title' text-anchor='middle'>Recall</text>
+<line x1='690' y1='340' x2='1230' y2='340' class='axis'/>
+<line x1='690' y1='95' x2='690' y2='340' class='axis'/>
+<line x1='690' y1='340' x2='1230' y2='340' class='grid'/>
+<text x='678' y='344' class='tick' text-anchor='end'>0.00</text>
+<line x1='690' y1='278.75' x2='1230' y2='278.75' class='grid'/>
+<text x='678' y='282.75' class='tick' text-anchor='end'>0.25</text>
+<line x1='690' y1='217.5' x2='1230' y2='217.5' class='grid'/>
+<text x='678' y='221.5' class='tick' text-anchor='end'>0.50</text>
+<line x1='690' y1='156.25' x2='1230' y2='156.25' class='grid'/>
+<text x='678' y='160.25' class='tick' text-anchor='end'>0.75</text>
+<line x1='690' y1='95' x2='1230' y2='95' class='grid'/>
+<text x='678' y='99' class='tick' text-anchor='end'>1.00</text>
+<rect x='704.571428571429' y='172.804054054054' width='48' height='167.195945945946' rx='2' class='bar masking'/>
+<text x='728.571428571429' y='165.804054054054' class='value' text-anchor='middle'>0.682</text>
+<text x='728.571428571429' y='362' class='xlabel' text-anchor='middle'>Masking</text>
+<text x='728.571428571429' y='377' class='xlabel' text-anchor='middle'>Diffusion</text>
+<rect x='781.714285714286' y='178.597972972973' width='48' height='161.402027027027' rx='2' class='bar masking'/>
+<text x='805.714285714286' y='171.597972972973' class='value' text-anchor='middle'>0.659</text>
+<text x='805.714285714286' y='362' class='xlabel' text-anchor='middle'>Masking</text>
+<text x='805.714285714286' y='377' class='xlabel' text-anchor='middle'>GT-GAN</text>
+<rect x='858.857142857143' y='139.695945945946' width='48' height='200.304054054054' rx='2' class='bar transform'/>
+<text x='882.857142857143' y='132.695945945946' class='value' text-anchor='middle'>0.818</text>
+<text x='882.857142857143' y='362' class='xlabel' text-anchor='middle'>Noise</text>
+<text x='882.857142857143' y='377' class='xlabel' text-anchor='middle'>injection</text>
+<rect x='936' y='129.763513513514' width='48' height='210.236486486486' rx='2' class='bar transform'/>
+<text x='960' y='122.763513513514' class='value' text-anchor='middle'>0.858</text>
+<text x='960' y='362' class='xlabel' text-anchor='middle'>Magnitude</text>
+<text x='960' y='377' class='xlabel' text-anchor='middle'>warping</text>
+<rect x='1013.14285714286' y='138.040540540541' width='48' height='201.959459459459' rx='2' class='bar transform'/>
+<text x='1037.14285714286' y='131.040540540541' class='value' text-anchor='middle'>0.824</text>
+<text x='1037.14285714286' y='362' class='xlabel' text-anchor='middle'>Frequency</text>
+<text x='1037.14285714286' y='377' class='xlabel' text-anchor='middle'>domain</text>
+<rect x='1090.28571428571' y='176.114864864865' width='48' height='163.885135135135' rx='2' class='bar transform'/>
+<text x='1114.28571428571' y='169.114864864865' class='value' text-anchor='middle'>0.669</text>
+<text x='1114.28571428571' y='362' class='xlabel' text-anchor='middle'>Time</text>
+<text x='1114.28571428571' y='377' class='xlabel' text-anchor='middle'>warping</text>
+<rect x='1167.42857142857' y='153.766891891892' width='48' height='186.233108108108' rx='2' class='bar transform'/>
+<text x='1191.42857142857' y='146.766891891892' class='value' text-anchor='middle'>0.760</text>
+<text x='1191.42857142857' y='362' class='xlabel' text-anchor='middle'>Comprehensive</text>
+<text x='340' y='423' class='panel-title' text-anchor='middle'>F1-score</text>
+<line x1='70' y1='690' x2='610' y2='690' class='axis'/>
+<line x1='70' y1='445' x2='70' y2='690' class='axis'/>
+<line x1='70' y1='690' x2='610' y2='690' class='grid'/>
+<text x='58' y='694' class='tick' text-anchor='end'>0.00</text>
+<line x1='70' y1='628.75' x2='610' y2='628.75' class='grid'/>
+<text x='58' y='632.75' class='tick' text-anchor='end'>0.25</text>
+<line x1='70' y1='567.5' x2='610' y2='567.5' class='grid'/>
+<text x='58' y='571.5' class='tick' text-anchor='end'>0.50</text>
+<line x1='70' y1='506.25' x2='610' y2='506.25' class='grid'/>
+<text x='58' y='510.25' class='tick' text-anchor='end'>0.75</text>
+<line x1='70' y1='445' x2='610' y2='445' class='grid'/>
+<text x='58' y='449' class='tick' text-anchor='end'>1.00</text>
+<rect x='84.5714285714286' y='503.947368421053' width='48' height='186.052631578947' rx='2' class='bar masking'/>
+<text x='108.571428571429' y='496.947368421053' class='value' text-anchor='middle'>0.759</text>
+<text x='108.571428571429' y='712' class='xlabel' text-anchor='middle'>Masking</text>
+<text x='108.571428571429' y='727' class='xlabel' text-anchor='middle'>Diffusion</text>
+<rect x='161.714285714286' y='504.466019417476' width='48' height='185.533980582524' rx='2' class='bar masking'/>
+<text x='185.714285714286' y='497.466019417476' class='value' text-anchor='middle'>0.757</text>
+<text x='185.714285714286' y='712' class='xlabel' text-anchor='middle'>Masking</text>
+<text x='185.714285714286' y='727' class='xlabel' text-anchor='middle'>GT-GAN</text>
+<rect x='238.857142857143' y='470.407407407407' width='48' height='219.592592592593' rx='2' class='bar transform'/>
+<text x='262.857142857143' y='463.407407407407' class='value' text-anchor='middle'>0.896</text>
+<text x='262.857142857143' y='712' class='xlabel' text-anchor='middle'>Noise</text>
+<text x='262.857142857143' y='727' class='xlabel' text-anchor='middle'>injection</text>
+<rect x='316' y='471.265377855888' width='48' height='218.734622144112' rx='2' class='bar transform'/>
+<text x='340' y='464.265377855888' class='value' text-anchor='middle'>0.893</text>
+<text x='340' y='712' class='xlabel' text-anchor='middle'>Magnitude</text>
+<text x='340' y='727' class='xlabel' text-anchor='middle'>warping</text>
+<rect x='393.142857142857' y='487.35593220339' width='48' height='202.64406779661' rx='2' class='bar transform'/>
+<text x='417.142857142857' y='480.35593220339' class='value' text-anchor='middle'>0.827</text>
+<text x='417.142857142857' y='712' class='xlabel' text-anchor='middle'>Frequency</text>
+<text x='417.142857142857' y='727' class='xlabel' text-anchor='middle'>domain</text>
+<rect x='470.285714285714' y='518.888888888889' width='48' height='171.111111111111' rx='2' class='bar transform'/>
+<text x='494.285714285714' y='511.888888888889' class='value' text-anchor='middle'>0.698</text>
+<text x='494.285714285714' y='712' class='xlabel' text-anchor='middle'>Time</text>
+<text x='494.285714285714' y='727' class='xlabel' text-anchor='middle'>warping</text>
+<rect x='547.428571428571' y='481.193181818182' width='48' height='208.806818181818' rx='2' class='bar transform'/>
+<text x='571.428571428571' y='474.193181818182' class='value' text-anchor='middle'>0.852</text>
+<text x='571.428571428571' y='712' class='xlabel' text-anchor='middle'>Comprehensive</text>
+<text x='960' y='423' class='panel-title' text-anchor='middle'>AUPRC</text>
+<line x1='690' y1='690' x2='1230' y2='690' class='axis'/>
+<line x1='690' y1='445' x2='690' y2='690' class='axis'/>
+<line x1='690' y1='690' x2='1230' y2='690' class='grid'/>
+<text x='678' y='694' class='tick' text-anchor='end'>0.00</text>
+<line x1='690' y1='628.75' x2='1230' y2='628.75' class='grid'/>
+<text x='678' y='632.75' class='tick' text-anchor='end'>0.25</text>
+<line x1='690' y1='567.5' x2='1230' y2='567.5' class='grid'/>
+<text x='678' y='571.5' class='tick' text-anchor='end'>0.50</text>
+<line x1='690' y1='506.25' x2='1230' y2='506.25' class='grid'/>
+<text x='678' y='510.25' class='tick' text-anchor='end'>0.75</text>
+<line x1='690' y1='445' x2='1230' y2='445' class='grid'/>
+<text x='678' y='449' class='tick' text-anchor='end'>1.00</text>
+<rect x='704.571428571429' y='472.492128897396' width='48' height='217.507871102604' rx='2' class='bar masking'/>
+<text x='728.571428571429' y='465.492128897396' class='value' text-anchor='middle'>0.888</text>
+<text x='728.571428571429' y='712' class='xlabel' text-anchor='middle'>Masking</text>
+<text x='728.571428571429' y='727' class='xlabel' text-anchor='middle'>Diffusion</text>
+<rect x='781.714285714286' y='480.82862082085' width='48' height='209.17137917915' rx='2' class='bar masking'/>
+<text x='805.714285714286' y='473.82862082085' class='value' text-anchor='middle'>0.854</text>
+<text x='805.714285714286' y='712' class='xlabel' text-anchor='middle'>Masking</text>
+<text x='805.714285714286' y='727' class='xlabel' text-anchor='middle'>GT-GAN</text>
+<rect x='858.857142857143' y='452.496340430448' width='48' height='237.503659569552' rx='2' class='bar transform'/>
+<text x='882.857142857143' y='445.496340430448' class='value' text-anchor='middle'>0.969</text>
+<text x='882.857142857143' y='712' class='xlabel' text-anchor='middle'>Noise</text>
+<text x='882.857142857143' y='727' class='xlabel' text-anchor='middle'>injection</text>
+<rect x='936' y='453.574860977686' width='48' height='236.425139022314' rx='2' class='bar transform'/>
+<text x='960' y='446.574860977686' class='value' text-anchor='middle'>0.965</text>
+<text x='960' y='712' class='xlabel' text-anchor='middle'>Magnitude</text>
+<text x='960' y='727' class='xlabel' text-anchor='middle'>warping</text>
+<rect x='1013.14285714286' y='464.676834568799' width='48' height='225.323165431201' rx='2' class='bar transform'/>
+<text x='1037.14285714286' y='457.676834568799' class='value' text-anchor='middle'>0.920</text>
+<text x='1037.14285714286' y='712' class='xlabel' text-anchor='middle'>Frequency</text>
+<text x='1037.14285714286' y='727' class='xlabel' text-anchor='middle'>domain</text>
+<rect x='1090.28571428571' y='494.448188723153' width='48' height='195.551811276847' rx='2' class='bar transform'/>
+<text x='1114.28571428571' y='487.448188723153' class='value' text-anchor='middle'>0.798</text>
+<text x='1114.28571428571' y='712' class='xlabel' text-anchor='middle'>Time</text>
+<text x='1114.28571428571' y='727' class='xlabel' text-anchor='middle'>warping</text>
+<rect x='1167.42857142857' y='455.687910291077' width='48' height='234.312089708923' rx='2' class='bar transform'/>
+<text x='1191.42857142857' y='448.687910291077' class='value' text-anchor='middle'>0.956</text>
+<text x='1191.42857142857' y='712' class='xlabel' text-anchor='middle'>Comprehensive</text>
+</svg>

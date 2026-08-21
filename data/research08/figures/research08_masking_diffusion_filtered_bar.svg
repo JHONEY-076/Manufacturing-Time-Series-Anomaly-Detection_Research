@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+  <rect width="1100" height="620" fill="#ffffff"/>
+  <text x="550" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#222222">Performance Comparison</text>
+  <text x="550" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#555555">Masking Diffusion vs. Magnitude Warping vs. Filtered Masking Diffusion</text>
+
+  <g font-family="Arial, sans-serif" font-size="12" fill="#666666">
+    <line x1="90" y1="470" x2="1020" y2="470" stroke="#333333" stroke-width="1.2"/>
+    <line x1="90" y1="390" x2="1020" y2="390" stroke="#d9d9d9" stroke-dasharray="5 5"/>
+    <line x1="90" y1="310" x2="1020" y2="310" stroke="#d9d9d9" stroke-dasharray="5 5"/>
+    <line x1="90" y1="230" x2="1020" y2="230" stroke="#d9d9d9" stroke-dasharray="5 5"/>
+    <line x1="90" y1="150" x2="1020" y2="150" stroke="#d9d9d9" stroke-dasharray="5 5"/>
+    <line x1="90" y1="70" x2="1020" y2="70" stroke="#d9d9d9" stroke-dasharray="5 5"/>
+    <text x="78" y="474" text-anchor="end">0.0</text>
+    <text x="78" y="394" text-anchor="end">0.2</text>
+    <text x="78" y="314" text-anchor="end">0.4</text>
+    <text x="78" y="234" text-anchor="end">0.6</text>
+    <text x="78" y="154" text-anchor="end">0.8</text>
+    <text x="78" y="74" text-anchor="end">1.0</text>
+    <text x="34" y="270" text-anchor="middle" transform="rotate(-90 34 270)" font-size="15" fill="#333333">Score</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="12" fill="#222222">
+    <!-- Masking Diffusion: Precision 1.000, Recall 0.716, F1 0.835, AUPRC 0.956 -->
+    <rect x="165" y="70.0" width="45" height="400.0" fill="#4C78A8"/>
+    <rect x="215" y="183.6" width="45" height="286.4" fill="#F58518"/>
+    <rect x="265" y="136.0" width="45" height="334.0" fill="#54A24B"/>
+    <rect x="315" y="87.6" width="45" height="382.4" fill="#B279A2"/>
+    <text x="187.5" y="63.0" text-anchor="middle">1.000</text>
+    <text x="237.5" y="176.6" text-anchor="middle">0.716</text>
+    <text x="287.5" y="129.0" text-anchor="middle">0.835</text>
+    <text x="337.5" y="80.6" text-anchor="middle">0.956</text>
+
+    <!-- Magnitude warping: Precision 0.964, Recall 0.814, F1 0.883, AUPRC 0.959 -->
+    <rect x="475" y="84.4" width="45" height="385.6" fill="#4C78A8"/>
+    <rect x="525" y="144.4" width="45" height="325.6" fill="#F58518"/>
+    <rect x="575" y="116.8" width="45" height="353.2" fill="#54A24B"/>
+    <rect x="625" y="86.4" width="45" height="383.6" fill="#B279A2"/>
+    <text x="497.5" y="77.4" text-anchor="middle">0.964</text>
+    <text x="547.5" y="137.4" text-anchor="middle">0.814</text>
+    <text x="597.5" y="109.8" text-anchor="middle">0.883</text>
+    <text x="647.5" y="79.4" text-anchor="middle">0.959</text>
+
+    <!-- Filtered Masking Diffusion: Precision 0.953, Recall 0.818, F1 0.880, AUPRC 0.944 -->
+    <rect x="785" y="88.8" width="45" height="381.2" fill="#4C78A8"/>
+    <rect x="835" y="142.8" width="45" height="327.2" fill="#F58518"/>
+    <rect x="885" y="118.0" width="45" height="352.0" fill="#54A24B"/>
+    <rect x="935" y="92.4" width="45" height="377.6" fill="#B279A2"/>
+    <text x="807.5" y="81.8" text-anchor="middle">0.953</text>
+    <text x="857.5" y="135.8" text-anchor="middle">0.818</text>
+    <text x="907.5" y="111.0" text-anchor="middle">0.880</text>
+    <text x="957.5" y="85.4" text-anchor="middle">0.944</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="15" fill="#222222">
+    <text x="262.5" y="504" text-anchor="middle">
+      <tspan x="262.5" dy="0">Masking</tspan>
+      <tspan x="262.5" dy="18">Diffusion</tspan>
+    </text>
+    <text x="572.5" y="504" text-anchor="middle">
+      <tspan x="572.5" dy="0">Magnitude</tspan>
+      <tspan x="572.5" dy="18">warping</tspan>
+    </text>
+    <text x="882.5" y="504" text-anchor="middle">
+      <tspan x="882.5" dy="0">Filtered Masking</tspan>
+      <tspan x="882.5" dy="18">Diffusion</tspan>
+    </text>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="14" fill="#222222">
+    <rect x="292" y="566" width="16" height="16" fill="#4C78A8"/>
+    <text x="315" y="579">Precision</text>
+    <rect x="408" y="566" width="16" height="16" fill="#F58518"/>
+    <text x="431" y="579">Recall</text>
+    <rect x="501" y="566" width="16" height="16" fill="#54A24B"/>
+    <text x="524" y="579">F1-score</text>
+    <rect x="615" y="566" width="16" height="16" fill="#B279A2"/>
+    <text x="638" y="579">AUPRC</text>
+  </g>
+</svg>

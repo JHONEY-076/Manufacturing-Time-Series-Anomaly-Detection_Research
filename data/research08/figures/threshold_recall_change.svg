@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720" viewBox="0 0 1100 720">
+  <rect width="1100" height="720" fill="#ffffff"/>
+  <style>
+    .title { font-family: "Malgun Gothic", "Apple SD Gothic Neo", Arial, sans-serif; font-size: 32px; font-weight: 700; fill: #111; }
+    .axis { stroke: #333; stroke-width: 1.5; }
+    .grid { stroke: #d7d7d7; stroke-width: 1; stroke-dasharray: 5 5; }
+    .tick { font-family: Arial, sans-serif; font-size: 17px; fill: #222; }
+    .label { font-family: "Malgun Gothic", "Apple SD Gothic Neo", Arial, sans-serif; font-size: 21px; font-weight: 700; fill: #111; }
+    .valueBlue { font-family: Arial, sans-serif; font-size: 17px; font-weight: 700; fill: #0b62bd; }
+    .valueOrange { font-family: Arial, sans-serif; font-size: 17px; font-weight: 700; fill: #ff6b00; }
+  </style>
+
+  <text x="550" y="55" text-anchor="middle" class="title">Recall Change by Threshold</text>
+
+  <!-- Plot area: x=110~1015, y=95~590 -->
+  <line x1="110" y1="590" x2="1015" y2="590" class="axis"/>
+  <line x1="110" y1="590" x2="110" y2="95" class="axis"/>
+  <line x1="110" y1="491" x2="1015" y2="491" class="grid"/>
+  <line x1="110" y1="392" x2="1015" y2="392" class="grid"/>
+  <line x1="110" y1="293" x2="1015" y2="293" class="grid"/>
+  <line x1="110" y1="194" x2="1015" y2="194" class="grid"/>
+  <line x1="110" y1="95" x2="1015" y2="95" class="grid"/>
+
+  <text x="95" y="596" text-anchor="end" class="tick">0.0</text>
+  <text x="95" y="497" text-anchor="end" class="tick">0.2</text>
+  <text x="95" y="398" text-anchor="end" class="tick">0.4</text>
+  <text x="95" y="299" text-anchor="end" class="tick">0.6</text>
+  <text x="95" y="200" text-anchor="end" class="tick">0.8</text>
+  <text x="95" y="101" text-anchor="end" class="tick">1.0</text>
+  <text x="42" y="342" text-anchor="middle" transform="rotate(-90 42 342)" class="label">Recall</text>
+
+  <!-- x positions for thresholds 0.84, 0.87, 0.89, 0.90, 0.95 -->
+  <!-- y = 590 - recall*495 -->
+  <!-- Filtered MD: 0.831, 0.703, 0.615, 0.571, 0.368 -->
+  <polyline points="150,178.655 355,242.015 560,285.575 765,307.355 970,407.84" fill="none" stroke="#0b62bd" stroke-width="2"/>
+  <circle cx="150" cy="178.655" r="6" fill="#0b62bd"/>
+  <circle cx="355" cy="242.015" r="6" fill="#0b62bd"/>
+  <circle cx="560" cy="285.575" r="6" fill="#0b62bd"/>
+  <circle cx="765" cy="307.355" r="6" fill="#0b62bd"/>
+  <circle cx="970" cy="407.84" r="6" fill="#0b62bd"/>
+
+  <!-- Magnitude warping: 0.757, 0.618, 0.514, 0.466, 0.280 -->
+  <polyline points="150,215.285 355,284.09 560,335.57 765,359.33 970,451.4" fill="none" stroke="#ff6b00" stroke-width="2"/>
+  <rect x="144" y="209.285" width="12" height="12" fill="#ff6b00"/>
+  <rect x="349" y="278.09" width="12" height="12" fill="#ff6b00"/>
+  <rect x="554" y="329.57" width="12" height="12" fill="#ff6b00"/>
+  <rect x="759" y="353.33" width="12" height="12" fill="#ff6b00"/>
+  <rect x="964" y="445.4" width="12" height="12" fill="#ff6b00"/>
+
+  <text x="150" y="160" text-anchor="middle" class="valueBlue">0.831</text>
+  <text x="355" y="224" text-anchor="middle" class="valueBlue">0.703</text>
+  <text x="560" y="268" text-anchor="middle" class="valueBlue">0.615</text>
+  <text x="765" y="290" text-anchor="middle" class="valueBlue">0.571</text>
+  <text x="970" y="390" text-anchor="middle" class="valueBlue">0.368</text>
+
+  <text x="150" y="248" text-anchor="middle" class="valueOrange">0.757</text>
+  <text x="355" y="316" text-anchor="middle" class="valueOrange">0.618</text>
+  <text x="560" y="368" text-anchor="middle" class="valueOrange">0.514</text>
+  <text x="765" y="392" text-anchor="middle" class="valueOrange">0.466</text>
+  <text x="970" y="484" text-anchor="middle" class="valueOrange">0.280</text>
+
+  <text x="150" y="625" text-anchor="middle" class="tick">0.84</text>
+  <text x="355" y="625" text-anchor="middle" class="tick">0.87</text>
+  <text x="560" y="625" text-anchor="middle" class="tick">0.89</text>
+  <text x="765" y="625" text-anchor="middle" class="tick">0.90</text>
+  <text x="970" y="625" text-anchor="middle" class="tick">0.95</text>
+  <text x="550" y="662" text-anchor="middle" class="label">Threshold</text>
+
+  <g font-family="Arial, sans-serif" font-size="16" fill="#222">
+    <line x1="365" y1="690" x2="410" y2="690" stroke="#0b62bd" stroke-width="2"/>
+    <circle cx="387.5" cy="690" r="5" fill="#0b62bd"/>
+    <text x="422" y="696">Filtered MD</text>
+    <line x1="535" y1="690" x2="580" y2="690" stroke="#ff6b00" stroke-width="2"/>
+    <rect x="552" y="684" width="12" height="12" fill="#ff6b00"/>
+    <text x="592" y="696">Magnitude warping</text>
+  </g>
+</svg>

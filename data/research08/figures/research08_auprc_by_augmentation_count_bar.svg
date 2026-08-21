@@ -1,0 +1,101 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' width='1500' height='760' viewBox='0 0 1500 760'>
+<style>
+text { font-family: Arial, sans-serif; fill: #202020; }
+.title { font-size: 25px; font-weight: 700; }
+.subtitle { font-size: 13px; fill: #555; }
+.axis { stroke: #333; stroke-width: 1.2; }
+.grid { stroke: #dddddd; stroke-width: 1; }
+.tick { font-size: 12px; fill: #555; }
+.xlabel { font-size: 13px; font-weight: 700; fill: #333; }
+.ylabel { font-size: 13px; fill: #333; }
+.legend { font-size: 13px; fill: #333; }
+.value { font-size: 8px; font-weight: 700; fill: #222; }
+</style>
+<rect x='0' y='0' width='1500' height='760' fill='#ffffff'/>
+<text x='750' y='34' class='title' text-anchor='middle'>AUPRC by Augmentation Count</text>
+<text x='750' y='58' class='subtitle' text-anchor='middle'>Research08 final test performance across augmentation methods</text>
+<line x1='82' y1='526' x2='1466' y2='526' class='axis'/>
+<line x1='82' y1='96' x2='82' y2='526' class='axis'/>
+<line x1='82' y1='526' x2='1466' y2='526' class='grid'/>
+<text x='69' y='530' class='tick' text-anchor='end'>0.00</text>
+<line x1='82' y1='418.5' x2='1466' y2='418.5' class='grid'/>
+<text x='69' y='422.5' class='tick' text-anchor='end'>0.25</text>
+<line x1='82' y1='311' x2='1466' y2='311' class='grid'/>
+<text x='69' y='315' class='tick' text-anchor='end'>0.50</text>
+<line x1='82' y1='203.5' x2='1466' y2='203.5' class='grid'/>
+<text x='69' y='207.5' class='tick' text-anchor='end'>0.75</text>
+<line x1='82' y1='96' x2='1466' y2='96' class='grid'/>
+<text x='69' y='100' class='tick' text-anchor='end'>1.00</text>
+<text x='24' y='311' class='ylabel' text-anchor='middle' transform='rotate(-90 24 311)'>Score</text>
+<text x='774' y='590' class='ylabel' text-anchor='middle'>Augmented anomaly windows used for training</text>
+<text x='197.333333333333' y='554' class='xlabel' text-anchor='middle'>50</text>
+<rect x='114.833333333333' y='187.462407097846' width='18' height='338.537592902154' rx='1.5' fill='#3569a8'/>
+<rect x='135.833333333333' y='187.497657484186' width='18' height='338.502342515814' rx='1.5' fill='#4f8fbc'/>
+<rect x='156.833333333333' y='186.039932937427' width='18' height='339.960067062573' rx='1.5' fill='#7aa6c2'/>
+<rect x='177.833333333333' y='171.629038257679' width='18' height='354.370961742321' rx='1.5' fill='#d67b35'/>
+<rect x='198.833333333333' y='178.463583678669' width='18' height='347.536416321331' rx='1.5' fill='#b85f2f'/>
+<rect x='219.833333333333' y='182.31336758804' width='18' height='343.68663241196' rx='1.5' fill='#8f9f3a'/>
+<rect x='240.833333333333' y='198.127837224646' width='18' height='327.872162775354' rx='1.5' fill='#6aa84f'/>
+<rect x='261.833333333333' y='183.571737858666' width='18' height='342.428262141334' rx='1.5' fill='#8e5ea2'/>
+<text x='428' y='554' class='xlabel' text-anchor='middle'>100</text>
+<rect x='345.5' y='160.519042848059' width='18' height='365.480957151941' rx='1.5' fill='#3569a8'/>
+<rect x='366.5' y='186.322367576805' width='18' height='339.677632423195' rx='1.5' fill='#4f8fbc'/>
+<rect x='387.5' y='195.217301396645' width='18' height='330.782698603355' rx='1.5' fill='#7aa6c2'/>
+<rect x='408.5' y='148.944691695246' width='18' height='377.055308304754' rx='1.5' fill='#d67b35'/>
+<rect x='429.5' y='158.596817479216' width='18' height='367.403182520784' rx='1.5' fill='#b85f2f'/>
+<rect x='450.5' y='172.382094708081' width='18' height='353.617905291919' rx='1.5' fill='#8f9f3a'/>
+<rect x='471.5' y='226.150949175267' width='18' height='299.849050824733' rx='1.5' fill='#6aa84f'/>
+<rect x='492.5' y='164.858802930911' width='18' height='361.141197069089' rx='1.5' fill='#8e5ea2'/>
+<text x='658.666666666667' y='554' class='xlabel' text-anchor='middle'>200</text>
+<rect x='576.166666666667' y='171.383123073239' width='18' height='354.616876926761' rx='1.5' fill='#3569a8'/>
+<rect x='597.166666666667' y='191.705669896835' width='18' height='334.294330103165' rx='1.5' fill='#4f8fbc'/>
+<rect x='618.166666666667' y='166.020646372202' width='18' height='359.979353627798' rx='1.5' fill='#7aa6c2'/>
+<rect x='639.166666666667' y='151.427523236091' width='18' height='374.572476763909' rx='1.5' fill='#d67b35'/>
+<rect x='660.166666666667' y='146.266350836496' width='18' height='379.733649163504' rx='1.5' fill='#b85f2f'/>
+<rect x='681.166666666667' y='143.664449150743' width='18' height='382.335550849257' rx='1.5' fill='#8f9f3a'/>
+<rect x='702.166666666667' y='209.350999097576' width='18' height='316.649000902424' rx='1.5' fill='#6aa84f'/>
+<rect x='723.166666666667' y='158.112112282644' width='18' height='367.887887717356' rx='1.5' fill='#8e5ea2'/>
+<text x='889.333333333333' y='554' class='xlabel' text-anchor='middle'>500</text>
+<rect x='806.833333333333' y='143.047264317958' width='18' height='382.952735682042' rx='1.5' fill='#3569a8'/>
+<rect x='827.833333333333' y='146.046942867718' width='18' height='379.953057132282' rx='1.5' fill='#4f8fbc'/>
+<rect x='848.833333333333' y='181.400026167835' width='18' height='344.599973832165' rx='1.5' fill='#7aa6c2'/>
+<rect x='869.833333333333' y='133.08790125411' width='18' height='392.91209874589' rx='1.5' fill='#d67b35'/>
+<rect x='890.833333333333' y='121.865468651482' width='18' height='404.134531348518' rx='1.5' fill='#b85f2f'/>
+<rect x='911.833333333333' y='125.878955854849' width='18' height='400.121044145151' rx='1.5' fill='#8f9f3a'/>
+<rect x='932.833333333333' y='202.249041616702' width='18' height='323.750958383298' rx='1.5' fill='#6aa84f'/>
+<rect x='953.833333333333' y='126.299516217428' width='18' height='399.700483782572' rx='1.5' fill='#8e5ea2'/>
+<text x='1120' y='554' class='xlabel' text-anchor='middle'>750</text>
+<rect x='1037.5' y='139.238344458939' width='18' height='386.761655541061' rx='1.5' fill='#3569a8'/>
+<rect x='1058.5' y='120.428173708403' width='18' height='405.571826291597' rx='1.5' fill='#4f8fbc'/>
+<rect x='1079.5' y='139.983627926568' width='18' height='386.016372073432' rx='1.5' fill='#7aa6c2'/>
+<rect x='1100.5' y='123.012809931867' width='18' height='402.987190068133' rx='1.5' fill='#d67b35'/>
+<rect x='1121.5' y='117.968931265334' width='18' height='408.031068734666' rx='1.5' fill='#b85f2f'/>
+<rect x='1142.5' y='128.691316900403' width='18' height='397.308683099597' rx='1.5' fill='#8f9f3a'/>
+<rect x='1163.5' y='210.890955662853' width='18' height='315.109044337147' rx='1.5' fill='#6aa84f'/>
+<rect x='1184.5' y='125.018939223666' width='18' height='400.981060776334' rx='1.5' fill='#8e5ea2'/>
+<text x='1350.66666666667' y='554' class='xlabel' text-anchor='middle'>1000</text>
+<rect x='1268.16666666667' y='126.769663666069' width='18' height='399.230336333931' rx='1.5' fill='#3569a8'/>
+<rect x='1289.16666666667' y='129.490753886139' width='18' height='396.509246113861' rx='1.5' fill='#4f8fbc'/>
+<rect x='1310.16666666667' y='140.210188672606' width='18' height='385.789811327394' rx='1.5' fill='#7aa6c2'/>
+<rect x='1331.16666666667' y='111.211481713667' width='18' height='414.788518286333' rx='1.5' fill='#d67b35'/>
+<rect x='1352.16666666667' y='139.216527221474' width='18' height='386.783472778526' rx='1.5' fill='#b85f2f'/>
+<rect x='1373.16666666667' y='123.912741029393' width='18' height='402.087258970607' rx='1.5' fill='#8f9f3a'/>
+<rect x='1394.16666666667' y='174.600650711258' width='18' height='351.399349288742' rx='1.5' fill='#6aa84f'/>
+<rect x='1415.16666666667' y='117.65707642139' width='18' height='408.34292357861' rx='1.5' fill='#8e5ea2'/>
+<rect x='90' y='589' width='16' height='16' rx='2' fill='#3569a8'/>
+<text x='114' y='602' class='legend'>MD</text>
+<rect x='420' y='589' width='16' height='16' rx='2' fill='#4f8fbc'/>
+<text x='444' y='602' class='legend'>Filtered MD</text>
+<rect x='750' y='589' width='16' height='16' rx='2' fill='#7aa6c2'/>
+<text x='774' y='602' class='legend'>ScoreFiltered MD</text>
+<rect x='1080' y='589' width='16' height='16' rx='2' fill='#d67b35'/>
+<text x='1104' y='602' class='legend'>Noise</text>
+<rect x='90' y='621' width='16' height='16' rx='2' fill='#b85f2f'/>
+<text x='114' y='634' class='legend'>Magnitude</text>
+<rect x='420' y='621' width='16' height='16' rx='2' fill='#8f9f3a'/>
+<text x='444' y='634' class='legend'>Frequency</text>
+<rect x='750' y='621' width='16' height='16' rx='2' fill='#6aa84f'/>
+<text x='774' y='634' class='legend'>Time</text>
+<rect x='1080' y='621' width='16' height='16' rx='2' fill='#8e5ea2'/>
+<text x='1104' y='634' class='legend'>Comprehensive</text>
+</svg>

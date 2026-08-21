@@ -86,6 +86,7 @@ def evaluate_augmented_model(
     seed: int,
 ) -> dict:
     x_normal_sample = sample_rows(x_normal_train, NORMAL_TRAIN_SIZE, seed=seed + 23)
+    x_augmented = ensure_window_3d(x_augmented)
     x_anomaly_train = np.concatenate([x_anomaly_seed, x_augmented], axis=0)
     x_train = np.concatenate([x_normal_sample, x_anomaly_train], axis=0)
     y_train = np.concatenate(
