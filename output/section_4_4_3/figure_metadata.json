@@ -1,0 +1,55 @@
+{
+  "source": "output\\section_4_4_3\\balance_count_results.json",
+  "source_sha256": "bdaea6f6fce26a1969ace36ca5c8ce9f330ea41a97990569f87db847bfa82743",
+  "count_figure_run_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "balance_figure_run_ids": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    0,
+    9,
+    10,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "plotted_metrics": [
+    "precision",
+    "recall",
+    "f1",
+    "auprc_ap"
+  ],
+  "class_balance_x_scale": "log2 of normal training count",
+  "y_limits": [
+    0.3,
+    1.015
+  ],
+  "uncertainty": "No error bars: one RF seed and saved generation pool.",
+  "interpolation": "Straight segments connect measured conditions only.",
+  "outputs": [
+    "augmentation_count_matched.png",
+    "augmentation_count_matched.svg",
+    "class_balance_matched.png",
+    "class_balance_matched.svg"
+  ]
+}

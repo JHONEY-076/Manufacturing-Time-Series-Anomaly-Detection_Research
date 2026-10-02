@@ -1,0 +1,1319 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="24.7.17" type="device">
+  <diagram id="diffusion-overview" name="Diffusion overview">
+    <mxGraphModel dx="1500" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="550" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="text-1" value="Forward diffusion" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=30;fontColor=#276A9B;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="12" width="1500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="text-2" value="Add Gaussian noise" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=23;fontColor=#6A7783;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="0" y="52" width="1500" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="line-3" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#276A9B;strokeWidth=3;startArrow=none;endArrow=block;endFill=1;endSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="188" y="108" as="sourcePoint" />
+            <mxPoint x="1312" y="108" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="state-0" value="" style="group;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="58" y="147" width="260" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="math-4" value="&lt;i&gt;X&lt;/i&gt;&lt;sub&gt;0&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=31;fontColor=#202B36;" vertex="1" parent="state-0">
+          <mxGeometry x="0" y="-1" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="box-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFCFE;strokeColor=#202B36;strokeWidth=1.7;" vertex="1" parent="state-0">
+          <mxGeometry x="0" y="47" width="260" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="line-6" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#E5EAF0;strokeWidth=1;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="78" as="sourcePoint" />
+            <mxPoint x="245" y="78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-7" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#276A9B;strokeWidth=1.85;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16.0" y="78.0" as="sourcePoint" />
+            <mxPoint x="244.0" y="75.877" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18.621" y="76.238" />
+              <mxPoint x="21.241" y="74.581" />
+              <mxPoint x="23.862" y="73.122" />
+              <mxPoint x="26.483" y="71.939" />
+              <mxPoint x="29.103" y="71.083" />
+              <mxPoint x="31.724" y="70.576" />
+              <mxPoint x="34.345" y="70.411" />
+              <mxPoint x="36.966" y="70.553" />
+              <mxPoint x="39.586" y="70.946" />
+              <mxPoint x="42.207" y="71.517" />
+              <mxPoint x="44.828" y="72.189" />
+              <mxPoint x="47.448" y="72.887" />
+              <mxPoint x="50.069" y="73.549" />
+              <mxPoint x="52.69" y="74.129" />
+              <mxPoint x="55.31" y="74.606" />
+              <mxPoint x="57.931" y="74.983" />
+              <mxPoint x="60.552" y="75.285" />
+              <mxPoint x="63.172" y="75.554" />
+              <mxPoint x="65.793" y="75.847" />
+              <mxPoint x="68.414" y="76.221" />
+              <mxPoint x="71.034" y="76.729" />
+              <mxPoint x="73.655" y="77.409" />
+              <mxPoint x="76.276" y="78.281" />
+              <mxPoint x="78.897" y="79.339" />
+              <mxPoint x="81.517" y="80.549" />
+              <mxPoint x="84.138" y="81.856" />
+              <mxPoint x="86.759" y="83.182" />
+              <mxPoint x="89.379" y="84.439" />
+              <mxPoint x="92.0" y="85.533" />
+              <mxPoint x="94.621" y="86.376" />
+              <mxPoint x="97.241" y="86.894" />
+              <mxPoint x="99.862" y="87.038" />
+              <mxPoint x="102.483" y="86.783" />
+              <mxPoint x="105.103" y="86.139" />
+              <mxPoint x="107.724" y="85.145" />
+              <mxPoint x="110.345" y="83.864" />
+              <mxPoint x="112.966" y="82.384" />
+              <mxPoint x="115.586" y="80.801" />
+              <mxPoint x="118.207" y="79.217" />
+              <mxPoint x="120.828" y="77.724" />
+              <mxPoint x="123.448" y="76.401" />
+              <mxPoint x="126.069" y="75.301" />
+              <mxPoint x="128.69" y="74.454" />
+              <mxPoint x="131.31" y="73.861" />
+              <mxPoint x="133.931" y="73.497" />
+              <mxPoint x="136.552" y="73.316" />
+              <mxPoint x="139.172" y="73.261" />
+              <mxPoint x="141.793" y="73.269" />
+              <mxPoint x="144.414" y="73.278" />
+              <mxPoint x="147.034" y="73.243" />
+              <mxPoint x="149.655" y="73.135" />
+              <mxPoint x="152.276" y="72.946" />
+              <mxPoint x="154.897" y="72.694" />
+              <mxPoint x="157.517" y="72.419" />
+              <mxPoint x="160.138" y="72.176" />
+              <mxPoint x="162.759" y="72.033" />
+              <mxPoint x="165.379" y="72.057" />
+              <mxPoint x="168.0" y="72.309" />
+              <mxPoint x="170.621" y="72.834" />
+              <mxPoint x="173.241" y="73.656" />
+              <mxPoint x="175.862" y="74.768" />
+              <mxPoint x="178.483" y="76.14" />
+              <mxPoint x="181.103" y="77.709" />
+              <mxPoint x="183.724" y="79.395" />
+              <mxPoint x="186.345" y="81.1" />
+              <mxPoint x="188.966" y="82.719" />
+              <mxPoint x="191.586" y="84.153" />
+              <mxPoint x="194.207" y="85.315" />
+              <mxPoint x="196.828" y="86.139" />
+              <mxPoint x="199.448" y="86.586" />
+              <mxPoint x="202.069" y="86.648" />
+              <mxPoint x="204.69" y="86.346" />
+              <mxPoint x="207.31" y="85.73" />
+              <mxPoint x="209.931" y="84.87" />
+              <mxPoint x="212.552" y="83.849" />
+              <mxPoint x="215.172" y="82.755" />
+              <mxPoint x="217.793" y="81.671" />
+              <mxPoint x="220.414" y="80.664" />
+              <mxPoint x="223.034" y="79.784" />
+              <mxPoint x="225.655" y="79.053" />
+              <mxPoint x="228.276" y="78.47" />
+              <mxPoint x="230.897" y="78.012" />
+              <mxPoint x="233.517" y="77.635" />
+              <mxPoint x="236.138" y="77.286" />
+              <mxPoint x="238.759" y="76.909" />
+              <mxPoint x="241.379" y="76.451" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-8" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#E5EAF0;strokeWidth=1;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="125" as="sourcePoint" />
+            <mxPoint x="245" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-9" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#276A9B;strokeWidth=1.85;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16.0" y="117.301" as="sourcePoint" />
+            <mxPoint x="244.0" y="119.624" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18.621" y="116.523" />
+              <mxPoint x="21.241" y="116.126" />
+              <mxPoint x="23.862" y="116.124" />
+              <mxPoint x="26.483" y="116.499" />
+              <mxPoint x="29.103" y="117.205" />
+              <mxPoint x="31.724" y="118.172" />
+              <mxPoint x="34.345" y="119.316" />
+              <mxPoint x="36.966" y="120.546" />
+              <mxPoint x="39.586" y="121.774" />
+              <mxPoint x="42.207" y="122.924" />
+              <mxPoint x="44.828" y="123.939" />
+              <mxPoint x="47.448" y="124.787" />
+              <mxPoint x="50.069" y="125.46" />
+              <mxPoint x="52.69" y="125.975" />
+              <mxPoint x="55.31" y="126.371" />
+              <mxPoint x="57.931" y="126.699" />
+              <mxPoint x="60.552" y="127.017" />
+              <mxPoint x="63.172" y="127.378" />
+              <mxPoint x="65.793" y="127.825" />
+              <mxPoint x="68.414" y="128.384" />
+              <mxPoint x="71.034" y="129.057" />
+              <mxPoint x="73.655" y="129.822" />
+              <mxPoint x="76.276" y="130.633" />
+              <mxPoint x="78.897" y="131.426" />
+              <mxPoint x="81.517" y="132.124" />
+              <mxPoint x="84.138" y="132.646" />
+              <mxPoint x="86.759" y="132.919" />
+              <mxPoint x="89.379" y="132.88" />
+              <mxPoint x="92.0" y="132.491" />
+              <mxPoint x="94.621" y="131.74" />
+              <mxPoint x="97.241" y="130.646" />
+              <mxPoint x="99.862" y="129.256" />
+              <mxPoint x="102.483" y="127.644" />
+              <mxPoint x="105.103" y="125.903" />
+              <mxPoint x="107.724" y="124.137" />
+              <mxPoint x="110.345" y="122.449" />
+              <mxPoint x="112.966" y="120.937" />
+              <mxPoint x="115.586" y="119.679" />
+              <mxPoint x="118.207" y="118.729" />
+              <mxPoint x="120.828" y="118.115" />
+              <mxPoint x="123.448" y="117.832" />
+              <mxPoint x="126.069" y="117.85" />
+              <mxPoint x="128.69" y="118.117" />
+              <mxPoint x="131.31" y="118.562" />
+              <mxPoint x="133.931" y="119.113" />
+              <mxPoint x="136.552" y="119.695" />
+              <mxPoint x="139.172" y="120.248" />
+              <mxPoint x="141.793" y="120.728" />
+              <mxPoint x="144.414" y="121.115" />
+              <mxPoint x="147.034" y="121.41" />
+              <mxPoint x="149.655" y="121.64" />
+              <mxPoint x="152.276" y="121.849" />
+              <mxPoint x="154.897" y="122.092" />
+              <mxPoint x="157.517" y="122.429" />
+              <mxPoint x="160.138" y="122.914" />
+              <mxPoint x="162.759" y="123.587" />
+              <mxPoint x="165.379" y="124.468" />
+              <mxPoint x="168.0" y="125.553" />
+              <mxPoint x="170.621" y="126.81" />
+              <mxPoint x="173.241" y="128.184" />
+              <mxPoint x="175.862" y="129.596" />
+              <mxPoint x="178.483" y="130.958" />
+              <mxPoint x="181.103" y="132.172" />
+              <mxPoint x="183.724" y="133.148" />
+              <mxPoint x="186.345" y="133.808" />
+              <mxPoint x="188.966" y="134.098" />
+              <mxPoint x="191.586" y="133.989" />
+              <mxPoint x="194.207" y="133.485" />
+              <mxPoint x="196.828" y="132.62" />
+              <mxPoint x="199.448" y="131.454" />
+              <mxPoint x="202.069" y="130.07" />
+              <mxPoint x="204.69" y="128.564" />
+              <mxPoint x="207.31" y="127.034" />
+              <mxPoint x="209.931" y="125.572" />
+              <mxPoint x="212.552" y="124.258" />
+              <mxPoint x="215.172" y="123.147" />
+              <mxPoint x="217.793" y="122.269" />
+              <mxPoint x="220.414" y="121.628" />
+              <mxPoint x="223.034" y="121.203" />
+              <mxPoint x="225.655" y="120.949" />
+              <mxPoint x="228.276" y="120.812" />
+              <mxPoint x="230.897" y="120.728" />
+              <mxPoint x="233.517" y="120.641" />
+              <mxPoint x="236.138" y="120.504" />
+              <mxPoint x="238.759" y="120.288" />
+              <mxPoint x="241.379" y="119.989" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-10" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#E5EAF0;strokeWidth=1;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="172" as="sourcePoint" />
+            <mxPoint x="245" y="172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-11" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#276A9B;strokeWidth=1.85;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16.0" y="163.733" as="sourcePoint" />
+            <mxPoint x="244.0" y="168.376" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18.621" y="164.659" />
+              <mxPoint x="21.241" y="165.891" />
+              <mxPoint x="23.862" y="167.349" />
+              <mxPoint x="26.483" y="168.937" />
+              <mxPoint x="29.103" y="170.555" />
+              <mxPoint x="31.724" y="172.104" />
+              <mxPoint x="34.345" y="173.502" />
+              <mxPoint x="36.966" y="174.683" />
+              <mxPoint x="39.586" y="175.611" />
+              <mxPoint x="42.207" y="176.276" />
+              <mxPoint x="44.828" y="176.693" />
+              <mxPoint x="47.448" y="176.902" />
+              <mxPoint x="50.069" y="176.958" />
+              <mxPoint x="52.69" y="176.926" />
+              <mxPoint x="55.31" y="176.867" />
+              <mxPoint x="57.931" y="176.836" />
+              <mxPoint x="60.552" y="176.868" />
+              <mxPoint x="63.172" y="176.98" />
+              <mxPoint x="65.793" y="177.163" />
+              <mxPoint x="68.414" y="177.387" />
+              <mxPoint x="71.034" y="177.601" />
+              <mxPoint x="73.655" y="177.743" />
+              <mxPoint x="76.276" y="177.744" />
+              <mxPoint x="78.897" y="177.542" />
+              <mxPoint x="81.517" y="177.086" />
+              <mxPoint x="84.138" y="176.346" />
+              <mxPoint x="86.759" y="175.317" />
+              <mxPoint x="89.379" y="174.022" />
+              <mxPoint x="92.0" y="172.513" />
+              <mxPoint x="94.621" y="170.866" />
+              <mxPoint x="97.241" y="169.172" />
+              <mxPoint x="99.862" y="167.536" />
+              <mxPoint x="102.483" y="166.057" />
+              <mxPoint x="105.103" y="164.829" />
+              <mxPoint x="107.724" y="163.925" />
+              <mxPoint x="110.345" y="163.391" />
+              <mxPoint x="112.966" y="163.247" />
+              <mxPoint x="115.586" y="163.478" />
+              <mxPoint x="118.207" y="164.044" />
+              <mxPoint x="120.828" y="164.88" />
+              <mxPoint x="123.448" y="165.904" />
+              <mxPoint x="126.069" y="167.029" />
+              <mxPoint x="128.69" y="168.167" />
+              <mxPoint x="131.31" y="169.244" />
+              <mxPoint x="133.931" y="170.204" />
+              <mxPoint x="136.552" y="171.014" />
+              <mxPoint x="139.172" y="171.664" />
+              <mxPoint x="141.793" y="172.172" />
+              <mxPoint x="144.414" y="172.575" />
+              <mxPoint x="147.034" y="172.924" />
+              <mxPoint x="149.655" y="173.274" />
+              <mxPoint x="152.276" y="173.681" />
+              <mxPoint x="154.897" y="174.188" />
+              <mxPoint x="157.517" y="174.818" />
+              <mxPoint x="160.138" y="175.575" />
+              <mxPoint x="162.759" y="176.436" />
+              <mxPoint x="165.379" y="177.355" />
+              <mxPoint x="168.0" y="178.266" />
+              <mxPoint x="170.621" y="179.09" />
+              <mxPoint x="173.241" y="179.745" />
+              <mxPoint x="175.862" y="180.152" />
+              <mxPoint x="178.483" y="180.246" />
+              <mxPoint x="181.103" y="179.984" />
+              <mxPoint x="183.724" y="179.349" />
+              <mxPoint x="186.345" y="178.357" />
+              <mxPoint x="188.966" y="177.05" />
+              <mxPoint x="191.586" y="175.499" />
+              <mxPoint x="194.207" y="173.794" />
+              <mxPoint x="196.828" y="172.039" />
+              <mxPoint x="199.448" y="170.337" />
+              <mxPoint x="202.069" y="168.787" />
+              <mxPoint x="204.69" y="167.468" />
+              <mxPoint x="207.31" y="166.438" />
+              <mxPoint x="209.931" y="165.728" />
+              <mxPoint x="212.552" y="165.337" />
+              <mxPoint x="215.172" y="165.24" />
+              <mxPoint x="217.793" y="165.385" />
+              <mxPoint x="220.414" y="165.709" />
+              <mxPoint x="223.034" y="166.139" />
+              <mxPoint x="225.655" y="166.604" />
+              <mxPoint x="228.276" y="167.045" />
+              <mxPoint x="230.897" y="167.42" />
+              <mxPoint x="233.517" y="167.708" />
+              <mxPoint x="236.138" y="167.913" />
+              <mxPoint x="238.759" y="168.06" />
+              <mxPoint x="241.379" y="168.196" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="text-12" value="Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=24;fontColor=#202B36;fontStyle=0;" vertex="1" parent="state-0">
+          <mxGeometry x="0" y="212" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="state-1" value="" style="group;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="432" y="147" width="260" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="math-13" value="&lt;i&gt;X&lt;/i&gt;&lt;sub&gt;s−1&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=31;fontColor=#202B36;" vertex="1" parent="state-1">
+          <mxGeometry x="0" y="-1" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="box-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFCFE;strokeColor=#202B36;strokeWidth=1.7;" vertex="1" parent="state-1">
+          <mxGeometry x="0" y="47" width="260" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="line-15" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#E5EAF0;strokeWidth=1;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="78" as="sourcePoint" />
+            <mxPoint x="245" y="78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-16" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#276A9B;strokeWidth=1.85;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16.0" y="81.653" as="sourcePoint" />
+            <mxPoint x="244.0" y="74.662" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18.621" y="79.674" />
+              <mxPoint x="21.241" y="67.917" />
+              <mxPoint x="23.862" y="74.517" />
+              <mxPoint x="26.483" y="72.604" />
+              <mxPoint x="29.103" y="69.191" />
+              <mxPoint x="31.724" y="69.168" />
+              <mxPoint x="34.345" y="68.497" />
+              <mxPoint x="36.966" y="74.389" />
+              <mxPoint x="39.586" y="65.539" />
+              <mxPoint x="42.207" y="69.948" />
+              <mxPoint x="44.828" y="73.604" />
+              <mxPoint x="47.448" y="71.833" />
+              <mxPoint x="50.069" y="67.513" />
+              <mxPoint x="52.69" y="69.424" />
+              <mxPoint x="55.31" y="78.663" />
+              <mxPoint x="57.931" y="69.881" />
+              <mxPoint x="60.552" y="74.804" />
+              <mxPoint x="63.172" y="69.641" />
+              <mxPoint x="65.793" y="74.378" />
+              <mxPoint x="68.414" y="76.128" />
+              <mxPoint x="71.034" y="78.548" />
+              <mxPoint x="73.655" y="75.609" />
+              <mxPoint x="76.276" y="84.818" />
+              <mxPoint x="78.897" y="79.396" />
+              <mxPoint x="81.517" y="80.332" />
+              <mxPoint x="84.138" y="76.855" />
+              <mxPoint x="86.759" y="83.295" />
+              <mxPoint x="89.379" y="80.726" />
+              <mxPoint x="92.0" y="79.729" />
+              <mxPoint x="94.621" y="87.659" />
+              <mxPoint x="97.241" y="87.804" />
+              <mxPoint x="99.862" y="85.156" />
+              <mxPoint x="102.483" y="82.443" />
+              <mxPoint x="105.103" y="84.443" />
+              <mxPoint x="107.724" y="81.397" />
+              <mxPoint x="110.345" y="83.223" />
+              <mxPoint x="112.966" y="79.093" />
+              <mxPoint x="115.586" y="81.127" />
+              <mxPoint x="118.207" y="77.603" />
+              <mxPoint x="120.828" y="79.312" />
+              <mxPoint x="123.448" y="76.465" />
+              <mxPoint x="126.069" y="74.719" />
+              <mxPoint x="128.69" y="74.96" />
+              <mxPoint x="131.31" y="74.806" />
+              <mxPoint x="133.931" y="69.603" />
+              <mxPoint x="136.552" y="84.158" />
+              <mxPoint x="139.172" y="69.624" />
+              <mxPoint x="141.793" y="74.68" />
+              <mxPoint x="144.414" y="76.203" />
+              <mxPoint x="147.034" y="74.154" />
+              <mxPoint x="149.655" y="71.999" />
+              <mxPoint x="152.276" y="70.467" />
+              <mxPoint x="154.897" y="71.559" />
+              <mxPoint x="157.517" y="68.389" />
+              <mxPoint x="160.138" y="77.345" />
+              <mxPoint x="162.759" y="70.861" />
+              <mxPoint x="165.379" y="72.067" />
+              <mxPoint x="168.0" y="73.121" />
+              <mxPoint x="170.621" y="74.483" />
+              <mxPoint x="173.241" y="72.567" />
+              <mxPoint x="175.862" y="68.653" />
+              <mxPoint x="178.483" y="79.907" />
+              <mxPoint x="181.103" y="79.998" />
+              <mxPoint x="183.724" y="78.818" />
+              <mxPoint x="186.345" y="84.884" />
+              <mxPoint x="188.966" y="83.364" />
+              <mxPoint x="191.586" y="84.001" />
+              <mxPoint x="194.207" y="79.381" />
+              <mxPoint x="196.828" y="87.406" />
+              <mxPoint x="199.448" y="89.012" />
+              <mxPoint x="202.069" y="84.764" />
+              <mxPoint x="204.69" y="84.647" />
+              <mxPoint x="207.31" y="88.738" />
+              <mxPoint x="209.931" y="82.448" />
+              <mxPoint x="212.552" y="83.72" />
+              <mxPoint x="215.172" y="79.403" />
+              <mxPoint x="217.793" y="85.573" />
+              <mxPoint x="220.414" y="81.988" />
+              <mxPoint x="223.034" y="73.204" />
+              <mxPoint x="225.655" y="79.479" />
+              <mxPoint x="228.276" y="77.821" />
+              <mxPoint x="230.897" y="79.575" />
+              <mxPoint x="233.517" y="73.545" />
+              <mxPoint x="236.138" y="76.492" />
+              <mxPoint x="238.759" y="79.584" />
+              <mxPoint x="241.379" y="76.583" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-17" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#E5EAF0;strokeWidth=1;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="125" as="sourcePoint" />
+            <mxPoint x="245" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-18" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#276A9B;strokeWidth=1.85;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16.0" y="113.941" as="sourcePoint" />
+            <mxPoint x="244.0" y="119.428" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18.621" y="117.545" />
+              <mxPoint x="21.241" y="115.776" />
+              <mxPoint x="23.862" y="115.344" />
+              <mxPoint x="26.483" y="116.632" />
+              <mxPoint x="29.103" y="118.077" />
+              <mxPoint x="31.724" y="115.732" />
+              <mxPoint x="34.345" y="117.672" />
+              <mxPoint x="36.966" y="123.201" />
+              <mxPoint x="39.586" y="122.975" />
+              <mxPoint x="42.207" y="126.979" />
+              <mxPoint x="44.828" y="127.337" />
+              <mxPoint x="47.448" y="126.154" />
+              <mxPoint x="50.069" y="126.837" />
+              <mxPoint x="52.69" y="129.513" />
+              <mxPoint x="55.31" y="129.363" />
+              <mxPoint x="57.931" y="126.143" />
+              <mxPoint x="60.552" y="128.969" />
+              <mxPoint x="63.172" y="130.009" />
+              <mxPoint x="65.793" y="129.373" />
+              <mxPoint x="68.414" y="125.43" />
+              <mxPoint x="71.034" y="123.207" />
+              <mxPoint x="73.655" y="132.484" />
+              <mxPoint x="76.276" y="126.604" />
+              <mxPoint x="78.897" y="139.551" />
+              <mxPoint x="81.517" y="131.225" />
+              <mxPoint x="84.138" y="132.734" />
+              <mxPoint x="86.759" y="133.571" />
+              <mxPoint x="89.379" y="133.506" />
+              <mxPoint x="92.0" y="131.571" />
+              <mxPoint x="94.621" y="133.187" />
+              <mxPoint x="97.241" y="132.382" />
+              <mxPoint x="99.862" y="129.627" />
+              <mxPoint x="102.483" y="129.229" />
+              <mxPoint x="105.103" y="126.719" />
+              <mxPoint x="107.724" y="127.09" />
+              <mxPoint x="110.345" y="123.89" />
+              <mxPoint x="112.966" y="125.845" />
+              <mxPoint x="115.586" y="129.31" />
+              <mxPoint x="118.207" y="125.741" />
+              <mxPoint x="120.828" y="113.85" />
+              <mxPoint x="123.448" y="116.913" />
+              <mxPoint x="126.069" y="119.055" />
+              <mxPoint x="128.69" y="119.543" />
+              <mxPoint x="131.31" y="118.797" />
+              <mxPoint x="133.931" y="121.009" />
+              <mxPoint x="136.552" y="118.666" />
+              <mxPoint x="139.172" y="122.151" />
+              <mxPoint x="141.793" y="122.602" />
+              <mxPoint x="144.414" y="120.935" />
+              <mxPoint x="147.034" y="123.849" />
+              <mxPoint x="149.655" y="121.786" />
+              <mxPoint x="152.276" y="121.024" />
+              <mxPoint x="154.897" y="118.366" />
+              <mxPoint x="157.517" y="124.401" />
+              <mxPoint x="160.138" y="126.458" />
+              <mxPoint x="162.759" y="124.658" />
+              <mxPoint x="165.379" y="129.382" />
+              <mxPoint x="168.0" y="126.344" />
+              <mxPoint x="170.621" y="121.3" />
+              <mxPoint x="173.241" y="129.378" />
+              <mxPoint x="175.862" y="136.682" />
+              <mxPoint x="178.483" y="126.569" />
+              <mxPoint x="181.103" y="138.202" />
+              <mxPoint x="183.724" y="136.762" />
+              <mxPoint x="186.345" y="135.979" />
+              <mxPoint x="188.966" y="130.09" />
+              <mxPoint x="191.586" y="131.593" />
+              <mxPoint x="194.207" y="127.173" />
+              <mxPoint x="196.828" y="138.567" />
+              <mxPoint x="199.448" y="134.247" />
+              <mxPoint x="202.069" y="131.91" />
+              <mxPoint x="204.69" y="123.677" />
+              <mxPoint x="207.31" y="129.035" />
+              <mxPoint x="209.931" y="120.148" />
+              <mxPoint x="212.552" y="133.718" />
+              <mxPoint x="215.172" y="123.118" />
+              <mxPoint x="217.793" y="131.078" />
+              <mxPoint x="220.414" y="125.087" />
+              <mxPoint x="223.034" y="120.122" />
+              <mxPoint x="225.655" y="120.831" />
+              <mxPoint x="228.276" y="120.297" />
+              <mxPoint x="230.897" y="121.029" />
+              <mxPoint x="233.517" y="117.376" />
+              <mxPoint x="236.138" y="124.325" />
+              <mxPoint x="238.759" y="117.798" />
+              <mxPoint x="241.379" y="114.464" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-19" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#E5EAF0;strokeWidth=1;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="172" as="sourcePoint" />
+            <mxPoint x="245" y="172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-20" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#276A9B;strokeWidth=1.85;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16.0" y="163.451" as="sourcePoint" />
+            <mxPoint x="244.0" y="168.247" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18.621" y="172.398" />
+              <mxPoint x="21.241" y="169.105" />
+              <mxPoint x="23.862" y="168.703" />
+              <mxPoint x="26.483" y="170.526" />
+              <mxPoint x="29.103" y="177.491" />
+              <mxPoint x="31.724" y="173.791" />
+              <mxPoint x="34.345" y="172.028" />
+              <mxPoint x="36.966" y="182.343" />
+              <mxPoint x="39.586" y="173.098" />
+              <mxPoint x="42.207" y="179.871" />
+              <mxPoint x="44.828" y="177.742" />
+              <mxPoint x="47.448" y="179.28" />
+              <mxPoint x="50.069" y="179.039" />
+              <mxPoint x="52.69" y="180.401" />
+              <mxPoint x="55.31" y="176.969" />
+              <mxPoint x="57.931" y="175.996" />
+              <mxPoint x="60.552" y="171.513" />
+              <mxPoint x="63.172" y="180.932" />
+              <mxPoint x="65.793" y="172.244" />
+              <mxPoint x="68.414" y="178.103" />
+              <mxPoint x="71.034" y="172.371" />
+              <mxPoint x="73.655" y="179.276" />
+              <mxPoint x="76.276" y="178.813" />
+              <mxPoint x="78.897" y="176.977" />
+              <mxPoint x="81.517" y="179.964" />
+              <mxPoint x="84.138" y="177.052" />
+              <mxPoint x="86.759" y="173.714" />
+              <mxPoint x="89.379" y="170.127" />
+              <mxPoint x="92.0" y="168.499" />
+              <mxPoint x="94.621" y="170.042" />
+              <mxPoint x="97.241" y="176.9" />
+              <mxPoint x="99.862" y="168.379" />
+              <mxPoint x="102.483" y="169.602" />
+              <mxPoint x="105.103" y="167.823" />
+              <mxPoint x="107.724" y="167.281" />
+              <mxPoint x="110.345" y="166.166" />
+              <mxPoint x="112.966" y="164.097" />
+              <mxPoint x="115.586" y="164.407" />
+              <mxPoint x="118.207" y="166.272" />
+              <mxPoint x="120.828" y="159.744" />
+              <mxPoint x="123.448" y="168.182" />
+              <mxPoint x="126.069" y="168.821" />
+              <mxPoint x="128.69" y="168.114" />
+              <mxPoint x="131.31" y="174.283" />
+              <mxPoint x="133.931" y="174.557" />
+              <mxPoint x="136.552" y="165.777" />
+              <mxPoint x="139.172" y="178.476" />
+              <mxPoint x="141.793" y="177.466" />
+              <mxPoint x="144.414" y="166.597" />
+              <mxPoint x="147.034" y="171.985" />
+              <mxPoint x="149.655" y="180.998" />
+              <mxPoint x="152.276" y="176.599" />
+              <mxPoint x="154.897" y="177.487" />
+              <mxPoint x="157.517" y="178.898" />
+              <mxPoint x="160.138" y="172.447" />
+              <mxPoint x="162.759" y="182.101" />
+              <mxPoint x="165.379" y="172.53" />
+              <mxPoint x="168.0" y="174.002" />
+              <mxPoint x="170.621" y="175.375" />
+              <mxPoint x="173.241" y="184.815" />
+              <mxPoint x="175.862" y="174.759" />
+              <mxPoint x="178.483" y="175.821" />
+              <mxPoint x="181.103" y="179.561" />
+              <mxPoint x="183.724" y="182.029" />
+              <mxPoint x="186.345" y="182.657" />
+              <mxPoint x="188.966" y="178.019" />
+              <mxPoint x="191.586" y="172.282" />
+              <mxPoint x="194.207" y="176.936" />
+              <mxPoint x="196.828" y="171.514" />
+              <mxPoint x="199.448" y="168.608" />
+              <mxPoint x="202.069" y="169.75" />
+              <mxPoint x="204.69" y="169.771" />
+              <mxPoint x="207.31" y="163.95" />
+              <mxPoint x="209.931" y="170.452" />
+              <mxPoint x="212.552" y="166.883" />
+              <mxPoint x="215.172" y="161.76" />
+              <mxPoint x="217.793" y="171.151" />
+              <mxPoint x="220.414" y="165.173" />
+              <mxPoint x="223.034" y="163.679" />
+              <mxPoint x="225.655" y="163.849" />
+              <mxPoint x="228.276" y="177.356" />
+              <mxPoint x="230.897" y="166.75" />
+              <mxPoint x="233.517" y="165.499" />
+              <mxPoint x="236.138" y="173.87" />
+              <mxPoint x="238.759" y="174.11" />
+              <mxPoint x="241.379" y="169.074" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="state-2" value="" style="group;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="808" y="147" width="260" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="math-21" value="&lt;i&gt;X&lt;/i&gt;&lt;sub&gt;s&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=31;fontColor=#202B36;" vertex="1" parent="state-2">
+          <mxGeometry x="0" y="-1" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="box-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFCFE;strokeColor=#202B36;strokeWidth=1.7;" vertex="1" parent="state-2">
+          <mxGeometry x="0" y="47" width="260" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="line-23" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#E5EAF0;strokeWidth=1;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="78" as="sourcePoint" />
+            <mxPoint x="245" y="78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-24" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#276A9B;strokeWidth=1.85;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16.0" y="77.552" as="sourcePoint" />
+            <mxPoint x="244.0" y="68.829" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18.621" y="79.813" />
+              <mxPoint x="21.241" y="70.627" />
+              <mxPoint x="23.862" y="82.374" />
+              <mxPoint x="26.483" y="79.323" />
+              <mxPoint x="29.103" y="73.274" />
+              <mxPoint x="31.724" y="74.21" />
+              <mxPoint x="34.345" y="74.402" />
+              <mxPoint x="36.966" y="73.493" />
+              <mxPoint x="39.586" y="64.184" />
+              <mxPoint x="42.207" y="70.931" />
+              <mxPoint x="44.828" y="77.121" />
+              <mxPoint x="47.448" y="76.153" />
+              <mxPoint x="50.069" y="69.37" />
+              <mxPoint x="52.69" y="66.181" />
+              <mxPoint x="55.31" y="73.572" />
+              <mxPoint x="57.931" y="72.235" />
+              <mxPoint x="60.552" y="79.545" />
+              <mxPoint x="63.172" y="69.97" />
+              <mxPoint x="65.793" y="69.919" />
+              <mxPoint x="68.414" y="75.835" />
+              <mxPoint x="71.034" y="79.757" />
+              <mxPoint x="73.655" y="72.471" />
+              <mxPoint x="76.276" y="82.566" />
+              <mxPoint x="78.897" y="79.08" />
+              <mxPoint x="81.517" y="78.783" />
+              <mxPoint x="84.138" y="77.158" />
+              <mxPoint x="86.759" y="85.849" />
+              <mxPoint x="89.379" y="76.856" />
+              <mxPoint x="92.0" y="76.669" />
+              <mxPoint x="94.621" y="87.687" />
+              <mxPoint x="97.241" y="89.269" />
+              <mxPoint x="99.862" y="80.806" />
+              <mxPoint x="102.483" y="82.536" />
+              <mxPoint x="105.103" y="81.98" />
+              <mxPoint x="107.724" y="81.824" />
+              <mxPoint x="110.345" y="83.89" />
+              <mxPoint x="112.966" y="77.565" />
+              <mxPoint x="115.586" y="84.601" />
+              <mxPoint x="118.207" y="75.952" />
+              <mxPoint x="120.828" y="77.8" />
+              <mxPoint x="123.448" y="74.976" />
+              <mxPoint x="126.069" y="74.682" />
+              <mxPoint x="128.69" y="79.679" />
+              <mxPoint x="131.31" y="73.508" />
+              <mxPoint x="133.931" y="70.248" />
+              <mxPoint x="136.552" y="93.519" />
+              <mxPoint x="139.172" y="72.976" />
+              <mxPoint x="141.793" y="77.445" />
+              <mxPoint x="144.414" y="81.929" />
+              <mxPoint x="147.034" y="75.082" />
+              <mxPoint x="149.655" y="70.008" />
+              <mxPoint x="152.276" y="77.145" />
+              <mxPoint x="154.897" y="71.612" />
+              <mxPoint x="157.517" y="71.146" />
+              <mxPoint x="160.138" y="78.783" />
+              <mxPoint x="162.759" y="74.671" />
+              <mxPoint x="165.379" y="73.754" />
+              <mxPoint x="168.0" y="76.531" />
+              <mxPoint x="170.621" y="75.292" />
+              <mxPoint x="173.241" y="67.556" />
+              <mxPoint x="175.862" y="70.433" />
+              <mxPoint x="178.483" y="80.197" />
+              <mxPoint x="181.103" y="80.929" />
+              <mxPoint x="183.724" y="74.224" />
+              <mxPoint x="186.345" y="89.115" />
+              <mxPoint x="188.966" y="83.839" />
+              <mxPoint x="191.586" y="86.871" />
+              <mxPoint x="194.207" y="83.157" />
+              <mxPoint x="196.828" y="87.525" />
+              <mxPoint x="199.448" y="91.175" />
+              <mxPoint x="202.069" y="83.236" />
+              <mxPoint x="204.69" y="82.054" />
+              <mxPoint x="207.31" y="89.187" />
+              <mxPoint x="209.931" y="76.775" />
+              <mxPoint x="212.552" y="80.69" />
+              <mxPoint x="215.172" y="78.832" />
+              <mxPoint x="217.793" y="83.968" />
+              <mxPoint x="220.414" y="80.014" />
+              <mxPoint x="223.034" y="75.72" />
+              <mxPoint x="225.655" y="77.138" />
+              <mxPoint x="228.276" y="78.219" />
+              <mxPoint x="230.897" y="82.348" />
+              <mxPoint x="233.517" y="68.558" />
+              <mxPoint x="236.138" y="75.901" />
+              <mxPoint x="238.759" y="75.148" />
+              <mxPoint x="241.379" y="76.901" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-25" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#E5EAF0;strokeWidth=1;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="125" as="sourcePoint" />
+            <mxPoint x="245" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-26" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#276A9B;strokeWidth=1.85;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16.0" y="115.401" as="sourcePoint" />
+            <mxPoint x="244.0" y="113.741" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18.621" y="117.125" />
+              <mxPoint x="21.241" y="106.254" />
+              <mxPoint x="23.862" y="119.241" />
+              <mxPoint x="26.483" y="118.986" />
+              <mxPoint x="29.103" y="118.836" />
+              <mxPoint x="31.724" y="113.82" />
+              <mxPoint x="34.345" y="117.223" />
+              <mxPoint x="36.966" y="122.661" />
+              <mxPoint x="39.586" y="126.567" />
+              <mxPoint x="42.207" y="125.225" />
+              <mxPoint x="44.828" y="127.54" />
+              <mxPoint x="47.448" y="124.673" />
+              <mxPoint x="50.069" y="129.789" />
+              <mxPoint x="52.69" y="129.133" />
+              <mxPoint x="55.31" y="131.289" />
+              <mxPoint x="57.931" y="122.689" />
+              <mxPoint x="60.552" y="134.666" />
+              <mxPoint x="63.172" y="132.544" />
+              <mxPoint x="65.793" y="131.099" />
+              <mxPoint x="68.414" y="127.351" />
+              <mxPoint x="71.034" y="129.679" />
+              <mxPoint x="73.655" y="132.111" />
+              <mxPoint x="76.276" y="120.79" />
+              <mxPoint x="78.897" y="133.793" />
+              <mxPoint x="81.517" y="130.537" />
+              <mxPoint x="84.138" y="134.576" />
+              <mxPoint x="86.759" y="137.636" />
+              <mxPoint x="89.379" y="135.58" />
+              <mxPoint x="92.0" y="129.662" />
+              <mxPoint x="94.621" y="131.601" />
+              <mxPoint x="97.241" y="134.111" />
+              <mxPoint x="99.862" y="128.961" />
+              <mxPoint x="102.483" y="125.956" />
+              <mxPoint x="105.103" y="133.427" />
+              <mxPoint x="107.724" y="127.79" />
+              <mxPoint x="110.345" y="128.877" />
+              <mxPoint x="112.966" y="120.184" />
+              <mxPoint x="115.586" y="127.783" />
+              <mxPoint x="118.207" y="124.401" />
+              <mxPoint x="120.828" y="118.717" />
+              <mxPoint x="123.448" y="116.747" />
+              <mxPoint x="126.069" y="118.034" />
+              <mxPoint x="128.69" y="128.528" />
+              <mxPoint x="131.31" y="111.331" />
+              <mxPoint x="133.931" y="127.439" />
+              <mxPoint x="136.552" y="119.03" />
+              <mxPoint x="139.172" y="123.645" />
+              <mxPoint x="141.793" y="125.867" />
+              <mxPoint x="144.414" y="119.961" />
+              <mxPoint x="147.034" y="128.902" />
+              <mxPoint x="149.655" y="132.035" />
+              <mxPoint x="152.276" y="131.48" />
+              <mxPoint x="154.897" y="120.85" />
+              <mxPoint x="157.517" y="121.439" />
+              <mxPoint x="160.138" y="126.299" />
+              <mxPoint x="162.759" y="126.701" />
+              <mxPoint x="165.379" y="129.257" />
+              <mxPoint x="168.0" y="121.391" />
+              <mxPoint x="170.621" y="117.996" />
+              <mxPoint x="173.241" y="125.819" />
+              <mxPoint x="175.862" y="136.337" />
+              <mxPoint x="178.483" y="128.749" />
+              <mxPoint x="181.103" y="140.728" />
+              <mxPoint x="183.724" y="138.75" />
+              <mxPoint x="186.345" y="127.854" />
+              <mxPoint x="188.966" y="131.083" />
+              <mxPoint x="191.586" y="130.177" />
+              <mxPoint x="194.207" y="133.19" />
+              <mxPoint x="196.828" y="139.208" />
+              <mxPoint x="199.448" y="131.356" />
+              <mxPoint x="202.069" y="135.736" />
+              <mxPoint x="204.69" y="129.133" />
+              <mxPoint x="207.31" y="128.754" />
+              <mxPoint x="209.931" y="120.793" />
+              <mxPoint x="212.552" y="133.691" />
+              <mxPoint x="215.172" y="125.874" />
+              <mxPoint x="217.793" y="134.799" />
+              <mxPoint x="220.414" y="124.798" />
+              <mxPoint x="223.034" y="117.208" />
+              <mxPoint x="225.655" y="116.5" />
+              <mxPoint x="228.276" y="122.596" />
+              <mxPoint x="230.897" y="122.778" />
+              <mxPoint x="233.517" y="113.717" />
+              <mxPoint x="236.138" y="127.836" />
+              <mxPoint x="238.759" y="111.615" />
+              <mxPoint x="241.379" y="115.392" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-27" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#E5EAF0;strokeWidth=1;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="172" as="sourcePoint" />
+            <mxPoint x="245" y="172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-28" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#276A9B;strokeWidth=1.85;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16.0" y="164.989" as="sourcePoint" />
+            <mxPoint x="244.0" y="166.323" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18.621" y="176.186" />
+              <mxPoint x="21.241" y="168.624" />
+              <mxPoint x="23.862" y="174.972" />
+              <mxPoint x="26.483" y="167.829" />
+              <mxPoint x="29.103" y="174.867" />
+              <mxPoint x="31.724" y="169.674" />
+              <mxPoint x="34.345" y="172.212" />
+              <mxPoint x="36.966" y="182.365" />
+              <mxPoint x="39.586" y="178.434" />
+              <mxPoint x="42.207" y="175.77" />
+              <mxPoint x="44.828" y="178.864" />
+              <mxPoint x="47.448" y="176.664" />
+              <mxPoint x="50.069" y="175.479" />
+              <mxPoint x="52.69" y="177.362" />
+              <mxPoint x="55.31" y="180.161" />
+              <mxPoint x="57.931" y="178.702" />
+              <mxPoint x="60.552" y="170.754" />
+              <mxPoint x="63.172" y="182.938" />
+              <mxPoint x="65.793" y="173.161" />
+              <mxPoint x="68.414" y="176.973" />
+              <mxPoint x="71.034" y="178.784" />
+              <mxPoint x="73.655" y="175.095" />
+              <mxPoint x="76.276" y="178.362" />
+              <mxPoint x="78.897" y="175.038" />
+              <mxPoint x="81.517" y="180.694" />
+              <mxPoint x="84.138" y="175.212" />
+              <mxPoint x="86.759" y="173.136" />
+              <mxPoint x="89.379" y="171.231" />
+              <mxPoint x="92.0" y="168.797" />
+              <mxPoint x="94.621" y="171.339" />
+              <mxPoint x="97.241" y="177.383" />
+              <mxPoint x="99.862" y="171.382" />
+              <mxPoint x="102.483" y="168.37" />
+              <mxPoint x="105.103" y="166.412" />
+              <mxPoint x="107.724" y="163.574" />
+              <mxPoint x="110.345" y="161.398" />
+              <mxPoint x="112.966" y="162.917" />
+              <mxPoint x="115.586" y="161.167" />
+              <mxPoint x="118.207" y="165.299" />
+              <mxPoint x="120.828" y="161.802" />
+              <mxPoint x="123.448" y="164.661" />
+              <mxPoint x="126.069" y="165.492" />
+              <mxPoint x="128.69" y="172.592" />
+              <mxPoint x="131.31" y="176.031" />
+              <mxPoint x="133.931" y="176.984" />
+              <mxPoint x="136.552" y="164.38" />
+              <mxPoint x="139.172" y="177.104" />
+              <mxPoint x="141.793" y="177.788" />
+              <mxPoint x="144.414" y="171.246" />
+              <mxPoint x="147.034" y="169.837" />
+              <mxPoint x="149.655" y="182.614" />
+              <mxPoint x="152.276" y="177.21" />
+              <mxPoint x="154.897" y="170.858" />
+              <mxPoint x="157.517" y="178.54" />
+              <mxPoint x="160.138" y="170.748" />
+              <mxPoint x="162.759" y="188.988" />
+              <mxPoint x="165.379" y="178.232" />
+              <mxPoint x="168.0" y="171.357" />
+              <mxPoint x="170.621" y="175.504" />
+              <mxPoint x="173.241" y="172.867" />
+              <mxPoint x="175.862" y="171.489" />
+              <mxPoint x="178.483" y="176.921" />
+              <mxPoint x="181.103" y="178.662" />
+              <mxPoint x="183.724" y="178.383" />
+              <mxPoint x="186.345" y="185.353" />
+              <mxPoint x="188.966" y="178.666" />
+              <mxPoint x="191.586" y="170.631" />
+              <mxPoint x="194.207" y="180.096" />
+              <mxPoint x="196.828" y="168.761" />
+              <mxPoint x="199.448" y="173.452" />
+              <mxPoint x="202.069" y="173.373" />
+              <mxPoint x="204.69" y="172.592" />
+              <mxPoint x="207.31" y="171.489" />
+              <mxPoint x="209.931" y="171.167" />
+              <mxPoint x="212.552" y="169.926" />
+              <mxPoint x="215.172" y="163.521" />
+              <mxPoint x="217.793" y="169.946" />
+              <mxPoint x="220.414" y="167.134" />
+              <mxPoint x="223.034" y="161.65" />
+              <mxPoint x="225.655" y="161.298" />
+              <mxPoint x="228.276" y="178.461" />
+              <mxPoint x="230.897" y="166.114" />
+              <mxPoint x="233.517" y="166.82" />
+              <mxPoint x="236.138" y="178.475" />
+              <mxPoint x="238.759" y="176.191" />
+              <mxPoint x="241.379" y="172.912" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="state-3" value="" style="group;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="1182" y="147" width="260" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="math-29" value="&lt;i&gt;X&lt;/i&gt;&lt;sub&gt;S&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=31;fontColor=#202B36;" vertex="1" parent="state-3">
+          <mxGeometry x="0" y="-1" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="box-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFCFE;strokeColor=#202B36;strokeWidth=1.7;" vertex="1" parent="state-3">
+          <mxGeometry x="0" y="47" width="260" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="line-31" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#E5EAF0;strokeWidth=1;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="78" as="sourcePoint" />
+            <mxPoint x="245" y="78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-32" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#657380;strokeWidth=1.85;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16.0" y="86.324" as="sourcePoint" />
+            <mxPoint x="244.0" y="68.455" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18.621" y="76.689" />
+              <mxPoint x="21.241" y="84.998" />
+              <mxPoint x="23.862" y="83.09" />
+              <mxPoint x="26.483" y="86.591" />
+              <mxPoint x="29.103" y="79.783" />
+              <mxPoint x="31.724" y="86.244" />
+              <mxPoint x="34.345" y="80.135" />
+              <mxPoint x="36.966" y="77.3" />
+              <mxPoint x="39.586" y="87.455" />
+              <mxPoint x="42.207" y="87.227" />
+              <mxPoint x="44.828" y="65.526" />
+              <mxPoint x="47.448" y="71.293" />
+              <mxPoint x="50.069" y="73.23" />
+              <mxPoint x="52.69" y="71.67" />
+              <mxPoint x="55.31" y="83.745" />
+              <mxPoint x="57.931" y="68.678" />
+              <mxPoint x="60.552" y="78.929" />
+              <mxPoint x="63.172" y="71.376" />
+              <mxPoint x="65.793" y="82.758" />
+              <mxPoint x="68.414" y="73.804" />
+              <mxPoint x="71.034" y="90.419" />
+              <mxPoint x="73.655" y="75.731" />
+              <mxPoint x="76.276" y="72.902" />
+              <mxPoint x="78.897" y="69.164" />
+              <mxPoint x="81.517" y="68.842" />
+              <mxPoint x="84.138" y="65.621" />
+              <mxPoint x="86.759" y="88.185" />
+              <mxPoint x="89.379" y="91.655" />
+              <mxPoint x="92.0" y="83.211" />
+              <mxPoint x="94.621" y="67.426" />
+              <mxPoint x="97.241" y="89.31" />
+              <mxPoint x="99.862" y="79.782" />
+              <mxPoint x="102.483" y="78.791" />
+              <mxPoint x="105.103" y="73.324" />
+              <mxPoint x="107.724" y="70.238" />
+              <mxPoint x="110.345" y="75.323" />
+              <mxPoint x="112.966" y="76.192" />
+              <mxPoint x="115.586" y="75.357" />
+              <mxPoint x="118.207" y="82.336" />
+              <mxPoint x="120.828" y="73.573" />
+              <mxPoint x="123.448" y="85.325" />
+              <mxPoint x="126.069" y="82.584" />
+              <mxPoint x="128.69" y="79.379" />
+              <mxPoint x="131.31" y="71.622" />
+              <mxPoint x="133.931" y="81.074" />
+              <mxPoint x="136.552" y="72.199" />
+              <mxPoint x="139.172" y="84.16" />
+              <mxPoint x="141.793" y="82.656" />
+              <mxPoint x="144.414" y="84.468" />
+              <mxPoint x="147.034" y="82.261" />
+              <mxPoint x="149.655" y="73.763" />
+              <mxPoint x="152.276" y="93.276" />
+              <mxPoint x="154.897" y="79.869" />
+              <mxPoint x="157.517" y="87.34" />
+              <mxPoint x="160.138" y="76.317" />
+              <mxPoint x="162.759" y="67.853" />
+              <mxPoint x="165.379" y="75.643" />
+              <mxPoint x="168.0" y="77.562" />
+              <mxPoint x="170.621" y="64.361" />
+              <mxPoint x="173.241" y="77.141" />
+              <mxPoint x="175.862" y="86.686" />
+              <mxPoint x="178.483" y="70.489" />
+              <mxPoint x="181.103" y="85.985" />
+              <mxPoint x="183.724" y="78.47" />
+              <mxPoint x="186.345" y="76.345" />
+              <mxPoint x="188.966" y="82.844" />
+              <mxPoint x="191.586" y="80.873" />
+              <mxPoint x="194.207" y="74.26" />
+              <mxPoint x="196.828" y="76.258" />
+              <mxPoint x="199.448" y="94.751" />
+              <mxPoint x="202.069" y="87.346" />
+              <mxPoint x="204.69" y="85.429" />
+              <mxPoint x="207.31" y="77.903" />
+              <mxPoint x="209.931" y="68.985" />
+              <mxPoint x="212.552" y="85.457" />
+              <mxPoint x="215.172" y="77.6" />
+              <mxPoint x="217.793" y="81.9" />
+              <mxPoint x="220.414" y="90.384" />
+              <mxPoint x="223.034" y="90.997" />
+              <mxPoint x="225.655" y="77.945" />
+              <mxPoint x="228.276" y="72.749" />
+              <mxPoint x="230.897" y="73.731" />
+              <mxPoint x="233.517" y="74.28" />
+              <mxPoint x="236.138" y="79.434" />
+              <mxPoint x="238.759" y="85.985" />
+              <mxPoint x="241.379" y="80.695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-33" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#E5EAF0;strokeWidth=1;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="125" as="sourcePoint" />
+            <mxPoint x="245" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-34" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#657380;strokeWidth=1.85;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16.0" y="133.395" as="sourcePoint" />
+            <mxPoint x="244.0" y="114.364" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18.621" y="138.149" />
+              <mxPoint x="21.241" y="128.858" />
+              <mxPoint x="23.862" y="130.002" />
+              <mxPoint x="26.483" y="123.846" />
+              <mxPoint x="29.103" y="117.347" />
+              <mxPoint x="31.724" y="124.613" />
+              <mxPoint x="34.345" y="127.657" />
+              <mxPoint x="36.966" y="130.756" />
+              <mxPoint x="39.586" y="121.861" />
+              <mxPoint x="42.207" y="133.251" />
+              <mxPoint x="44.828" y="129.569" />
+              <mxPoint x="47.448" y="122.732" />
+              <mxPoint x="50.069" y="125.105" />
+              <mxPoint x="52.69" y="123.085" />
+              <mxPoint x="55.31" y="138.913" />
+              <mxPoint x="57.931" y="133.018" />
+              <mxPoint x="60.552" y="137.622" />
+              <mxPoint x="63.172" y="114.013" />
+              <mxPoint x="65.793" y="115.605" />
+              <mxPoint x="68.414" y="144.89" />
+              <mxPoint x="71.034" y="118.313" />
+              <mxPoint x="73.655" y="133.451" />
+              <mxPoint x="76.276" y="119.142" />
+              <mxPoint x="78.897" y="127.72" />
+              <mxPoint x="81.517" y="126.424" />
+              <mxPoint x="84.138" y="112.236" />
+              <mxPoint x="86.759" y="131.387" />
+              <mxPoint x="89.379" y="121.251" />
+              <mxPoint x="92.0" y="115.466" />
+              <mxPoint x="94.621" y="128.796" />
+              <mxPoint x="97.241" y="144.89" />
+              <mxPoint x="99.862" y="119.098" />
+              <mxPoint x="102.483" y="128.416" />
+              <mxPoint x="105.103" y="136.285" />
+              <mxPoint x="107.724" y="127.132" />
+              <mxPoint x="110.345" y="129.102" />
+              <mxPoint x="112.966" y="136.144" />
+              <mxPoint x="115.586" y="124.678" />
+              <mxPoint x="118.207" y="136.312" />
+              <mxPoint x="120.828" y="114.744" />
+              <mxPoint x="123.448" y="118.64" />
+              <mxPoint x="126.069" y="114.22" />
+              <mxPoint x="128.69" y="119.512" />
+              <mxPoint x="131.31" y="125.102" />
+              <mxPoint x="133.931" y="119.891" />
+              <mxPoint x="136.552" y="138.128" />
+              <mxPoint x="139.172" y="117.041" />
+              <mxPoint x="141.793" y="128.837" />
+              <mxPoint x="144.414" y="118.884" />
+              <mxPoint x="147.034" y="120.105" />
+              <mxPoint x="149.655" y="132.142" />
+              <mxPoint x="152.276" y="138.396" />
+              <mxPoint x="154.897" y="131.202" />
+              <mxPoint x="157.517" y="118.685" />
+              <mxPoint x="160.138" y="113.723" />
+              <mxPoint x="162.759" y="118.472" />
+              <mxPoint x="165.379" y="125.686" />
+              <mxPoint x="168.0" y="121.172" />
+              <mxPoint x="170.621" y="121.863" />
+              <mxPoint x="173.241" y="130.804" />
+              <mxPoint x="175.862" y="105.11" />
+              <mxPoint x="178.483" y="125.276" />
+              <mxPoint x="181.103" y="134.799" />
+              <mxPoint x="183.724" y="113.197" />
+              <mxPoint x="186.345" y="118.345" />
+              <mxPoint x="188.966" y="121.284" />
+              <mxPoint x="191.586" y="128.132" />
+              <mxPoint x="194.207" y="130.858" />
+              <mxPoint x="196.828" y="130.391" />
+              <mxPoint x="199.448" y="113.266" />
+              <mxPoint x="202.069" y="124.352" />
+              <mxPoint x="204.69" y="120.052" />
+              <mxPoint x="207.31" y="124.11" />
+              <mxPoint x="209.931" y="129.288" />
+              <mxPoint x="212.552" y="121.954" />
+              <mxPoint x="215.172" y="113.126" />
+              <mxPoint x="217.793" y="119.084" />
+              <mxPoint x="220.414" y="123.121" />
+              <mxPoint x="223.034" y="126.722" />
+              <mxPoint x="225.655" y="122.483" />
+              <mxPoint x="228.276" y="120.595" />
+              <mxPoint x="230.897" y="136.742" />
+              <mxPoint x="233.517" y="105.714" />
+              <mxPoint x="236.138" y="121.601" />
+              <mxPoint x="238.759" y="125.368" />
+              <mxPoint x="241.379" y="116.251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-35" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#E5EAF0;strokeWidth=1;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="172" as="sourcePoint" />
+            <mxPoint x="245" y="172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-36" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#657380;strokeWidth=1.85;startArrow=none;endArrow=none;endFill=1;endSize=12;" edge="1" parent="state-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16.0" y="173.359" as="sourcePoint" />
+            <mxPoint x="244.0" y="179.097" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18.621" y="164.837" />
+              <mxPoint x="21.241" y="191.89" />
+              <mxPoint x="23.862" y="174.168" />
+              <mxPoint x="26.483" y="159.037" />
+              <mxPoint x="29.103" y="182.96" />
+              <mxPoint x="31.724" y="173.007" />
+              <mxPoint x="34.345" y="171.768" />
+              <mxPoint x="36.966" y="179.076" />
+              <mxPoint x="39.586" y="182.425" />
+              <mxPoint x="42.207" y="169.416" />
+              <mxPoint x="44.828" y="172.744" />
+              <mxPoint x="47.448" y="158.462" />
+              <mxPoint x="50.069" y="165.88" />
+              <mxPoint x="52.69" y="179.87" />
+              <mxPoint x="55.31" y="177.16" />
+              <mxPoint x="57.931" y="165.95" />
+              <mxPoint x="60.552" y="181.248" />
+              <mxPoint x="63.172" y="181.478" />
+              <mxPoint x="65.793" y="177.434" />
+              <mxPoint x="68.414" y="175.408" />
+              <mxPoint x="71.034" y="177.569" />
+              <mxPoint x="73.655" y="168.484" />
+              <mxPoint x="76.276" y="183.697" />
+              <mxPoint x="78.897" y="187.555" />
+              <mxPoint x="81.517" y="154.986" />
+              <mxPoint x="84.138" y="181.45" />
+              <mxPoint x="86.759" y="170.833" />
+              <mxPoint x="89.379" y="172.645" />
+              <mxPoint x="92.0" y="162.809" />
+              <mxPoint x="94.621" y="175.788" />
+              <mxPoint x="97.241" y="171.246" />
+              <mxPoint x="99.862" y="182.269" />
+              <mxPoint x="102.483" y="176.91" />
+              <mxPoint x="105.103" y="173.742" />
+              <mxPoint x="107.724" y="161.63" />
+              <mxPoint x="110.345" y="165.013" />
+              <mxPoint x="112.966" y="189.952" />
+              <mxPoint x="115.586" y="180.261" />
+              <mxPoint x="118.207" y="169.367" />
+              <mxPoint x="120.828" y="169.535" />
+              <mxPoint x="123.448" y="183.824" />
+              <mxPoint x="126.069" y="169.827" />
+              <mxPoint x="128.69" y="171.257" />
+              <mxPoint x="131.31" y="166.551" />
+              <mxPoint x="133.931" y="171.187" />
+              <mxPoint x="136.552" y="158.292" />
+              <mxPoint x="139.172" y="174.481" />
+              <mxPoint x="141.793" y="188.062" />
+              <mxPoint x="144.414" y="168.01" />
+              <mxPoint x="147.034" y="172.126" />
+              <mxPoint x="149.655" y="179.363" />
+              <mxPoint x="152.276" y="170.395" />
+              <mxPoint x="154.897" y="169.636" />
+              <mxPoint x="157.517" y="170.98" />
+              <mxPoint x="160.138" y="164.283" />
+              <mxPoint x="162.759" y="177.1" />
+              <mxPoint x="165.379" y="154.658" />
+              <mxPoint x="168.0" y="171.756" />
+              <mxPoint x="170.621" y="166.962" />
+              <mxPoint x="173.241" y="175.264" />
+              <mxPoint x="175.862" y="159.655" />
+              <mxPoint x="178.483" y="167.055" />
+              <mxPoint x="181.103" y="169.684" />
+              <mxPoint x="183.724" y="168.147" />
+              <mxPoint x="186.345" y="171.194" />
+              <mxPoint x="188.966" y="166.271" />
+              <mxPoint x="191.586" y="174.859" />
+              <mxPoint x="194.207" y="169.345" />
+              <mxPoint x="196.828" y="179.002" />
+              <mxPoint x="199.448" y="172.011" />
+              <mxPoint x="202.069" y="184.272" />
+              <mxPoint x="204.69" y="167.376" />
+              <mxPoint x="207.31" y="176.339" />
+              <mxPoint x="209.931" y="182.664" />
+              <mxPoint x="212.552" y="173.269" />
+              <mxPoint x="215.172" y="160.532" />
+              <mxPoint x="217.793" y="168.995" />
+              <mxPoint x="220.414" y="166.81" />
+              <mxPoint x="223.034" y="164.645" />
+              <mxPoint x="225.655" y="167.355" />
+              <mxPoint x="228.276" y="177.198" />
+              <mxPoint x="230.897" y="165.103" />
+              <mxPoint x="233.517" y="175.974" />
+              <mxPoint x="236.138" y="175.557" />
+              <mxPoint x="238.759" y="181.588" />
+              <mxPoint x="241.379" y="173.182" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="text-37" value="Gaussian noise" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=24;fontColor=#202B36;fontStyle=0;" vertex="1" parent="state-3">
+          <mxGeometry x="0" y="212" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot-38" value="" style="ellipse;html=1;fillColor=#6A7783;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360.5" y="269.5" width="5.0" height="5.0" as="geometry" />
+        </mxCell>
+        <mxCell id="dot-39" value="" style="ellipse;html=1;fillColor=#6A7783;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="269.5" width="5.0" height="5.0" as="geometry" />
+        </mxCell>
+        <mxCell id="dot-40" value="" style="ellipse;html=1;fillColor=#6A7783;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="384.5" y="269.5" width="5.0" height="5.0" as="geometry" />
+        </mxCell>
+        <mxCell id="line-41" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#276A9B;strokeWidth=2.6;startArrow=none;endArrow=block;endFill=1;endSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="708" y="253" as="sourcePoint" />
+            <mxPoint x="790" y="253" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-42" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#B86B31;strokeWidth=2.6;startArrow=none;endArrow=block;endFill=1;endSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="295" as="sourcePoint" />
+            <mxPoint x="708" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dot-43" value="" style="ellipse;html=1;fillColor=#6A7783;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1110.5" y="269.5" width="5.0" height="5.0" as="geometry" />
+        </mxCell>
+        <mxCell id="dot-44" value="" style="ellipse;html=1;fillColor=#6A7783;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1122.5" y="269.5" width="5.0" height="5.0" as="geometry" />
+        </mxCell>
+        <mxCell id="dot-45" value="" style="ellipse;html=1;fillColor=#6A7783;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1134.5" y="269.5" width="5.0" height="5.0" as="geometry" />
+        </mxCell>
+        <mxCell id="line-46" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#B86B31;strokeWidth=3;startArrow=none;endArrow=block;endFill=1;endSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1312" y="426" as="sourcePoint" />
+            <mxPoint x="188" y="426" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="text-47" value="Reverse denoising" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=30;fontColor=#B86B31;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="456" width="440" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="box-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF9F3;strokeColor=#B86B31;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="563" y="458" width="530" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="text-49" value="Noise predictor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=23;fontColor=#202B36;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="470" width="244" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="math-50" value="ε&lt;sub&gt;θ&lt;/sub&gt;(&lt;i&gt;X&lt;/i&gt;&lt;sub&gt;s&lt;/sub&gt;, s)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=28;fontColor=#202B36;" vertex="1" parent="1">
+          <mxGeometry x="821" y="470" width="253" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="line-51" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;strokeColor=#B86B31;strokeWidth=1.7;startArrow=none;endArrow=block;endFill=1;endSize=12;dashed=1;dashPattern=4 4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="828" y="458" as="sourcePoint" />
+            <mxPoint x="828" y="426" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,14 @@
+# Versions used for the local Research11 verification (Python 3.13).
+fastapi==0.141.1
+pydantic==2.13.5
+uvicorn==0.38.0
+httpx==0.28.1
+numpy==2.3.5
+pandas==3.0.3
+scikit-learn==1.8.0
+joblib==1.5.3
+# Windows start/stop helper: verify process ownership before stopping it.
+psutil==7.2.2
+# Existing research helper imports used during model export:
+matplotlib==3.10.7
+seaborn==0.13.2

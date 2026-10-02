@@ -269,6 +269,25 @@ python tools/research10_masking_ratio.py
 - `pictures/threshold_fp_fn_curves_filtered_masking_diffusion.png`
 - `pictures/threshold_fp_fn_bar_filtered_masking_diffusion.png`
 
+## Research11: FastAPI 추론 시스템 검증
+
+**Start_API.cmd**를 더블클릭하면 [비교 대시보드](http://127.0.0.1:8000/)가 열립니다.
+정상·이상 샘플 선택, 실제 API 추론, 저장 데이터 순차 재생, 세 모델 성능표를 확인할 수 있습니다.
+[웹 사용 안내](http://127.0.0.1:8000/guide)에 자세한 실행 방법이 있으며, **Stop_API.cmd**로 종료합니다.
+
+기존 baseline, Magnitude warping 1,000개 증강, FMD 750개 증강 RandomForest를
+저장하고, 원본 제조 CSV의 동일한 최종평가 윈도를 실제 HTTP API로 재생해 비교합니다.
+[실행 방법](fmd_api/README.md), [검증 보고서](data/research11/results/api_verification_report.md),
+[실행 결과 JSON](data/research11/results/api_verification_summary.json)에서 확인할 수 있습니다.
+[세 모델 비교표](data/research11/results/three_model_comparison.csv)와
+[비교 그림](data/research11/results/three_model_comparison.png)도 함께 제공합니다.
+
+추가 감사에서 기존 split의 seed–validation 사이 원시 행 136개,
+validation–final_test 사이 원시 행 1개의 겹침이 발견되었습니다.
+따라서 기존 결과와 API 재현 수치를 완전히 독립된 평가 결과로 해석하면 안 됩니다.
+Research11은 저장된 제조 데이터의 재생을 통한 로컬 API 적용 가능성을 검증하며,
+실제 공장 설비 연결이나 장기 운영 검증을 의미하지 않습니다.
+
 ## 주의 사항
 
 - 모든 주요 성능 수치는 `final_test` split 기준입니다.

@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-09-12T06:51:02.763430+00:00",
+  "sha256": {
+    "fmd_api/static/app.js": "518026e9a5edae94a97534e67507639b3bc6b6d2a4cca62c084b2d61749c8b42",
+    "fmd_api/static/guide.html": "6fc0238ba99704e41eb0957df0591c04a45a3daf3446a775c5a41b3612c6719e",
+    "fmd_api/static/index.html": "c44a4ff10689b9450db9b328af67e8c498f5ce17ecbabf99363714c63ed0f2ed",
+    "fmd_api/static/style.css": "7708940b6c1004d6834f0095842f20ac43fa15712eca6fa6bdd5ac490fdcf0d8",
+    "fmd_api/app.py": "85e1c7ac58ab8874ff1e50e95a161a9c6777054f796a82d6381a64ffffc98308",
+    "fmd_api/common.py": "b560b3aef9f537230ebebaad1712cc8b6289c0cc36b614613d0d54dcf341c5d0",
+    "fmd_api/dashboard.py": "0b228abdd54bbb89fcbd38e57aef3f6a43a447c4e911b0c7a94a38825aac06ca",
+    "fmd_api/__init__.py": "7e9fbab9c8688a31a0fbd29a3b8a9051788aa11a4182383970c6ad5b339e0f40",
+    "fmd_api/README.md": "fd563cfe43a84657110716a2db9319e4ab9911fdfeb3b0b15080ce1ed957f34a",
+    "tools/research11_service.py": "871882c034e30199c6b2e0261b5f3ace95149429238ecbd08d791f16f0b63cf4",
+    "tools/research11_check_dashboard.mjs": "b1308c02c33cb4297ba3d434e5a8dab2a395ad784b1231bd0eaa04b147c8fa85",
+    "Start_API.cmd": "d683f2cd7e59b50ddc2ae9e5b6d117f8c85ce30388fbc4bcdfaa3877195f56b5",
+    "Stop_API.cmd": "4d36d1f6c1e46a88eb6e7bf1212e32f7dc2d55cd90c2881ab762b1e4b84c5f80",
+    "requirements-api.txt": "8f2d61ad146b1b13a1f59b1d9f16350ade70fe9397eed8ddd4a6b498c940f43a",
+    "data/research11/ui_validation/browser_checks.json": "739d7b4b8c7f11b965d09a8a3b8c54e5077465e46ea0bfa24e0f8eb0b96e8833",
+    "data/research11/ui_validation/api_checks.json": "6fd128ff085d41e1e31f90adf6712a8f389d181ff1c39817685fd3bec4a97175"
+  }
+}

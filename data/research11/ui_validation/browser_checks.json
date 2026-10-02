@@ -1,0 +1,78 @@
+{
+  "started_utc": "2026-09-12T06:48:43.803Z",
+  "checks": [
+    "dashboard loads all three models",
+    "normal sample sends real POST /compare and renders three predictions",
+    "anomaly sample selection and prediction",
+    "invalid custom input is rejected and old prediction cleared",
+    "local JSON file can be loaded and submitted",
+    "actual request and response JSON can be downloaded",
+    "ten chronological windows replay through real HTTP",
+    "replay stop control",
+    "recorded benchmark table and comparison figure",
+    "mobile dashboard has no page overflow",
+    "detailed browser guide is available",
+    "no uncaught browser JavaScript exceptions"
+  ],
+  "browser_errors": [],
+  "api_posts": [
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/compare"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/compare"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/compare"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/compare"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/compare"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/compare"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/compare"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/compare"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/compare"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/compare"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/compare"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/compare"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/compare"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/compare"
+    }
+  ],
+  "passed": true,
+  "finished_utc": "2026-09-12T06:48:58.440Z"
+}

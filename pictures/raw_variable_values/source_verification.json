@@ -1,0 +1,318 @@
+{
+  "plotted_source": "data\\raw_data\\train\\Training_Data.csv",
+  "ordering": "Stable ascending sort by parsed WorkingTime within each source file",
+  "full_panel": "All original observations; no sampling or averaging",
+  "detail_panel": "First 90 chronological observations",
+  "normalization": "None: original raw values",
+  "model_input_order": [
+    "RealPower",
+    "GateOnTime",
+    "SetPower",
+    "Speed",
+    "Length"
+  ],
+  "constant_verification": [
+    {
+      "file": "data\\raw_data\\test\\WeldingTest_01_OK.csv",
+      "observations": 1950,
+      "first_time": "2022-02-10T09:02:48.515000",
+      "last_time": "2022-02-10T17:13:50.029000",
+      "features": {
+        "RealPower": {
+          "min": 682.0,
+          "max": 1704.0,
+          "unique_values": 36
+        },
+        "GateOnTime": {
+          "min": 650.0,
+          "max": 1670.0,
+          "unique_values": 4
+        },
+        "SetPower": {
+          "min": 38.0,
+          "max": 83.0,
+          "unique_values": 3
+        },
+        "Speed": {
+          "min": 30.0,
+          "max": 250.0,
+          "unique_values": 2
+        },
+        "Length": {
+          "min": 19.4,
+          "max": 241.2,
+          "unique_values": 3
+        },
+        "SetFrequency": {
+          "min": 1000.0,
+          "max": 1000.0,
+          "unique_values": 1
+        },
+        "SetDuty": {
+          "min": 100.0,
+          "max": 100.0,
+          "unique_values": 1
+        }
+      }
+    },
+    {
+      "file": "data\\raw_data\\test\\WeldingTest_02_OK.csv",
+      "observations": 1872,
+      "first_time": "2022-02-11T09:12:28.065000",
+      "last_time": "2022-02-11T17:00:48.295000",
+      "features": {
+        "RealPower": {
+          "min": 680.0,
+          "max": 1702.0,
+          "unique_values": 34
+        },
+        "GateOnTime": {
+          "min": 650.0,
+          "max": 1670.0,
+          "unique_values": 4
+        },
+        "SetPower": {
+          "min": 38.0,
+          "max": 83.0,
+          "unique_values": 3
+        },
+        "Speed": {
+          "min": 30.0,
+          "max": 250.0,
+          "unique_values": 2
+        },
+        "Length": {
+          "min": 19.4,
+          "max": 241.2,
+          "unique_values": 3
+        },
+        "SetFrequency": {
+          "min": 1000.0,
+          "max": 1000.0,
+          "unique_values": 1
+        },
+        "SetDuty": {
+          "min": 100.0,
+          "max": 100.0,
+          "unique_values": 1
+        }
+      }
+    },
+    {
+      "file": "data\\raw_data\\test\\WeldingTest_03_NG.csv",
+      "observations": 1053,
+      "first_time": "2022-08-03T09:10:24.996000",
+      "last_time": "2022-08-03T15:17:11.706000",
+      "features": {
+        "RealPower": {
+          "min": 630.0,
+          "max": 1702.0,
+          "unique_values": 39
+        },
+        "GateOnTime": {
+          "min": 650.0,
+          "max": 1670.0,
+          "unique_values": 4
+        },
+        "SetPower": {
+          "min": 35.0,
+          "max": 83.0,
+          "unique_values": 4
+        },
+        "Speed": {
+          "min": 30.0,
+          "max": 250.0,
+          "unique_values": 2
+        },
+        "Length": {
+          "min": 19.4,
+          "max": 241.2,
+          "unique_values": 3
+        },
+        "SetFrequency": {
+          "min": 1000.0,
+          "max": 1000.0,
+          "unique_values": 1
+        },
+        "SetDuty": {
+          "min": 100.0,
+          "max": 100.0,
+          "unique_values": 1
+        }
+      }
+    },
+    {
+      "file": "data\\raw_data\\test\\WeldingTest_03_NG_labeled.csv",
+      "observations": 1053,
+      "first_time": "2022-08-03T09:10:24.996000",
+      "last_time": "2022-08-03T15:17:11.706000",
+      "features": {
+        "RealPower": {
+          "min": 630.0,
+          "max": 1702.0,
+          "unique_values": 39
+        },
+        "GateOnTime": {
+          "min": 650.0,
+          "max": 1670.0,
+          "unique_values": 4
+        },
+        "SetPower": {
+          "min": 35.0,
+          "max": 83.0,
+          "unique_values": 4
+        },
+        "Speed": {
+          "min": 30.0,
+          "max": 250.0,
+          "unique_values": 2
+        },
+        "Length": {
+          "min": 19.4,
+          "max": 241.2,
+          "unique_values": 3
+        },
+        "SetFrequency": {
+          "min": 1000.0,
+          "max": 1000.0,
+          "unique_values": 1
+        },
+        "SetDuty": {
+          "min": 100.0,
+          "max": 100.0,
+          "unique_values": 1
+        }
+      }
+    },
+    {
+      "file": "data\\raw_data\\test\\WeldingTest_04_NG.csv",
+      "observations": 351,
+      "first_time": "2022-08-03T15:24:10.491000",
+      "last_time": "2022-08-03T17:47:02.353000",
+      "features": {
+        "RealPower": {
+          "min": 0.0,
+          "max": 1727.0,
+          "unique_values": 48
+        },
+        "GateOnTime": {
+          "min": 650.0,
+          "max": 1670.0,
+          "unique_values": 4
+        },
+        "SetPower": {
+          "min": 35.0,
+          "max": 83.0,
+          "unique_values": 4
+        },
+        "Speed": {
+          "min": 30.0,
+          "max": 250.0,
+          "unique_values": 2
+        },
+        "Length": {
+          "min": 19.4,
+          "max": 241.2,
+          "unique_values": 3
+        },
+        "SetFrequency": {
+          "min": 1000.0,
+          "max": 1000.0,
+          "unique_values": 1
+        },
+        "SetDuty": {
+          "min": 100.0,
+          "max": 100.0,
+          "unique_values": 1
+        }
+      }
+    },
+    {
+      "file": "data\\raw_data\\test\\WeldingTest_04_NG_labeled.csv",
+      "observations": 351,
+      "first_time": "2022-08-03T15:24:10.491000",
+      "last_time": "2022-08-03T17:47:02.353000",
+      "features": {
+        "RealPower": {
+          "min": 0.0,
+          "max": 1727.0,
+          "unique_values": 48
+        },
+        "GateOnTime": {
+          "min": 650.0,
+          "max": 1670.0,
+          "unique_values": 4
+        },
+        "SetPower": {
+          "min": 35.0,
+          "max": 83.0,
+          "unique_values": 4
+        },
+        "Speed": {
+          "min": 30.0,
+          "max": 250.0,
+          "unique_values": 2
+        },
+        "Length": {
+          "min": 19.4,
+          "max": 241.2,
+          "unique_values": 3
+        },
+        "SetFrequency": {
+          "min": 1000.0,
+          "max": 1000.0,
+          "unique_values": 1
+        },
+        "SetDuty": {
+          "min": 100.0,
+          "max": 100.0,
+          "unique_values": 1
+        }
+      }
+    },
+    {
+      "file": "data\\raw_data\\train\\Training_Data.csv",
+      "observations": 135759,
+      "first_time": "2022-01-08T10:11:45.181000",
+      "last_time": "2022-07-29T17:25:16.311000",
+      "features": {
+        "RealPower": {
+          "min": 0.0,
+          "max": 1733.0,
+          "unique_values": 71
+        },
+        "GateOnTime": {
+          "min": 650.0,
+          "max": 1670.0,
+          "unique_values": 9
+        },
+        "SetPower": {
+          "min": 38.0,
+          "max": 83.0,
+          "unique_values": 3
+        },
+        "Speed": {
+          "min": 30.0,
+          "max": 250.0,
+          "unique_values": 6
+        },
+        "Length": {
+          "min": 19.4,
+          "max": 241.2,
+          "unique_values": 4
+        },
+        "SetFrequency": {
+          "min": 1000.0,
+          "max": 1000.0,
+          "unique_values": 1
+        },
+        "SetDuty": {
+          "min": 100.0,
+          "max": 100.0,
+          "unique_values": 1
+        }
+      }
+    }
+  ],
+  "note": "Labeled and unlabeled versions were checked separately, never pooled or counted twice in the plot."
+}

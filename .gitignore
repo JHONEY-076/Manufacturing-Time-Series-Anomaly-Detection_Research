@@ -1,2 +1,7 @@
 __pycache__/
 *.py[cod]
+.venv-api/
+artifacts/research11/*.joblib
+data/research11/archive/
+data/research11/service/
+data/research11/ui_validation/browser_profile_*/
