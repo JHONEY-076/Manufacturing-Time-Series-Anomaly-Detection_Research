@@ -9,7 +9,7 @@ git pull --ff-only
 # 코드 수정 및 공개할 결과 정리
 git status
 git diff
-git add README.md docs Research/tools Research/fmd_api Research/requirements-api.txt
+git add README.md docs Research/tools
 git diff --cached --stat
 git commit -m "Update public research code and results"
 git push origin main

@@ -1,47 +1,40 @@
-# 실행 환경과 재현 범위
+# 연구 코드와 재현 범위
+
+이 공개 저장소는 README의 연구 설명·결과·그림과 관련 코드를 중심으로 구성합니다. 원본 데이터, 생성 표본, 학습 모델, 노트북 출력은 포함하지 않으므로 clone만으로 전체 실험을 재현할 수 없습니다.
 
 ## 환경 준비
 
-저장소 루트에서 다음과 같이 준비합니다. requirements-api.txt는 기존 Python 3.13 API 검증 환경의 버전이며 전체 생성 모델 학습 환경을 고정한 파일은 아닙니다. 생성 모델별 추가 의존성은 해당 스크립트의 import와 실행 환경을 확인해야 합니다.
+아래 패키지는 기존 README의 설치 예시이며 전체 학습 환경을 고정한 목록은 아닙니다. PyTorch는 운영체제와 가속기 환경에 맞춰 준비해야 합니다.
 
 ```powershell
 cd Research
-python -m venv .venv-api
-.\.venv-api\Scripts\python.exe -m pip install -r requirements-api.txt
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install numpy pandas matplotlib seaborn scikit-learn torch
 ```
 
-## 연구 결과 재현
+## 필요한 연구 입력
 
-`Research/tools/research_section43_unified.py`는 기존 생성 후보 풀과 분할 자료를 이용합니다. 공개 저장소에는 다음 입력이 포함되어 있지 않습니다. 이용 권한을 확보한 원본 연구 자료를 동일한 상대 경로에 배치해야 합니다.
+이용 권한이 있는 연구 자료를 기존 상대 경로에 배치해야 합니다.
 
-- `Research/data/raw_data/`: 원본 용접 센서 CSV
+- `Research/data/raw_data/`: 원본 센서 CSV
 - `Research/data/augmentation_split/`: 학습·검증·평가 배열과 메타데이터
 - `Research/data/research02/generated/`: 생성 방법별 후보 배열
 - `Research/data/research10/generated/`: 마스킹 비율별 생성 배열
-- `Research/output/section_4_4_1/generation_quality_comparison.json`: 생성 품질 집계
+- `Research/output/section_4_4_1/generation_quality_comparison.json`: 최신 통일 조건 비교의 생성 품질 입력
+
+입력 준비 후 `Research` 폴더에서 실행합니다.
 
 ```powershell
-# Research 폴더에서, 필요한 입력을 준비한 후 실행
-.\.venv-api\Scripts\python.exe tools/research_section43_unified.py
+python tools/research01_randomforest_baseline.py
+python tools/research02_generate_data.py
+python tools/research03_model_augmented_validation.py
+python tools/research05_balanced_aug_experiment.py
+python tools/research08_augmentation_saturation.py
+python tools/research09_filtering_strength.py
+python tools/research10_masking_ratio.py
 ```
 
-공개 결과의 주 비교는 길이 30 윈도우, 정상 학습 5,000개, 불량 seed 247개, 증강 750개, RF 300 trees, min_samples_leaf=2, balanced_subsample 조건입니다. 검증 집합에서 임계값을 선택하고 별도 평가 집합에서 측정했습니다. 최신 집계는 평가 3,080개를 사용합니다. 기존 Research11 API는 이전 3,081개 평가 실험을 기반으로 하므로 서로 다른 실험 수치를 직접 혼합하지 마세요.
+분할 수정 후 비교는 `python tools/research_section43_unified.py`로 별도 실행합니다. 기존 README의 평가 3,081개 결과와 최신 통일 조건의 3,080개 결과를 구분하세요. [최신 결과 안내](latest-results.md)에 조건을 설명했습니다.
 
-## API와 대시보드
-
-API는 저장된 Random Forest 모델을 추론합니다. Diffusion 생성기를 실시간으로 실행하는 API가 아닙니다.
-
-1. 권한이 있는 연구 데이터를 복원합니다.
-2. `tools/research11_export_api_models.py`를 실행해 `artifacts/research11/`에 모델과 manifest를 생성합니다.
-3. 아래 명령으로 서버를 실행합니다.
-
-```powershell
-.\.venv-api\Scripts\python.exe tools/research11_export_api_models.py
-.\.venv-api\Scripts\python.exe -m uvicorn fmd_api.app:app --host 127.0.0.1 --port 8000
-```
-
-브라우저에서 http://127.0.0.1:8000/ 을 엽니다. 모델 파일이 없으면 서버 시작에 실패합니다. 대시보드의 샘플·검증 결과 기능에는 원본 CSV, 분할 메타데이터와 Research11 검증 산출물도 필요합니다.
-
-## 한계
-
-공개 CSV와 이미지는 기존 실험 산출물이며, 포트폴리오 정리 과정에서 모델 재학습이나 성능 재검증을 수행한 결과가 아닙니다. 원본 데이터와 모델을 배포하지 않으므로 공개 파일만으로 수치의 완전한 재현은 지원하지 않습니다.
+공개한 CSV·JSON·그림은 저장된 실험 산출물입니다. 이번 문서 정리에서 모델 재학습이나 성능 재검증은 수행하지 않았습니다.

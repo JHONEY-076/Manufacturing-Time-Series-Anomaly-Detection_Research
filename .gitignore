@@ -7,15 +7,13 @@
 /Research/*
 !/Research/README.md
 !/Research/.gitignore
-!/Research/requirements-api.txt
-!/Research/Start_API.cmd
-!/Research/Stop_API.cmd
 !/Research/tools/
-!/Research/fmd_api/
 /Research/tools/*
 !/Research/tools/*.py
 !/Research/tools/*.ps1
 !/Research/tools/*.mjs
+/Research/tools/research11_*
+/docs/images/dashboard_desktop.png
 __pycache__/
 *.py[cod]
 .env

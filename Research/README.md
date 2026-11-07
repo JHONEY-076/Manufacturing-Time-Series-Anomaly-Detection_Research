@@ -3,8 +3,6 @@
 공개 포트폴리오의 상세 실행 코드를 보관하는 폴더입니다.
 
 - `tools/`: 전처리·증강·학습·평가 및 그림 생성
-- `fmd_api/`: 저장된 Random Forest의 추론 API와 브라우저 대시보드
-- `requirements-api.txt`: 기존 API 검증 환경의 패키지 버전
 
 최신 대표 결과와 해석은 [루트 README](../README.md)를 확인하세요.
 환경 구성과 공개하지 않는 필수 입력은 [재현 안내](../docs/reproduction.md)에 정리했습니다.
