@@ -1,0 +1,41 @@
+{
+  "purpose": "Bundled research snapshot for raw-window reconstruction and cached-generator evaluation.",
+  "features": [
+    "RealPower",
+    "GateOnTime",
+    "SetPower",
+    "Speed",
+    "Length"
+  ],
+  "window_size": 30,
+  "note": "Historical split membership is preserved. The comparison runner removes overlapping source rows before selecting thresholds and evaluating.",
+  "files": {
+    "data/augmentation_split/anomaly_train_seed_metadata.csv": "f666110ca2c001ca89b840857630e7f9929ecab1dc3352727e8f916c32b294ac",
+    "data/augmentation_split/anomaly_train_seed_windows.npz": "6bc561e4e7511b5c3fe33f2b968107fa38023065bef5e9c5485166ccf5c99294",
+    "data/augmentation_split/final_test_metadata.csv": "5ea17481170705fbf9e7d7743f09a375394c140fc00dd24e445417e8940fed7e",
+    "data/augmentation_split/final_test_windows.npz": "809207f4f1ed6cfa55dcbd7f7753917be512b4be9278e479010421f6bd841099",
+    "data/augmentation_split/normal_train_metadata.csv": "c807b520063a5f1f20c7e88e76720573f04cf16c125b5fb1d597df093ed822a2",
+    "data/augmentation_split/normal_train_windows.npz": "4ca593a8c89f8a7d8a72363d0d474297fb784ca5d147eab8f6c6de017f398442",
+    "data/augmentation_split/split_summary.csv": "ad95fece369b7804799febf93abebd22d084b7c8d040f151cd38014d5c528036",
+    "data/augmentation_split/validation_metadata.csv": "3699dd16fdd0d335b01024a0aeae86591b8281d9a237b05b9928ecf7f534f266",
+    "data/augmentation_split/validation_windows.npz": "d6c12a91a2c3ad3228500fca295656fe6103c5b5e841728c2072de9c84dba297",
+    "data/preprocessed/test/WeldingTest_03_NG_Label.csv": "897eb64ccb3cc3260f9c176d24c378403391d42c3ff659ce679110e08c98bafb",
+    "data/preprocessed/test/WeldingTest_04_NG_Label.csv": "96a53e7aa78a4161348f9c0f7555d57dead1b52c4eceb37aba1c12bc722941a6",
+    "data/raw_data/test/WeldingTest_01_OK.csv": "53bb60a9a5a45551fc740bd0bab7bc5799664cc00b7f54b741001026f637acc0",
+    "data/raw_data/test/WeldingTest_02_OK.csv": "d0aa4bea573cfa9c27496b9d102ee889a7b7e16de53aae2ba3e68adffa5dcb76",
+    "data/raw_data/test/WeldingTest_03_NG.csv": "8df3c41370f6defa9d2e54fb5706a86b5edf9ea8f32ffd3ceb1670bdc7ebedc9",
+    "data/raw_data/test/WeldingTest_03_NG_labeled.csv": "6aa2ee23909b32a4b900766544b4d4594d3ba74c48ec87bfd68494f9cfcd0c70",
+    "data/raw_data/test/WeldingTest_04_NG.csv": "f41a648823dbad9c7f28ee70f8cb9af7e3bfd0b0fe6d00e55fdd5f21695a464b",
+    "data/raw_data/test/WeldingTest_04_NG_labeled.csv": "a52801b80badc50090b5441c52d46cdd1b18fb0bef0f478cf6ca5ce6f0a6ea71",
+    "data/raw_data/train/Training_Data.csv": "58ea692f2617c4ea0ac4cf0b4880d86f943375fe40c8949449ad68c0095bb609",
+    "data/research02/generated/diffusion_masked_windows.npz": "f1ec2a878d21f9b0cfa35c9f0d80c5022787be4ebd15d118595e4c0cd71345a7",
+    "data/research02/generated/diffusion_series_windows.npz": "4e1155727129593dafd570d373b37280b4fd72b7df7695c749bd2286a9b80b43",
+    "data/research02/generated/gtgan_masked_windows.npz": "b34882f7214f2e8802f0abcd3e95faa13031a197d567d93e9456994a13cf42f2",
+    "data/research02/generated/gtgan_series_windows.npz": "4df37dec0b656f6c06e3a11b67b3833fdd1bca3ac94fecefafc8062fab24249d",
+    "data/research02/results/research02_generation_summary.json": "6cb40df0c30a1714dc3aafff98af3e0544c5b7ef8052f169868bf348c2b5554f",
+    "data/research10/generated/diffusion_masked_default_windows.npz": "7cd8a618cee55aab1c5cf30d31a9444d67f520bbb1dc68a161a2aaf2b49b1ffc",
+    "data/research10/generated/diffusion_masked_large_windows.npz": "f72f3fe66f74fc5662ac295c56619bf0dce66ad33398e3296d042669554ddb91",
+    "data/research10/generated/diffusion_masked_small_windows.npz": "7935022c73b1a0cd80e0699aec19e5ae6ecf7d84c82d30f97ce914d561c4294c",
+    "output/section_4_4_1/generation_quality_comparison.json": "7533619f42126d561809a777f4a31986e397b325025c188e5d43813e80966f90"
+  }
+}

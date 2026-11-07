@@ -1,5 +1,5 @@
-# 라벨 정리 및 전처리
+# preprocessed
 
-원본 데이터의 라벨과 입력 변수를 정리한 중간 자료입니다. 중간 CSV는 공개하지 않습니다.
+기존 NG 라벨 CSV를 포함합니다. 실행에는 라벨이 병합된 raw_data/test CSV를 사용합니다.
 
-[연구 설명](../../../README.md) · [코드 대응표](../../../docs/research-guide.md)
+[실행 안내](../../../docs/reproduction.md)

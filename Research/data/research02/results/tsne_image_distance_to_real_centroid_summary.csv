@@ -1,0 +1,5 @@
+﻿"method","blue_pixel_count","orange_pixel_count","real_centroid_x_px","real_centroid_y_px","real_distance_mean_px","real_distance_median_px","generated_distance_mean_px","generated_distance_median_px","generated_distance_q1_px","generated_distance_q3_px","generated_to_real_radial_mean_ratio","radial_mean_abs_delta_px"
+"GT-GAN","2263","2145","1035.009","358.714","202.625","191.133","624.822","664.232","393.908","859.122","3.084","422.197"
+"Masking GT-GAN","3239","257","612.159","332.215","377.444","367.323","442.413","441.177","361.401","532.34","1.172","64.969"
+"Diffusion","2462","1762","810.219","530.33","223.521","210.111","542.701","539.248","449.451","630.102","2.428","319.181"
+"Masking Diffusion","3054","745","612.819","335.769","369.259","362.808","433.563","436.238","368.077","506.699","1.174","64.303"

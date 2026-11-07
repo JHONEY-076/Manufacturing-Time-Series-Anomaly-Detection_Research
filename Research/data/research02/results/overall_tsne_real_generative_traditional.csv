@@ -1,0 +1,2471 @@
+tsne_x,tsne_y,method,family
+11.219608,35.83186,Original,Original
+18.729683,24.6003,Original,Original
+31.551796,33.459328,Original,Original
+40.347763,14.974522,Original,Original
+42.582195,3.74724,Original,Original
+48.37347,-9.326267,Original,Original
+38.61668,-25.766369,Original,Original
+20.53634,-35.52129,Original,Original
+11.317802,-44.628418,Original,Original
+1.5274929,-34.216675,Original,Original
+-43.957294,-22.895067,Original,Original
+-55.86083,-3.8972723,Original,Original
+-29.661243,14.122798,Original,Original
+-36.953217,26.66752,Original,Original
+10.758329,10.715634,Original,Original
+21.141912,8.967163,Original,Original
+29.126904,-0.6419343,Original,Original
+30.925476,-8.5700865,Original,Original
+22.465384,-16.761559,Original,Original
+9.948208,-18.85712,Original,Original
+-2.874074,-18.557247,Original,Original
+-18.344936,-5.9389787,Original,Original
+-28.797224,-4.89608,Original,Original
+-33.59995,-1.361304,Original,Original
+-35.653706,6.1393623,Original,Original
+-12.7071,5.4803658,Original,Original
+-19.971928,27.891922,Original,Original
+-18.609922,39.957397,Original,Original
+-7.856504,46.957256,Original,Original
+2.1378891,43.749702,Original,Original
+11.221272,35.83676,Original,Original
+19.064486,24.547337,Original,Original
+31.558094,33.459103,Original,Original
+40.352703,14.973556,Original,Original
+42.69602,3.8309157,Original,Original
+48.372482,-9.330084,Original,Original
+38.616768,-25.767208,Original,Original
+20.537096,-35.52143,Original,Original
+11.309407,-44.640606,Original,Original
+1.5215926,-34.216515,Original,Original
+-43.953617,-22.89224,Original,Original
+-55.867428,-3.8902395,Original,Original
+-29.658514,14.123036,Original,Original
+-36.92954,26.72538,Original,Original
+10.75629,10.717979,Original,Original
+21.14093,8.963403,Original,Original
+29.102991,-0.64804715,Original,Original
+30.781319,-8.553952,Original,Original
+22.464666,-16.759544,Original,Original
+10.055015,-19.079302,Original,Original
+-2.8130658,-18.562235,Original,Original
+-18.365978,-5.912153,Original,Original
+-28.754484,-4.842335,Original,Original
+-33.59537,-1.3370291,Original,Original
+-35.644794,6.133109,Original,Original
+-12.643673,5.7316513,Original,Original
+-19.866348,27.779696,Original,Original
+-18.594694,39.892868,Original,Original
+-7.855177,46.949535,Original,Original
+2.237745,43.72589,Original,Original
+11.2199545,35.833714,Original,Original
+18.731174,24.601694,Original,Original
+31.552397,33.46015,Original,Original
+40.34718,14.975197,Original,Original
+42.580452,3.7449393,Original,Original
+48.37429,-9.325479,Original,Original
+38.616623,-25.766747,Original,Original
+20.536629,-35.521194,Original,Original
+11.321723,-44.630272,Original,Original
+1.5264986,-34.216225,Original,Original
+-43.953606,-22.893318,Original,Original
+-55.86484,-3.8891056,Original,Original
+-29.65568,14.122112,Original,Original
+-36.9301,26.72467,Original,Original
+10.755827,10.718747,Original,Original
+21.140718,8.962944,Original,Original
+29.102196,-0.6522842,Original,Original
+30.777945,-8.554231,Original,Original
+22.464725,-16.759111,Original,Original
+10.054333,-19.079382,Original,Original
+-2.8161025,-18.562641,Original,Original
+-18.367105,-5.9133286,Original,Original
+-28.754896,-4.8431644,Original,Original
+-33.593918,-1.3384897,Original,Original
+-35.64477,6.1330123,Original,Original
+-12.643673,5.731855,Original,Original
+-19.862358,27.768717,Original,Original
+-18.592487,39.891403,Original,Original
+-7.8550324,46.947605,Original,Original
+2.170205,43.721268,Original,Original
+11.21994,35.832275,Original,Original
+18.729975,24.600014,Original,Original
+31.55145,33.45931,Original,Original
+40.34709,14.975655,Original,Original
+42.58154,3.7388487,Original,Original
+48.374187,-9.325334,Original,Original
+38.61664,-25.766602,Original,Original
+20.536518,-35.521317,Original,Original
+11.321695,-44.63045,Original,Original
+1.5269363,-34.216415,Original,Original
+-43.957134,-22.895746,Original,Original
+-55.862564,-3.8967366,Original,Original
+-29.6594,14.122109,Original,Original
+-36.95151,26.671638,Original,Original
+10.757017,10.716088,Original,Original
+21.14191,8.967133,Original,Original
+29.126665,-0.64226896,Original,Original
+30.976501,-8.567088,Original,Original
+22.46567,-16.76123,Original,Original
+9.944513,-18.862064,Original,Original
+-2.8745565,-18.556923,Original,Original
+-18.345558,-5.937237,Original,Original
+-28.796965,-4.895098,Original,Original
+-33.56688,-1.413582,Original,Original
+-35.654556,6.139072,Original,Original
+-12.707036,5.479839,Original,Original
+-20.088606,27.447584,Original,Original
+-18.830482,40.180027,Original,Original
+-7.8548937,46.95791,Original,Original
+2.1375768,43.75239,Original,Original
+11.222533,35.83803,Original,Original
+19.065557,24.54956,Original,Original
+31.55857,33.459396,Original,Original
+40.35383,14.973474,Original,Original
+42.700516,3.8360844,Original,Original
+48.37288,-9.329607,Original,Original
+38.616474,-25.767328,Original,Original
+20.53744,-35.52169,Original,Original
+11.310053,-44.64489,Original,Original
+1.5202227,-34.21707,Original,Original
+-43.9553,-22.894478,Original,Original
+-55.867104,-3.896253,Original,Original
+-29.664251,14.124552,Original,Original
+-36.943684,26.699923,Original,Original
+10.759017,10.714559,Original,Original
+21.142214,8.966801,Original,Original
+29.1292,-0.6353015,Original,Original
+30.791122,-8.562867,Original,Original
+22.465155,-16.76144,Original,Original
+10.06772,-19.081167,Original,Original
+-2.8734992,-18.556215,Original,Original
+-18.352057,-5.9334855,Original,Original
+-28.786497,-4.8663907,Original,Original
+-33.563015,-1.4503742,Original,Original
+-35.651775,6.1385026,Original,Original
+-12.705011,5.4815655,Original,Original
+-19.97107,27.88447,Original,Original
+-18.614851,39.9301,Original,Original
+-7.856469,46.956146,Original,Original
+2.146388,43.7445,Original,Original
+11.221566,35.83753,Original,Original
+18.742586,24.615877,Original,Original
+31.557043,33.459194,Original,Original
+40.352013,14.973528,Original,Original
+42.6962,3.8298848,Original,Original
+48.373436,-9.32947,Original,Original
+38.6166,-25.767225,Original,Original
+20.537123,-35.52165,Original,Original
+11.310792,-44.64093,Original,Original
+1.5215124,-34.21656,Original,Original
+-43.956276,-22.893864,Original,Original
+-55.865685,-3.899066,Original,Original
+-29.664299,14.123897,Original,Original
+-36.954704,26.667345,Original,Original
+10.759354,10.713684,Original,Original
+21.142618,8.967056,Original,Original
+-43.120125,-24.949324,Original,Original
+-56.456955,-1.8334304,Original,Original
+-29.215172,16.542528,Original,Original
+-35.250877,28.444782,Original,Original
+-33.340794,27.768215,Original,Original
+-11.1656475,38.039486,Original,Original
+-9.485389,38.75399,Original,Original
+-7.9177356,38.086586,Original,Original
+5.9144135,29.615623,Original,Original
+5.819497,28.829506,Original,Original
+6.619958,28.268333,Original,Original
+6.497424,27.195524,Original,Original
+7.2081776,25.38329,Original,Original
+8.020785,23.399485,Original,Original
+21.55558,1.2490839,Original,Original
+23.235397,-3.5740507,Original,Original
+23.423542,-6.1290975,Original,Original
+22.781637,-8.727906,Original,Original
+8.942445,-22.53228,Original,Original
+1.3086188,-19.903238,Original,Original
+-20.146135,9.380381,Original,Original
+-20.106722,10.753983,Original,Original
+-19.60127,12.59665,Original,Original
+-18.5938,14.559412,Original,Original
+-17.054893,15.839447,Original,Original
+-13.73819,18.282467,Original,Original
+-11.8264065,18.887177,Original,Original
+-9.461681,19.432346,Original,Original
+-6.6040163,20.064919,Original,Original
+-3.4280019,20.31601,Original,Original
+-1.4437354,19.874977,Original,Original
+0.25919026,19.375683,Original,Original
+1.6255618,17.90938,Original,Original
+18.793932,-5.428137,Original,Original
+19.291264,-6.981362,Original,Original
+19.142157,-8.519324,Original,Original
+10.421903,-28.973751,Original,Original
+9.038854,-29.880093,Original,Original
+7.183055,-30.638687,Original,Original
+-39.388004,-20.373346,Original,Original
+-51.33801,-2.7210083,Original,Original
+-21.739723,15.422198,Original,Original
+-20.261177,16.322123,Original,Original
+-16.242954,18.596153,Original,Original
+-12.376709,21.190672,Original,Original
+-10.942107,21.878437,Original,Original
+-8.461006,22.860718,Original,Original
+-6.028385,23.26453,Original,Original
+-4.9182024,23.804924,Original,Original
+-3.7936833,23.346292,Original,Original
+-2.860228,23.647009,Original,Original
+5.6575003,18.02606,Original,Original
+7.081534,16.81723,Original,Original
+8.893285,16.699295,Original,Original
+27.883392,-4.562165,Original,Original
+28.017933,-7.2021523,Original,Original
+23.420097,-13.722309,Original,Original
+8.523303,-19.74373,Original,Original
+-0.39461505,-18.329212,Original,Original
+-19.355175,-4.79355,Original,Original
+-27.246714,-4.083789,Original,Original
+-32.833202,-0.31286502,Original,Original
+-34.81327,5.471918,Original,Original
+-13.738658,6.523578,Original,Original
+-18.575638,26.220856,Original,Original
+-18.016483,38.590225,Original,Original
+-7.687984,43.810726,Original,Original
+2.312262,42.379944,Original,Original
+9.293329,33.997833,Original,Original
+17.270609,24.098866,Original,Original
+28.876688,33.304695,Original,Original
+38.141125,15.394576,Original,Original
+42.209526,1.7967259,Original,Original
+46.077595,-7.442469,Original,Original
+36.248707,-24.329517,Original,Original
+18.42308,-33.564106,Original,Original
+10.7939205,-42.016815,Original,Original
+3.9594584,-32.73639,Original,Original
+-40.85803,-21.437914,Original,Original
+-53.529778,-3.0566456,Original,Original
+-25.962732,14.892409,Original,Original
+-11.662178,-45.87863,GT-GAN,Generative AI
+-18.549936,-19.51214,GT-GAN,Generative AI
+-11.909201,-45.759293,GT-GAN,Generative AI
+-13.302998,-45.649307,GT-GAN,Generative AI
+-17.902718,-20.42555,GT-GAN,Generative AI
+-18.694878,-28.777597,GT-GAN,Generative AI
+-15.573871,-38.511036,GT-GAN,Generative AI
+-18.346882,-20.519201,GT-GAN,Generative AI
+-13.764264,-45.30311,GT-GAN,Generative AI
+-14.459226,-42.472183,GT-GAN,Generative AI
+-12.291707,-42.386707,GT-GAN,Generative AI
+-12.045851,-45.379646,GT-GAN,Generative AI
+-14.165331,-38.980835,GT-GAN,Generative AI
+-14.005708,-39.475735,GT-GAN,Generative AI
+-19.572552,-20.705173,GT-GAN,Generative AI
+-13.192544,-47.004032,GT-GAN,Generative AI
+-12.414015,-47.51191,GT-GAN,Generative AI
+-13.36107,-41.673374,GT-GAN,Generative AI
+-13.08074,-47.144108,GT-GAN,Generative AI
+-19.335094,-21.559914,GT-GAN,Generative AI
+-18.71496,-28.398539,GT-GAN,Generative AI
+-12.366452,-43.023964,GT-GAN,Generative AI
+-13.474149,-40.05377,GT-GAN,Generative AI
+-14.261944,-41.888054,GT-GAN,Generative AI
+-15.2019,-38.651196,GT-GAN,Generative AI
+-12.248487,-47.30103,GT-GAN,Generative AI
+-17.77481,-20.157305,GT-GAN,Generative AI
+-17.888401,-20.158543,GT-GAN,Generative AI
+-18.595001,-29.613352,GT-GAN,Generative AI
+-16.350847,-36.161922,GT-GAN,Generative AI
+-12.6537,-47.235874,GT-GAN,Generative AI
+-18.570677,-29.76325,GT-GAN,Generative AI
+-14.041778,-39.383762,GT-GAN,Generative AI
+-13.546115,-41.394043,GT-GAN,Generative AI
+-19.155685,-20.506939,GT-GAN,Generative AI
+-18.28411,-20.22287,GT-GAN,Generative AI
+-14.080575,-39.509884,GT-GAN,Generative AI
+-15.169037,-38.432537,GT-GAN,Generative AI
+-18.61127,-29.523453,GT-GAN,Generative AI
+-13.167469,-46.37922,GT-GAN,Generative AI
+-17.170086,-35.737152,GT-GAN,Generative AI
+-13.50277,-41.482502,GT-GAN,Generative AI
+-13.167334,-45.07661,GT-GAN,Generative AI
+-18.429459,-30.499851,GT-GAN,Generative AI
+-12.794401,-45.736645,GT-GAN,Generative AI
+-18.028603,-22.177984,GT-GAN,Generative AI
+-17.885223,-32.581863,GT-GAN,Generative AI
+-19.657885,-19.649862,GT-GAN,Generative AI
+-12.429801,-44.413673,GT-GAN,Generative AI
+-13.731042,-46.185352,GT-GAN,Generative AI
+-15.214339,-38.364285,GT-GAN,Generative AI
+-18.614601,-22.318645,GT-GAN,Generative AI
+-15.064263,-39.526386,GT-GAN,Generative AI
+-15.022059,-37.418327,GT-GAN,Generative AI
+-15.411678,-40.574203,GT-GAN,Generative AI
+-18.692102,-28.780308,GT-GAN,Generative AI
+-12.924715,-44.888355,GT-GAN,Generative AI
+-17.12563,-34.783646,GT-GAN,Generative AI
+-18.57937,-29.767101,GT-GAN,Generative AI
+-13.896507,-41.12084,GT-GAN,Generative AI
+-12.294998,-47.462048,GT-GAN,Generative AI
+-15.790951,-39.157326,GT-GAN,Generative AI
+-13.41182,-42.74165,GT-GAN,Generative AI
+-15.283449,-39.736996,GT-GAN,Generative AI
+-17.172243,-34.784393,GT-GAN,Generative AI
+-15.948726,-40.658226,GT-GAN,Generative AI
+-18.661674,-29.137432,GT-GAN,Generative AI
+-12.113781,-43.402157,GT-GAN,Generative AI
+-16.430176,-36.428963,GT-GAN,Generative AI
+-15.089478,-39.37444,GT-GAN,Generative AI
+-15.937649,-39.09489,GT-GAN,Generative AI
+-13.912622,-40.542534,GT-GAN,Generative AI
+-18.971722,-19.530067,GT-GAN,Generative AI
+-18.450191,-30.522488,GT-GAN,Generative AI
+-18.303064,-21.326908,GT-GAN,Generative AI
+-12.539416,-43.0667,GT-GAN,Generative AI
+-14.082615,-45.746216,GT-GAN,Generative AI
+-14.989411,-40.80963,GT-GAN,Generative AI
+-16.3937,-35.98595,GT-GAN,Generative AI
+-12.247085,-47.09972,GT-GAN,Generative AI
+-14.301258,-42.368633,GT-GAN,Generative AI
+-11.91498,-44.865646,GT-GAN,Generative AI
+-12.112034,-45.4475,GT-GAN,Generative AI
+-12.693804,-41.851467,GT-GAN,Generative AI
+-17.170462,-34.546562,GT-GAN,Generative AI
+-12.792379,-41.589657,GT-GAN,Generative AI
+-12.040245,-46.158363,GT-GAN,Generative AI
+-19.452782,-19.128874,GT-GAN,Generative AI
+-18.183151,-19.774734,GT-GAN,Generative AI
+-15.091269,-38.24143,GT-GAN,Generative AI
+-12.657525,-47.488552,GT-GAN,Generative AI
+-16.09855,-38.90292,GT-GAN,Generative AI
+-18.63656,-20.837599,GT-GAN,Generative AI
+-12.668554,-46.512066,GT-GAN,Generative AI
+-16.031021,-38.8474,GT-GAN,Generative AI
+-18.314054,-20.28127,GT-GAN,Generative AI
+-19.490414,-21.523869,GT-GAN,Generative AI
+-13.902372,-40.63557,GT-GAN,Generative AI
+-18.609434,-29.545404,GT-GAN,Generative AI
+-18.676346,-28.911858,GT-GAN,Generative AI
+-17.214193,-34.563587,GT-GAN,Generative AI
+-18.056746,-31.95657,GT-GAN,Generative AI
+-18.221806,-19.99477,GT-GAN,Generative AI
+-15.479611,-38.85173,GT-GAN,Generative AI
+-18.659824,-20.251057,GT-GAN,Generative AI
+-16.230652,-38.07889,GT-GAN,Generative AI
+-15.749166,-38.012463,GT-GAN,Generative AI
+-18.956606,-20.630064,GT-GAN,Generative AI
+-18.690018,-28.767004,GT-GAN,Generative AI
+-18.465843,-30.343979,GT-GAN,Generative AI
+-18.181667,-20.49836,GT-GAN,Generative AI
+-17.63788,-21.693111,GT-GAN,Generative AI
+-16.23354,-37.472466,GT-GAN,Generative AI
+-15.294522,-36.99829,GT-GAN,Generative AI
+-12.47703,-44.029926,GT-GAN,Generative AI
+-18.129095,-20.334354,GT-GAN,Generative AI
+-18.80093,-19.388733,GT-GAN,Generative AI
+-16.643843,-35.8087,GT-GAN,Generative AI
+-12.0096035,-45.13162,GT-GAN,Generative AI
+-18.861053,-23.23618,GT-GAN,Generative AI
+-19.515688,-20.25221,GT-GAN,Generative AI
+-13.424441,-47.18623,GT-GAN,Generative AI
+-17.99339,-20.402826,GT-GAN,Generative AI
+-17.752754,-19.573282,GT-GAN,Generative AI
+-14.112765,-39.459064,GT-GAN,Generative AI
+-12.39593,-47.370304,GT-GAN,Generative AI
+-18.404572,-19.941118,GT-GAN,Generative AI
+-17.738672,-33.13345,GT-GAN,Generative AI
+-16.436634,-36.476784,GT-GAN,Generative AI
+-18.510681,-30.122246,GT-GAN,Generative AI
+-12.783286,-43.390457,GT-GAN,Generative AI
+-17.612377,-34.620712,GT-GAN,Generative AI
+-13.7525015,-40.478783,GT-GAN,Generative AI
+-12.814653,-46.430138,GT-GAN,Generative AI
+-18.66521,-24.06777,GT-GAN,Generative AI
+-14.347664,-45.06773,GT-GAN,Generative AI
+-16.640247,-36.287952,GT-GAN,Generative AI
+-18.574005,-29.769613,GT-GAN,Generative AI
+-15.255489,-37.585445,GT-GAN,Generative AI
+-18.410547,-30.586725,GT-GAN,Generative AI
+-18.702873,-28.646526,GT-GAN,Generative AI
+-18.655355,-29.145424,GT-GAN,Generative AI
+-15.3235445,-39.638393,GT-GAN,Generative AI
+-19.18104,-20.277187,GT-GAN,Generative AI
+-12.650604,-46.20756,GT-GAN,Generative AI
+-19.407267,-20.428741,GT-GAN,Generative AI
+-18.510725,-20.751432,GT-GAN,Generative AI
+-18.932182,-20.25562,GT-GAN,Generative AI
+-13.769366,-43.182568,GT-GAN,Generative AI
+-18.689367,-23.293776,GT-GAN,Generative AI
+-14.516371,-38.307434,GT-GAN,Generative AI
+-12.337914,-43.30884,GT-GAN,Generative AI
+-18.546095,-29.936407,GT-GAN,Generative AI
+-18.584238,-22.167086,GT-GAN,Generative AI
+-16.486195,-36.153934,GT-GAN,Generative AI
+-13.84704,-45.37671,GT-GAN,Generative AI
+-12.988128,-45.879654,GT-GAN,Generative AI
+-19.22517,-20.091932,GT-GAN,Generative AI
+-13.686219,-42.46998,GT-GAN,Generative AI
+-12.342817,-46.197193,GT-GAN,Generative AI
+-18.594028,-21.467665,GT-GAN,Generative AI
+-13.256711,-44.074413,GT-GAN,Generative AI
+-16.53951,-36.259743,GT-GAN,Generative AI
+-12.752967,-43.47858,GT-GAN,Generative AI
+-15.405068,-37.459797,GT-GAN,Generative AI
+-13.390979,-41.058037,GT-GAN,Generative AI
+-17.958149,-19.853071,GT-GAN,Generative AI
+-16.996088,-21.156263,GT-GAN,Generative AI
+-13.48763,-42.432304,GT-GAN,Generative AI
+-17.78969,-19.68051,GT-GAN,Generative AI
+-18.290768,-31.063936,GT-GAN,Generative AI
+-14.366832,-38.83969,GT-GAN,Generative AI
+-18.329546,-30.92637,GT-GAN,Generative AI
+-11.943408,-44.269783,GT-GAN,Generative AI
+-13.045089,-45.00908,GT-GAN,Generative AI
+-12.436575,-42.457466,GT-GAN,Generative AI
+-13.161864,-46.987717,GT-GAN,Generative AI
+-17.599533,-34.79979,GT-GAN,Generative AI
+-16.956024,-36.037678,GT-GAN,Generative AI
+-12.24726,-47.272137,GT-GAN,Generative AI
+-17.899778,-20.099276,GT-GAN,Generative AI
+-12.718359,-41.792126,GT-GAN,Generative AI
+-18.239388,-20.213547,GT-GAN,Generative AI
+-16.60393,-36.104042,GT-GAN,Generative AI
+-18.67899,-23.319939,GT-GAN,Generative AI
+-16.939646,-35.730843,GT-GAN,Generative AI
+-17.822304,-32.812958,GT-GAN,Generative AI
+-13.586554,-46.630226,GT-GAN,Generative AI
+-18.448492,-19.854826,GT-GAN,Generative AI
+-13.009518,-44.3186,GT-GAN,Generative AI
+-12.967049,-44.807835,GT-GAN,Generative AI
+-19.812624,-19.116207,GT-GAN,Generative AI
+-18.69463,-21.924843,GT-GAN,Generative AI
+-14.437206,-39.611076,GT-GAN,Generative AI
+-12.153798,-44.545025,GT-GAN,Generative AI
+-17.156265,-34.592216,GT-GAN,Generative AI
+-18.562754,-22.100014,GT-GAN,Generative AI
+-17.309555,-34.604218,GT-GAN,Generative AI
+-13.029935,-46.46659,GT-GAN,Generative AI
+-12.447099,-45.479202,GT-GAN,Generative AI
+-19.04407,-20.582745,GT-GAN,Generative AI
+-18.601204,-29.589325,GT-GAN,Generative AI
+-17.118578,-35.004375,GT-GAN,Generative AI
+-17.998953,-20.73766,GT-GAN,Generative AI
+-13.961952,-39.55737,GT-GAN,Generative AI
+-14.347476,-37.904495,GT-GAN,Generative AI
+-12.347123,-45.437256,GT-GAN,Generative AI
+-17.984571,-32.222183,GT-GAN,Generative AI
+-18.869698,-20.09103,GT-GAN,Generative AI
+-18.637865,-20.110865,GT-GAN,Generative AI
+-18.670326,-23.34809,GT-GAN,Generative AI
+-12.295313,-47.307518,GT-GAN,Generative AI
+-12.605512,-45.819233,GT-GAN,Generative AI
+-17.85395,-18.85972,GT-GAN,Generative AI
+-12.883459,-44.051632,GT-GAN,Generative AI
+-14.2431345,-40.796284,GT-GAN,Generative AI
+-16.90887,-35.63627,GT-GAN,Generative AI
+-13.8427,-42.27818,GT-GAN,Generative AI
+-18.822998,-21.216478,GT-GAN,Generative AI
+-14.482043,-40.106625,GT-GAN,Generative AI
+-18.675108,-20.627104,GT-GAN,Generative AI
+-19.056622,-22.184198,GT-GAN,Generative AI
+-13.720829,-41.50087,GT-GAN,Generative AI
+-15.246755,-37.78388,GT-GAN,Generative AI
+-12.617712,-42.95337,GT-GAN,Generative AI
+-16.215183,-35.9204,GT-GAN,Generative AI
+-16.800291,-35.353592,GT-GAN,Generative AI
+-19.645514,-20.460596,GT-GAN,Generative AI
+-16.273514,-36.682682,GT-GAN,Generative AI
+-18.694344,-28.729328,GT-GAN,Generative AI
+-14.757217,-38.51243,GT-GAN,Generative AI
+-14.53505,-44.634514,GT-GAN,Generative AI
+-12.889344,-41.122665,GT-GAN,Generative AI
+-20.099243,-20.228434,GT-GAN,Generative AI
+-18.553225,-29.864891,GT-GAN,Generative AI
+-14.993468,-38.616055,GT-GAN,Generative AI
+-12.854313,-45.58142,GT-GAN,Generative AI
+-18.612598,-23.370922,GT-GAN,Generative AI
+-18.680496,-23.449652,GT-GAN,Generative AI
+-12.852231,-45.282738,GT-GAN,Generative AI
+-13.927744,-42.775707,GT-GAN,Generative AI
+-18.709917,-28.75284,GT-GAN,Generative AI
+-13.66944,-39.60425,GT-GAN,Generative AI
+-13.62631,-42.825718,GT-GAN,Generative AI
+-18.40935,-30.60065,GT-GAN,Generative AI
+-12.451081,-47.05278,GT-GAN,Generative AI
+-18.03594,-32.033768,GT-GAN,Generative AI
+0.08269856,5.2672973,Diffusion,Generative AI
+3.6335638,2.7420537,Diffusion,Generative AI
+-4.1550837,0.14454344,Diffusion,Generative AI
+0.45860463,-1.0291188,Diffusion,Generative AI
+-2.230703,-2.9493842,Diffusion,Generative AI
+4.71537,-4.6973233,Diffusion,Generative AI
+-3.8132305,-2.6333888,Diffusion,Generative AI
+1.3994536,-0.19271618,Diffusion,Generative AI
+1.2718489,5.146674,Diffusion,Generative AI
+-0.99927753,0.16405232,Diffusion,Generative AI
+-1.7911845,1.4227585,Diffusion,Generative AI
+4.3606777,0.26868448,Diffusion,Generative AI
+6.7093105,-1.0051936,Diffusion,Generative AI
+1.7585971,-3.105869,Diffusion,Generative AI
+-0.888587,0.7794129,Diffusion,Generative AI
+-0.09733648,-2.8808994,Diffusion,Generative AI
+1.0493104,-1.7836081,Diffusion,Generative AI
+7.0963044,2.0740995,Diffusion,Generative AI
+2.1874352,-1.5808927,Diffusion,Generative AI
+1.5479851,1.5731523,Diffusion,Generative AI
+0.059848454,0.6444287,Diffusion,Generative AI
+-0.56902355,0.5349387,Diffusion,Generative AI
+3.78676,-0.11076026,Diffusion,Generative AI
+1.8777547,-3.389253,Diffusion,Generative AI
+2.5764709,2.860374,Diffusion,Generative AI
+1.2655635,1.4025522,Diffusion,Generative AI
+0.78037935,1.1460811,Diffusion,Generative AI
+1.4799942,3.37693,Diffusion,Generative AI
+0.56621987,0.10616987,Diffusion,Generative AI
+19.020287,-38.420696,Diffusion,Generative AI
+-0.36839798,-3.7216725,Diffusion,Generative AI
+6.461717,0.5999355,Diffusion,Generative AI
+4.5236406,-0.5179254,Diffusion,Generative AI
+1.935467,-1.468772,Diffusion,Generative AI
+4.3898444,0.4223314,Diffusion,Generative AI
+-4.299256,2.5573843,Diffusion,Generative AI
+5.021914,1.0025278,Diffusion,Generative AI
+-2.3275244,2.2975864,Diffusion,Generative AI
+-1.9527086,-2.8446312,Diffusion,Generative AI
+5.693066,-1.7793835,Diffusion,Generative AI
+6.2015557,3.2673032,Diffusion,Generative AI
+-0.3820821,2.1378782,Diffusion,Generative AI
+0.966245,-3.226279,Diffusion,Generative AI
+4.9839664,2.4724965,Diffusion,Generative AI
+1.9252851,-3.0783815,Diffusion,Generative AI
+1.9114993,2.0856233,Diffusion,Generative AI
+-2.7899692,1.0382102,Diffusion,Generative AI
+-1.8421438,0.25207767,Diffusion,Generative AI
+-3.2179136,-2.3976886,Diffusion,Generative AI
+-3.6792965,1.8382533,Diffusion,Generative AI
+-1.5555743,4.6939125,Diffusion,Generative AI
+0.14350496,-3.3238316,Diffusion,Generative AI
+-4.1608114,0.2650507,Diffusion,Generative AI
+-2.386209,2.4176166,Diffusion,Generative AI
+5.3064647,4.3139386,Diffusion,Generative AI
+-0.723208,3.6359296,Diffusion,Generative AI
+-1.845044,2.830362,Diffusion,Generative AI
+-1.2513999,2.2840736,Diffusion,Generative AI
+0.94937646,3.4993966,Diffusion,Generative AI
+0.45667845,-2.797042,Diffusion,Generative AI
+-0.764079,-1.721444,Diffusion,Generative AI
+0.9094071,4.110156,Diffusion,Generative AI
+3.0278294,-0.93883127,Diffusion,Generative AI
+5.3133025,0.5402625,Diffusion,Generative AI
+-3.007291,-0.0556404,Diffusion,Generative AI
+-3.3245602,-2.9587426,Diffusion,Generative AI
+-3.2613173,0.81720203,Diffusion,Generative AI
+-4.2901936,0.8460692,Diffusion,Generative AI
+2.285224,-0.1905207,Diffusion,Generative AI
+-3.7010262,-0.39875594,Diffusion,Generative AI
+-0.5687589,-2.5734167,Diffusion,Generative AI
+-0.367725,-0.52610433,Diffusion,Generative AI
+4.4727407,3.3988197,Diffusion,Generative AI
+0.7907908,1.648661,Diffusion,Generative AI
+3.6228762,3.0530646,Diffusion,Generative AI
+3.8096883,-0.69423217,Diffusion,Generative AI
+3.2119849,0.046642847,Diffusion,Generative AI
+2.9613492,-0.58163625,Diffusion,Generative AI
+-2.1182442,-0.4024948,Diffusion,Generative AI
+-1.5417224,4.5715504,Diffusion,Generative AI
+2.5890467,5.481622,Diffusion,Generative AI
+1.171647,-5.5578327,Diffusion,Generative AI
+4.599491,1.1339759,Diffusion,Generative AI
+8.106019,8.2226305,Diffusion,Generative AI
+2.0672922,-3.8709595,Diffusion,Generative AI
+2.6145244,5.4162536,Diffusion,Generative AI
+1.6331831,5.729729,Diffusion,Generative AI
+-0.8884837,-0.22752747,Diffusion,Generative AI
+3.4328024,0.43289053,Diffusion,Generative AI
+-1.7674121,1.6853167,Diffusion,Generative AI
+-2.221563,-1.3824995,Diffusion,Generative AI
+4.97169,1.8010672,Diffusion,Generative AI
+-0.43044546,2.0597665,Diffusion,Generative AI
+4.699395,1.0401782,Diffusion,Generative AI
+0.3808364,3.7964218,Diffusion,Generative AI
+1.721452,-2.6976566,Diffusion,Generative AI
+2.8434024,-2.053697,Diffusion,Generative AI
+0.82988477,0.71887904,Diffusion,Generative AI
+0.6953326,-0.54059196,Diffusion,Generative AI
+0.977682,3.5614524,Diffusion,Generative AI
+-2.5817788,1.630684,Diffusion,Generative AI
+0.33809137,0.93621033,Diffusion,Generative AI
+0.47181734,-1.0920862,Diffusion,Generative AI
+-0.07489747,4.7968097,Diffusion,Generative AI
+-1.0761868,-1.9688365,Diffusion,Generative AI
+2.345716,4.468282,Diffusion,Generative AI
+-1.1600059,0.3190221,Diffusion,Generative AI
+2.594778,-2.3010843,Diffusion,Generative AI
+2.0089393,2.847059,Diffusion,Generative AI
+2.1830435,3.8382862,Diffusion,Generative AI
+2.0206504,-1.3288331,Diffusion,Generative AI
+1.9275665,1.8701521,Diffusion,Generative AI
+2.0075138,0.5517542,Diffusion,Generative AI
+4.193216,4.4546523,Diffusion,Generative AI
+1.4875133,-1.4792283,Diffusion,Generative AI
+-5.44174,1.251134,Diffusion,Generative AI
+-3.471879,-1.1553631,Diffusion,Generative AI
+1.1617334,-5.5611844,Diffusion,Generative AI
+2.7246642,-4.209131,Diffusion,Generative AI
+2.1439333,-1.3966342,Diffusion,Generative AI
+0.52653265,-2.2041516,Diffusion,Generative AI
+3.6383,2.0049284,Diffusion,Generative AI
+0.2525914,-0.99963266,Diffusion,Generative AI
+0.94028664,-2.0472338,Diffusion,Generative AI
+5.057924,1.9513662,Diffusion,Generative AI
+3.0981336,3.6876092,Diffusion,Generative AI
+0.17648038,1.1775358,Diffusion,Generative AI
+4.040099,-1.7039244,Diffusion,Generative AI
+-0.21043786,3.0043774,Diffusion,Generative AI
+1.4379989,0.5737448,Diffusion,Generative AI
+3.9977555,5.165975,Diffusion,Generative AI
+1.5400816,-2.8936758,Diffusion,Generative AI
+1.1001937,-3.6626225,Diffusion,Generative AI
+3.3645856,-2.7801938,Diffusion,Generative AI
+1.0631984,-3.4269001,Diffusion,Generative AI
+-1.8805909,-2.9791627,Diffusion,Generative AI
+3.0541427,4.1041503,Diffusion,Generative AI
+-2.0110197,-3.7654707,Diffusion,Generative AI
+-0.28647032,2.9055982,Diffusion,Generative AI
+-0.29311845,-0.6487225,Diffusion,Generative AI
+-1.6921153,1.5094595,Diffusion,Generative AI
+-0.82651055,-1.5860325,Diffusion,Generative AI
+5.0262637,-4.729302,Diffusion,Generative AI
+4.634059,4.067054,Diffusion,Generative AI
+-0.60023016,-3.4775033,Diffusion,Generative AI
+3.3445592,1.2718245,Diffusion,Generative AI
+3.8375187,-3.009085,Diffusion,Generative AI
+3.8115113,-3.0833373,Diffusion,Generative AI
+5.2437115,-0.5779509,Diffusion,Generative AI
+1.2673255,-0.4581514,Diffusion,Generative AI
+-0.651456,-2.8853998,Diffusion,Generative AI
+1.9303551,-0.5641228,Diffusion,Generative AI
+2.0247333,3.1738832,Diffusion,Generative AI
+2.359328,-0.18249325,Diffusion,Generative AI
+-0.19181436,1.2517757,Diffusion,Generative AI
+-0.41087615,-0.16039665,Diffusion,Generative AI
+0.19494586,2.996002,Diffusion,Generative AI
+-2.2824838,0.43568653,Diffusion,Generative AI
+-10.404083,4.8031535,Diffusion,Generative AI
+0.85149664,2.8118892,Diffusion,Generative AI
+-3.5687635,-0.46507698,Diffusion,Generative AI
+4.883648,-1.2744861,Diffusion,Generative AI
+4.01903,-1.8796113,Diffusion,Generative AI
+6.166379,3.491346,Diffusion,Generative AI
+1.9378972,3.7648323,Diffusion,Generative AI
+1.6227424,0.15235296,Diffusion,Generative AI
+-2.20198,1.7654719,Diffusion,Generative AI
+1.0093194,-1.505929,Diffusion,Generative AI
+2.3013632,-3.9967165,Diffusion,Generative AI
+3.6997015,-0.54241294,Diffusion,Generative AI
+1.0584145,2.7278252,Diffusion,Generative AI
+-0.896383,1.566483,Diffusion,Generative AI
+-4.435632,-0.044730555,Diffusion,Generative AI
+1.1121835,-1.0480508,Diffusion,Generative AI
+-4.9711566,0.28690106,Diffusion,Generative AI
+6.653878,0.6697092,Diffusion,Generative AI
+-3.8447254,-1.6030054,Diffusion,Generative AI
+-1.1270468,-5.758036,Diffusion,Generative AI
+2.3896458,1.050696,Diffusion,Generative AI
+-0.24077584,-1.7411896,Diffusion,Generative AI
+3.4378753,0.7799558,Diffusion,Generative AI
+4.3235326,-4.599656,Diffusion,Generative AI
+1.6399786,5.775308,Diffusion,Generative AI
+-0.47686502,-1.2775544,Diffusion,Generative AI
+-3.3212867,2.41907,Diffusion,Generative AI
+-0.08777452,-3.3020263,Diffusion,Generative AI
+-1.0441806,-2.0169451,Diffusion,Generative AI
+3.9200847,-3.1532786,Diffusion,Generative AI
+2.0228834,2.9379065,Diffusion,Generative AI
+3.3090048,4.2122526,Diffusion,Generative AI
+2.8013072,1.3412008,Diffusion,Generative AI
+3.2743487,-2.1687403,Diffusion,Generative AI
+1.1784929,1.5922706,Diffusion,Generative AI
+-2.2567184,0.59177554,Diffusion,Generative AI
+2.2211049,-2.038659,Diffusion,Generative AI
+0.629804,0.04382721,Diffusion,Generative AI
+-2.205726,-0.28252965,Diffusion,Generative AI
+3.6066277,-1.7249988,Diffusion,Generative AI
+-2.595859,3.5681021,Diffusion,Generative AI
+-1.2918465,-0.6656692,Diffusion,Generative AI
+0.8693149,-4.0350885,Diffusion,Generative AI
+-3.6852329,1.7500126,Diffusion,Generative AI
+3.6117902,4.616505,Diffusion,Generative AI
+0.77534693,2.286443,Diffusion,Generative AI
+1.5619001,3.2879565,Diffusion,Generative AI
+2.335535,1.9561232,Diffusion,Generative AI
+3.7386844,2.7244298,Diffusion,Generative AI
+0.9893416,2.6628618,Diffusion,Generative AI
+-0.73723525,3.4830918,Diffusion,Generative AI
+1.1653904,0.7135177,Diffusion,Generative AI
+-1.3336637,4.1095886,Diffusion,Generative AI
+3.0698738,3.9153361,Diffusion,Generative AI
+-0.8655572,0.6472628,Diffusion,Generative AI
+45.29966,-10.026012,Diffusion,Generative AI
+5.4536443,-1.4912556,Diffusion,Generative AI
+-5.5645514,1.3277786,Diffusion,Generative AI
+2.9391916,2.7189822,Diffusion,Generative AI
+2.2960708,0.4611039,Diffusion,Generative AI
+-3.2112072,-1.1917384,Diffusion,Generative AI
+-2.088708,-1.4124036,Diffusion,Generative AI
+-0.400547,-4.1430197,Diffusion,Generative AI
+-2.5302978,-2.257197,Diffusion,Generative AI
+1.1171154,0.87166065,Diffusion,Generative AI
+2.2408643,0.49409288,Diffusion,Generative AI
+5.3506985,4.4368243,Diffusion,Generative AI
+3.280788,4.191044,Diffusion,Generative AI
+1.7228038,0.33184588,Diffusion,Generative AI
+-1.5056323,5.006374,Diffusion,Generative AI
+-0.012158117,4.202766,Diffusion,Generative AI
+-1.9568566,1.0352328,Diffusion,Generative AI
+-1.3446535,-1.8472965,Diffusion,Generative AI
+4.859075,-2.705982,Diffusion,Generative AI
+-0.15697967,1.9431891,Diffusion,Generative AI
+2.2807424,-3.8596396,Diffusion,Generative AI
+-0.830516,0.7997213,Diffusion,Generative AI
+-3.5867217,1.189778,Diffusion,Generative AI
+3.6416793,1.5643312,Diffusion,Generative AI
+3.6741757,2.0262854,Diffusion,Generative AI
+3.272241,1.0802051,Diffusion,Generative AI
+-2.7576025,3.744745,Diffusion,Generative AI
+2.2862344,1.1533638,Diffusion,Generative AI
+6.3999553,0.6757659,Diffusion,Generative AI
+4.0155535,3.0409112,Diffusion,Generative AI
+-0.43575904,-3.7198267,Diffusion,Generative AI
+-2.7649763,0.3931922,Diffusion,Generative AI
+2.9454215,-1.72247,Diffusion,Generative AI
+-0.98601776,-0.43460774,Diffusion,Generative AI
+10.755674,10.718218,Masking GT-GAN,Generative AI
+-43.957024,-22.893726,Masking GT-GAN,Generative AI
+-40.857994,-21.437937,Masking GT-GAN,Generative AI
+21.142178,8.963154,Masking GT-GAN,Generative AI
+-20.08761,27.44756,Masking GT-GAN,Generative AI
+48.37441,-9.324493,Masking GT-GAN,Generative AI
+-43.955383,-22.895138,Masking GT-GAN,Generative AI
+40.353523,14.973513,Masking GT-GAN,Generative AI
+31.557802,33.4554,Masking GT-GAN,Generative AI
+48.373898,-9.323537,Masking GT-GAN,Generative AI
+21.14712,8.958387,Masking GT-GAN,Generative AI
+-18.574913,26.22053,Masking GT-GAN,Generative AI
+11.345581,-44.627544,Masking GT-GAN,Generative AI
+-2.8140733,-18.561317,Masking GT-GAN,Generative AI
+9.038805,-29.880249,Masking GT-GAN,Generative AI
+29.102955,-0.6502208,Masking GT-GAN,Generative AI
+-18.827984,40.180187,Masking GT-GAN,Generative AI
+-4.9180713,23.804962,Masking GT-GAN,Generative AI
+-33.75967,-1.6097891,Masking GT-GAN,Generative AI
+7.2081604,25.383337,Masking GT-GAN,Generative AI
+-28.791138,-4.878026,Masking GT-GAN,Generative AI
+-13.738241,18.282436,Masking GT-GAN,Generative AI
+-20.085907,27.448381,Masking GT-GAN,Generative AI
+-33.611046,-1.3107406,Masking GT-GAN,Generative AI
+-21.73981,15.422257,Masking GT-GAN,Generative AI
+19.069136,24.549286,Masking GT-GAN,Generative AI
+-33.74905,-1.6086823,Masking GT-GAN,Generative AI
+-37.159763,26.549194,Masking GT-GAN,Generative AI
+-0.3946941,-18.329268,Masking GT-GAN,Generative AI
+-43.956768,-22.894571,Masking GT-GAN,Generative AI
+22.46526,-16.76334,Masking GT-GAN,Generative AI
+-43.957058,-22.894205,Masking GT-GAN,Generative AI
+-18.593817,14.559418,Masking GT-GAN,Generative AI
+-18.141443,-5.8392386,Masking GT-GAN,Generative AI
+8.523366,-19.743685,Masking GT-GAN,Generative AI
+-18.594198,39.893303,Masking GT-GAN,Generative AI
+7.1830335,-30.638695,Masking GT-GAN,Generative AI
+-7.6881423,43.81087,Masking GT-GAN,Generative AI
+-40.858055,-21.437922,Masking GT-GAN,Generative AI
+11.219689,35.83129,Masking GT-GAN,Generative AI
+22.464336,-16.765015,Masking GT-GAN,Generative AI
+10.79392,-42.016846,Masking GT-GAN,Generative AI
+-20.106728,10.753987,Masking GT-GAN,Generative AI
+-19.601295,12.596585,Masking GT-GAN,Generative AI
+-8.46137,22.86087,Masking GT-GAN,Generative AI
+-17.054932,15.8394375,Masking GT-GAN,Generative AI
+-18.57593,26.220999,Masking GT-GAN,Generative AI
+-36.946224,26.705149,Masking GT-GAN,Generative AI
+-29.655289,14.123492,Masking GT-GAN,Generative AI
+18.741636,24.614985,Masking GT-GAN,Generative AI
+2.1364183,43.752193,Masking GT-GAN,Generative AI
+-7.6882186,43.811127,Masking GT-GAN,Generative AI
+-20.094963,27.446789,Masking GT-GAN,Generative AI
+42.69957,3.8331876,Masking GT-GAN,Generative AI
+-2.8139348,-18.561356,Masking GT-GAN,Generative AI
+-20.106735,10.753945,Masking GT-GAN,Generative AI
+11.298949,-44.62726,Masking GT-GAN,Generative AI
+-19.96792,27.891178,Masking GT-GAN,Generative AI
+-37.157715,26.55137,Masking GT-GAN,Generative AI
+48.375446,-9.3247,Masking GT-GAN,Generative AI
+21.142603,8.9679165,Masking GT-GAN,Generative AI
+18.730621,24.601397,Masking GT-GAN,Generative AI
+7.081512,16.817272,Masking GT-GAN,Generative AI
+-7.859114,46.960537,Masking GT-GAN,Generative AI
+-2.8601437,23.647015,Masking GT-GAN,Generative AI
+-35.251724,28.44482,Masking GT-GAN,Generative AI
+-13.738206,18.282421,Masking GT-GAN,Generative AI
+-18.355185,-5.9366813,Masking GT-GAN,Generative AI
+31.552858,33.46146,Masking GT-GAN,Generative AI
+-19.355183,-4.7935553,Masking GT-GAN,Generative AI
+11.318066,-44.62623,Masking GT-GAN,Generative AI
+-7.688046,43.810802,Masking GT-GAN,Generative AI
+-9.461593,19.432379,Masking GT-GAN,Generative AI
+10.06768,-19.081305,Masking GT-GAN,Generative AI
+-37.15552,26.55041,Masking GT-GAN,Generative AI
+-25.962769,14.89248,Masking GT-GAN,Generative AI
+20.538256,-35.522064,Masking GT-GAN,Generative AI
+1.5196283,-34.215645,Masking GT-GAN,Generative AI
+-36.93359,26.727386,Masking GT-GAN,Generative AI
+40.353653,14.973189,Masking GT-GAN,Generative AI
+48.3764,-9.3251,Masking GT-GAN,Generative AI
+-29.667263,14.123403,Masking GT-GAN,Generative AI
+-12.704272,5.479269,Masking GT-GAN,Generative AI
+2.1991873,43.720375,Masking GT-GAN,Generative AI
+-18.129364,-5.8271804,Masking GT-GAN,Generative AI
+18.730755,24.599926,Masking GT-GAN,Generative AI
+23.420118,-13.72226,Masking GT-GAN,Generative AI
+18.794014,-5.4281087,Masking GT-GAN,Generative AI
+48.369995,-9.32936,Masking GT-GAN,Generative AI
+2.158082,43.723602,Masking GT-GAN,Generative AI
+-43.955486,-22.89316,Masking GT-GAN,Generative AI
+38.61545,-25.767702,Masking GT-GAN,Generative AI
+40.35341,14.973443,Masking GT-GAN,Generative AI
+40.353233,14.972983,Masking GT-GAN,Generative AI
+-20.100779,27.44945,Masking GT-GAN,Generative AI
+-43.955982,-22.895252,Masking GT-GAN,Generative AI
+10.7584715,10.716859,Masking GT-GAN,Generative AI
+19.14235,-8.519309,Masking GT-GAN,Generative AI
+11.35686,-44.6341,Masking GT-GAN,Generative AI
+-2.9212453,-18.545906,Masking GT-GAN,Generative AI
+20.538866,-35.521458,Masking GT-GAN,Generative AI
+11.320703,-44.639896,Masking GT-GAN,Generative AI
+-28.754301,-4.844879,Masking GT-GAN,Generative AI
+21.145935,8.966516,Masking GT-GAN,Generative AI
+6.497347,27.1958,Masking GT-GAN,Generative AI
+29.101974,-0.6528551,Masking GT-GAN,Generative AI
+11.220037,35.829445,Masking GT-GAN,Generative AI
+5.6573844,18.026175,Masking GT-GAN,Generative AI
+-37.162083,26.552988,Masking GT-GAN,Generative AI
+11.307145,-44.62145,Masking GT-GAN,Generative AI
+38.61558,-25.76688,Masking GT-GAN,Generative AI
+1.3086731,-19.903255,Masking GT-GAN,Generative AI
+31.552795,33.45964,Masking GT-GAN,Generative AI
+23.235321,-3.5740557,Masking GT-GAN,Generative AI
+-18.57593,26.22102,Masking GT-GAN,Generative AI
+9.953548,-18.84809,Masking GT-GAN,Generative AI
+38.616467,-25.766151,Masking GT-GAN,Generative AI
+31.553265,33.457397,Masking GT-GAN,Generative AI
+10.421962,-28.973743,Masking GT-GAN,Generative AI
+21.14129,8.967096,Masking GT-GAN,Generative AI
+-10.942199,21.87843,Masking GT-GAN,Generative AI
+36.24872,-24.32953,Masking GT-GAN,Generative AI
+-33.558662,-1.3914108,Masking GT-GAN,Generative AI
+-37.15821,26.548695,Masking GT-GAN,Generative AI
+-36.962105,26.64716,Masking GT-GAN,Generative AI
+11.327572,-44.63966,Masking GT-GAN,Generative AI
+48.374203,-9.324266,Masking GT-GAN,Generative AI
+-55.86567,-3.8989568,Masking GT-GAN,Generative AI
+48.374535,-9.324046,Masking GT-GAN,Generative AI
+-7.8530474,46.945293,Masking GT-GAN,Generative AI
+-55.86148,-3.895788,Masking GT-GAN,Generative AI
+11.316869,-44.644997,Masking GT-GAN,Generative AI
+8.020782,23.399584,Masking GT-GAN,Generative AI
+27.883362,-4.562172,Masking GT-GAN,Generative AI
+-18.368687,-5.9130206,Masking GT-GAN,Generative AI
+11.220607,35.831863,Masking GT-GAN,Generative AI
+31.559553,33.460587,Masking GT-GAN,Generative AI
+-18.828594,40.179947,Masking GT-GAN,Generative AI
+11.329146,-44.636868,Masking GT-GAN,Generative AI
+40.353348,14.974245,Masking GT-GAN,Generative AI
+29.128681,-0.6271075,Masking GT-GAN,Generative AI
+-29.655792,14.120722,Masking GT-GAN,Generative AI
+-11.165822,38.03938,Masking GT-GAN,Generative AI
+-33.5852,-1.3541224,Masking GT-GAN,Generative AI
+10.75655,10.718006,Masking GT-GAN,Generative AI
+-29.215168,16.542534,Masking GT-GAN,Generative AI
+8.893308,16.699434,Masking GT-GAN,Generative AI
+-29.663174,14.123645,Masking GT-GAN,Generative AI
+29.128763,-0.6359613,Masking GT-GAN,Generative AI
+-18.830399,40.18037,Masking GT-GAN,Generative AI
+1.5210165,-34.214104,Masking GT-GAN,Generative AI
+-18.366747,-5.908709,Masking GT-GAN,Generative AI
+-12.642028,5.703591,Masking GT-GAN,Generative AI
+5.81953,28.82949,Masking GT-GAN,Generative AI
+-18.016516,38.590416,Masking GT-GAN,Generative AI
+28.876673,33.304695,Masking GT-GAN,Generative AI
+-27.246632,-4.0837936,Masking GT-GAN,Generative AI
+-28.753881,-4.840899,Masking GT-GAN,Generative AI
+-2.815813,-18.554789,Masking GT-GAN,Generative AI
+10.758017,10.714942,Masking GT-GAN,Generative AI
+11.277229,-44.62447,Masking GT-GAN,Generative AI
+-55.8671,-3.8957636,Masking GT-GAN,Generative AI
+42.706245,3.8364956,Masking GT-GAN,Generative AI
+42.585064,3.7394156,Masking GT-GAN,Generative AI
+38.616737,-25.766903,Masking GT-GAN,Generative AI
+10.757739,10.715146,Masking GT-GAN,Generative AI
+27.883394,-4.56207,Masking GT-GAN,Generative AI
+22.464613,-16.758991,Masking GT-GAN,Generative AI
+-33.57594,-1.3752161,Masking GT-GAN,Generative AI
+-28.791191,-4.879246,Masking GT-GAN,Generative AI
+19.067278,24.546738,Masking GT-GAN,Generative AI
+19.067102,24.547026,Masking GT-GAN,Generative AI
+11.289115,-44.622154,Masking GT-GAN,Generative AI
+-20.09011,27.446466,Masking GT-GAN,Generative AI
+3.959463,-32.73637,Masking GT-GAN,Generative AI
+20.5394,-35.521786,Masking GT-GAN,Generative AI
+-20.090075,27.446426,Masking GT-GAN,Generative AI
+3.9595423,-32.73634,Masking GT-GAN,Generative AI
+-9.485351,38.754078,Masking GT-GAN,Generative AI
+18.79392,-5.4281397,Masking GT-GAN,Generative AI
+38.617085,-25.764816,Masking GT-GAN,Generative AI
+-19.971031,27.891668,Masking GT-GAN,Generative AI
+20.537418,-35.52093,Masking GT-GAN,Generative AI
+22.467377,-16.761772,Masking GT-GAN,Generative AI
+1.5270414,-34.216473,Masking GT-GAN,Generative AI
+-12.642866,5.7322907,Masking GT-GAN,Generative AI
+-43.95265,-22.889977,Masking GT-GAN,Generative AI
+10.421904,-28.973793,Masking GT-GAN,Generative AI
+-2.8856018,-18.556913,Masking GT-GAN,Generative AI
+40.347847,14.974414,Masking GT-GAN,Generative AI
+22.464483,-16.760576,Masking GT-GAN,Generative AI
+22.4672,-16.760809,Masking GT-GAN,Generative AI
+19.067032,24.54991,Masking GT-GAN,Generative AI
+42.581173,3.7374547,Masking GT-GAN,Generative AI
+-28.790394,-4.878402,Masking GT-GAN,Generative AI
+-55.86121,-3.8958457,Masking GT-GAN,Generative AI
+42.585026,3.7392342,Masking GT-GAN,Generative AI
+-9.4615555,19.43228,Masking GT-GAN,Generative AI
+-2.8893995,-18.55145,Masking GT-GAN,Generative AI
+-12.643346,5.7314568,Masking GT-GAN,Generative AI
+2.312266,42.37971,Masking GT-GAN,Generative AI
+9.038816,-29.8802,Masking GT-GAN,Generative AI
+-33.577957,-1.376462,Masking GT-GAN,Generative AI
+-7.917823,38.086647,Masking GT-GAN,Generative AI
+20.537498,-35.521683,Masking GT-GAN,Generative AI
+11.295899,-44.650246,Masking GT-GAN,Generative AI
+8.942452,-22.532335,Masking GT-GAN,Generative AI
+-35.251743,28.444834,Masking GT-GAN,Generative AI
+31.550388,33.45984,Masking GT-GAN,Generative AI
+1.5198321,-34.21805,Masking GT-GAN,Generative AI
+0.25889084,19.375523,Masking GT-GAN,Generative AI
+31.559252,33.46156,Masking GT-GAN,Generative AI
+3.9594338,-32.736423,Masking GT-GAN,Generative AI
+1.5194224,-34.216816,Masking GT-GAN,Generative AI
+-18.597212,39.890854,Masking GT-GAN,Generative AI
+-39.38773,-20.373428,Masking GT-GAN,Generative AI
+2.2718492,43.732662,Masking GT-GAN,Generative AI
+10.7578535,10.715127,Masking GT-GAN,Generative AI
+-7.8557324,46.951557,Masking GT-GAN,Generative AI
+20.536797,-35.521755,Masking GT-GAN,Generative AI
+31.558577,33.456436,Masking GT-GAN,Generative AI
+-8.461005,22.860704,Masking GT-GAN,Generative AI
+-18.593819,14.559317,Masking GT-GAN,Generative AI
+8.02077,23.399643,Masking GT-GAN,Generative AI
+-18.346062,-5.9371724,Masking GT-GAN,Generative AI
+10.063594,-19.079939,Masking GT-GAN,Generative AI
+18.793993,-5.428146,Masking GT-GAN,Generative AI
+-19.978563,27.494854,Masking GT-GAN,Generative AI
+1.5270624,-34.21682,Masking GT-GAN,Generative AI
+17.270855,24.099926,Masking GT-GAN,Generative AI
+-43.954643,-22.893875,Masking GT-GAN,Generative AI
+18.73036,24.601727,Masking GT-GAN,Generative AI
+-1.443758,19.874987,Masking GT-GAN,Generative AI
+-19.60127,12.596656,Masking GT-GAN,Generative AI
+28.017939,-7.202134,Masking GT-GAN,Generative AI
+30.976519,-8.566923,Masking GT-GAN,Generative AI
+11.315838,-44.635437,Masking GT-GAN,Generative AI
+-1.4437357,19.874958,Masking GT-GAN,Generative AI
+-55.86508,-3.8887248,Masking GT-GAN,Generative AI
+2.1361275,43.75224,Masking GT-GAN,Generative AI
+9.038747,-29.880259,Masking GT-GAN,Generative AI
+6.497432,27.195513,Masking GT-GAN,Generative AI
+-18.829926,40.17976,Masking GT-GAN,Generative AI
+11.319073,-44.613308,Masking GT-GAN,Generative AI
+-12.681841,5.6294417,Masking GT-GAN,Generative AI
+-18.344097,-5.9360094,Masking GT-GAN,Generative AI
+-33.77535,-1.3093587,Masking GT-GAN,Generative AI
+-3.0640707,-17.69513,Masking Diffusion,Generative AI
+3.9673648,-32.72617,Masking Diffusion,Generative AI
+21.225496,-35.56716,Masking Diffusion,Generative AI
+-27.25909,-4.09638,Masking Diffusion,Generative AI
+21.813467,9.074342,Masking Diffusion,Generative AI
+-17.879162,-5.864586,Masking Diffusion,Generative AI
+19.307709,24.17861,Masking Diffusion,Generative AI
+-33.636818,-1.0740609,Masking Diffusion,Generative AI
+-6.0380883,23.264927,Masking Diffusion,Generative AI
+40.064365,15.663234,Masking Diffusion,Generative AI
+28.914526,-0.38269347,Masking Diffusion,Generative AI
+29.585339,-0.55275106,Masking Diffusion,Generative AI
+9.674746,11.510603,Masking Diffusion,Generative AI
+-37.665833,26.572437,Masking Diffusion,Generative AI
+19.817509,-35.532864,Masking Diffusion,Generative AI
+-53.530857,-3.061595,Masking Diffusion,Generative AI
+42.227745,1.8692477,Masking Diffusion,Generative AI
+-3.7910113,23.330448,Masking Diffusion,Generative AI
+-2.784632,-17.814068,Masking Diffusion,Generative AI
+22.08419,-17.248413,Masking Diffusion,Generative AI
+-55.500996,-3.4081113,Masking Diffusion,Generative AI
+0.27067637,19.374758,Masking Diffusion,Generative AI
+-35.39694,6.114789,Masking Diffusion,Generative AI
+19.212296,24.958961,Masking Diffusion,Generative AI
+2.6446373,43.901276,Masking Diffusion,Generative AI
+-35.751194,5.939393,Masking Diffusion,Generative AI
+30.52892,33.790802,Masking Diffusion,Generative AI
+-19.34373,-4.786201,Masking Diffusion,Generative AI
+49.086544,-8.356072,Masking Diffusion,Generative AI
+39.32536,-26.480907,Masking Diffusion,Generative AI
+-56.395622,-1.9640363,Masking Diffusion,Generative AI
+-12.882595,5.194211,Masking Diffusion,Generative AI
+43.12056,3.880378,Masking Diffusion,Generative AI
+21.769035,8.970338,Masking Diffusion,Generative AI
+37.877914,-24.382792,Masking Diffusion,Generative AI
+31.559673,34.83144,Masking Diffusion,Generative AI
+-18.318636,39.96855,Masking Diffusion,Generative AI
+8.852138,16.70434,Masking Diffusion,Generative AI
+-9.4567795,19.431383,Masking Diffusion,Generative AI
+11.658878,10.13526,Masking Diffusion,Generative AI
+19.181396,24.147297,Masking Diffusion,Generative AI
+11.428991,-43.55488,Masking Diffusion,Generative AI
+-56.476864,-1.7773815,Masking Diffusion,Generative AI
+40.899784,14.365488,Masking Diffusion,Generative AI
+11.233573,36.66205,Masking Diffusion,Generative AI
+39.509415,-25.7778,Masking Diffusion,Generative AI
+-7.332808,46.224133,Masking Diffusion,Generative AI
+8.914751,16.695562,Masking Diffusion,Generative AI
+49.057476,-8.32313,Masking Diffusion,Generative AI
+21.143051,-35.758373,Masking Diffusion,Generative AI
+12.172753,-45.251392,Masking Diffusion,Generative AI
+18.630964,24.168139,Masking Diffusion,Generative AI
+-9.498768,38.76128,Masking Diffusion,Generative AI
+20.196985,-34.75605,Masking Diffusion,Generative AI
+-11.184291,38.032997,Masking Diffusion,Generative AI
+-37.411327,27.13778,Masking Diffusion,Generative AI
+-33.29378,-1.4009838,Masking Diffusion,Generative AI
+-9.485844,38.749233,Masking Diffusion,Generative AI
+39.57646,-25.25827,Masking Diffusion,Generative AI
+9.760578,-19.196987,Masking Diffusion,Generative AI
+-55.486423,-3.4565148,Masking Diffusion,Generative AI
+-9.47369,19.427816,Masking Diffusion,Generative AI
+-35.271828,28.434065,Masking Diffusion,Generative AI
+32.400078,34.443325,Masking Diffusion,Generative AI
+10.9078045,-45.55949,Masking Diffusion,Generative AI
+42.934864,3.3823118,Masking Diffusion,Generative AI
+11.0378275,36.620464,Masking Diffusion,Generative AI
+-20.145123,9.396287,Masking Diffusion,Generative AI
+48.610912,-8.419605,Masking Diffusion,Generative AI
+1.6210619,17.91131,Masking Diffusion,Generative AI
+-33.344215,27.762014,Masking Diffusion,Generative AI
+2.3120787,42.28915,Masking Diffusion,Generative AI
+12.12555,35.52838,Masking Diffusion,Generative AI
+49.216743,-9.529766,Masking Diffusion,Generative AI
+-17.07926,15.808501,Masking Diffusion,Generative AI
+-6.603669,20.06295,Masking Diffusion,Generative AI
+-8.419728,47.059597,Masking Diffusion,Generative AI
+9.789809,-18.755434,Masking Diffusion,Generative AI
+-2.8854928,23.641607,Masking Diffusion,Generative AI
+18.455114,24.38065,Masking Diffusion,Generative AI
+-28.958342,-5.2103953,Masking Diffusion,Generative AI
+39.721325,15.574836,Masking Diffusion,Generative AI
+7.2018857,25.401894,Masking Diffusion,Generative AI
+39.656876,-26.23368,Masking Diffusion,Generative AI
+-20.499386,27.14904,Masking Diffusion,Generative AI
+-18.027557,38.611183,Masking Diffusion,Generative AI
+-6.0417743,23.256239,Masking Diffusion,Generative AI
+5.659413,18.024797,Masking Diffusion,Generative AI
+12.626859,-44.974762,Masking Diffusion,Generative AI
+-33.743,-1.0706904,Masking Diffusion,Generative AI
+42.209995,1.8058751,Masking Diffusion,Generative AI
+11.43048,36.549393,Masking Diffusion,Generative AI
+22.638884,-16.231567,Masking Diffusion,Generative AI
+9.304654,33.9864,Masking Diffusion,Generative AI
+-19.565575,27.596098,Masking Diffusion,Generative AI
+48.304283,-8.4781,Masking Diffusion,Generative AI
+-30.646318,14.275436,Masking Diffusion,Generative AI
+-33.835354,-1.8365545,Masking Diffusion,Generative AI
+-29.572872,14.979758,Masking Diffusion,Generative AI
+-55.329346,-4.0552135,Masking Diffusion,Generative AI
+9.593024,11.129722,Masking Diffusion,Generative AI
+-55.60017,-3.5096128,Masking Diffusion,Generative AI
+-28.584133,-5.367227,Masking Diffusion,Generative AI
+9.837657,-18.757841,Masking Diffusion,Generative AI
+-35.463936,6.2537293,Masking Diffusion,Generative AI
+10.243378,11.546468,Masking Diffusion,Generative AI
+17.269178,24.088337,Masking Diffusion,Generative AI
+-35.59051,6.3429756,Masking Diffusion,Generative AI
+-30.536827,14.274099,Masking Diffusion,Generative AI
+0.24588063,19.38341,Masking Diffusion,Generative AI
+5.6642613,18.01598,Masking Diffusion,Generative AI
+21.660364,8.788447,Masking Diffusion,Generative AI
+-56.359562,-1.9818834,Masking Diffusion,Generative AI
+2.3107595,42.394665,Masking Diffusion,Generative AI
+22.389748,-16.054092,Masking Diffusion,Generative AI
+-4.9349113,23.798481,Masking Diffusion,Generative AI
+21.55475,1.2535877,Masking Diffusion,Generative AI
+7.2036033,25.404688,Masking Diffusion,Generative AI
+-7.6905417,43.79938,Masking Diffusion,Generative AI
+-25.990774,14.927415,Masking Diffusion,Generative AI
+2.1807673,-34.45628,Masking Diffusion,Generative AI
+38.13764,15.394817,Masking Diffusion,Generative AI
+10.870684,11.519904,Masking Diffusion,Generative AI
+31.209034,-8.518556,Masking Diffusion,Generative AI
+30.535757,33.008526,Masking Diffusion,Generative AI
+18.793566,-5.416057,Masking Diffusion,Generative AI
+28.012827,-7.2101736,Masking Diffusion,Generative AI
+-3.4490294,20.320642,Masking Diffusion,Generative AI
+21.717829,9.360853,Masking Diffusion,Generative AI
+23.29207,-16.365911,Masking Diffusion,Generative AI
+48.47237,-10.204968,Masking Diffusion,Generative AI
+36.254257,-24.33303,Masking Diffusion,Generative AI
+-18.290863,-6.306966,Masking Diffusion,Generative AI
+11.732231,35.54808,Masking Diffusion,Generative AI
+-18.231052,40.12831,Masking Diffusion,Generative AI
+-18.283855,39.905045,Masking Diffusion,Generative AI
+30.4115,34.20786,Masking Diffusion,Generative AI
+-35.873657,6.1368275,Masking Diffusion,Generative AI
+-30.379248,14.780604,Masking Diffusion,Generative AI
+21.55454,1.2544235,Masking Diffusion,Generative AI
+11.516483,11.424582,Masking Diffusion,Generative AI
+47.850643,-8.530423,Masking Diffusion,Generative AI
+-56.48096,-1.800848,Masking Diffusion,Generative AI
+-37.585262,26.328094,Masking Diffusion,Generative AI
+-18.593983,14.55038,Masking Diffusion,Generative AI
+-13.73136,18.289087,Masking Diffusion,Generative AI
+-0.41527933,-18.353975,Masking Diffusion,Generative AI
+10.0519,11.329577,Masking Diffusion,Generative AI
+10.407577,-18.852518,Masking Diffusion,Generative AI
+23.418758,-13.72318,Masking Diffusion,Generative AI
+32.977627,33.615086,Masking Diffusion,Generative AI
+-19.113981,40.3026,Masking Diffusion,Generative AI
+-43.570183,-23.60528,Masking Diffusion,Generative AI
+-56.07214,-3.408921,Masking Diffusion,Generative AI
+31.305527,34.515713,Masking Diffusion,Generative AI
+28.927958,-1.0669175,Masking Diffusion,Generative AI
+9.273712,33.975777,Masking Diffusion,Generative AI
+10.436805,-28.967403,Masking Diffusion,Generative AI
+40.069798,14.167,Masking Diffusion,Generative AI
+10.657878,35.6625,Masking Diffusion,Generative AI
+-16.246284,18.589073,Masking Diffusion,Generative AI
+10.680253,36.31511,Masking Diffusion,Generative AI
+-25.973547,14.9159565,Masking Diffusion,Generative AI
+-18.574373,26.224224,Masking Diffusion,Generative AI
+29.013334,-0.3274471,Masking Diffusion,Generative AI
+48.21978,-8.336931,Masking Diffusion,Generative AI
+48.275806,-10.535256,Masking Diffusion,Generative AI
+39.712418,-25.766298,Masking Diffusion,Generative AI
+40.994736,14.622577,Masking Diffusion,Generative AI
+11.895944,-43.622746,Masking Diffusion,Generative AI
+-36.712734,27.04531,Masking Diffusion,Generative AI
+-6.624565,20.063347,Masking Diffusion,Generative AI
+-3.6318316,-18.290648,Masking Diffusion,Generative AI
+-2.230645,-18.626749,Masking Diffusion,Generative AI
+39.63329,14.588206,Masking Diffusion,Generative AI
+28.816183,-0.94845515,Masking Diffusion,Generative AI
+-4.9359765,23.80305,Masking Diffusion,Generative AI
+12.4943285,-44.40963,Masking Diffusion,Generative AI
+42.20656,1.7992736,Masking Diffusion,Generative AI
+40.653687,15.974809,Masking Diffusion,Generative AI
+-28.228315,-5.1654387,Masking Diffusion,Generative AI
+43.025997,3.4918516,Masking Diffusion,Generative AI
+3.9563944,-32.737328,Masking Diffusion,Generative AI
+10.75104,36.36372,Masking Diffusion,Generative AI
+2.1765838,-34.27478,Masking Diffusion,Generative AI
+23.416069,-6.1031036,Masking Diffusion,Generative AI
+-8.477248,47.15324,Masking Diffusion,Generative AI
+0.9532802,-34.062817,Masking Diffusion,Generative AI
+-56.31217,-3.7517478,Masking Diffusion,Generative AI
+-35.495274,6.0588565,Masking Diffusion,Generative AI
+23.237514,-3.5628464,Masking Diffusion,Generative AI
+21.35893,-35.37383,Masking Diffusion,Generative AI
+-36.912956,27.200508,Masking Diffusion,Generative AI
+-13.767279,6.545204,Masking Diffusion,Generative AI
+-55.36186,-3.8242843,Masking Diffusion,Generative AI
+-44.3511,-23.592558,Masking Diffusion,Generative AI
+-19.212004,40.14488,Masking Diffusion,Generative AI
+18.462349,24.722927,Masking Diffusion,Generative AI
+-35.864056,6.0792456,Masking Diffusion,Generative AI
+38.218338,-24.829105,Masking Diffusion,Generative AI
+-12.37855,21.187256,Masking Diffusion,Generative AI
+42.175148,3.7992,Masking Diffusion,Generative AI
+-2.2819562,-18.751554,Masking Diffusion,Generative AI
+-28.980135,13.440715,Masking Diffusion,Generative AI
+-0.39148903,-18.334335,Masking Diffusion,Generative AI
+2.0712724,44.29044,Masking Diffusion,Generative AI
+27.879278,-4.569904,Masking Diffusion,Generative AI
+28.615135,-0.57576895,Masking Diffusion,Generative AI
+-56.216053,-3.7796092,Masking Diffusion,Generative AI
+7.202388,25.403791,Masking Diffusion,Generative AI
+-25.942295,14.91782,Masking Diffusion,Generative AI
+42.148468,3.7379043,Masking Diffusion,Generative AI
+-28.789932,14.526084,Masking Diffusion,Generative AI
+8.944565,-22.512003,Masking Diffusion,Generative AI
+-19.365328,-4.77657,Masking Diffusion,Generative AI
+40.191765,15.764434,Masking Diffusion,Generative AI
+0.95115185,-34.545372,Masking Diffusion,Generative AI
+37.97028,-24.747099,Masking Diffusion,Generative AI
+22.071375,-17.46229,Masking Diffusion,Generative AI
+-2.3366764,-17.955164,Masking Diffusion,Generative AI
+22.416779,-17.432226,Masking Diffusion,Generative AI
+-20.110935,10.747568,Masking Diffusion,Generative AI
+-16.25031,18.594904,Masking Diffusion,Generative AI
+23.2284,-3.5652425,Masking Diffusion,Generative AI
+19.535336,24.529844,Masking Diffusion,Generative AI
+39.41345,-26.115465,Masking Diffusion,Generative AI
+10.623351,-45.948082,Masking Diffusion,Generative AI
+-28.842978,13.476549,Masking Diffusion,Generative AI
+43.128704,3.717256,Masking Diffusion,Generative AI
+49.47006,-9.135058,Masking Diffusion,Generative AI
+19.813807,-35.642044,Masking Diffusion,Generative AI
+-7.0557566,46.53855,Masking Diffusion,Generative AI
+11.7237015,35.51173,Masking Diffusion,Generative AI
+19.28539,-6.9777775,Masking Diffusion,Generative AI
+-56.119724,-3.4779959,Masking Diffusion,Generative AI
+-18.213703,-5.48069,Masking Diffusion,Generative AI
+19.14001,-8.539533,Masking Diffusion,Generative AI
+1.8740108,-33.736404,Masking Diffusion,Generative AI
+-56.46028,-3.7832634,Masking Diffusion,Generative AI
+10.748163,35.397648,Masking Diffusion,Generative AI
+-44.321384,-23.516283,Masking Diffusion,Generative AI
+39.58945,14.685037,Masking Diffusion,Generative AI
+37.65675,-26.204535,Masking Diffusion,Generative AI
+28.036798,-7.233794,Masking Diffusion,Generative AI
+-12.756032,5.1929927,Masking Diffusion,Generative AI
+21.678196,8.657613,Masking Diffusion,Generative AI
+-2.238961,-18.427399,Masking Diffusion,Generative AI
+-14.220742,6.8845077,Time warping,Transformation
+-31.374418,12.813646,Time warping,Transformation
+6.065722,17.695831,Time warping,Transformation
+-21.307617,15.566067,Time warping,Transformation
+-25.70537,14.31818,Time warping,Transformation
+21.7639,-16.316309,Time warping,Transformation
+-9.785269,19.37828,Time warping,Transformation
+-19.403805,-4.747061,Time warping,Transformation
+43.171494,4.9047728,Time warping,Transformation
+41.62756,4.5565596,Time warping,Transformation
+21.333122,-36.786957,Time warping,Transformation
+-45.98059,-22.21125,Time warping,Transformation
+-28.934792,-5.9229245,Time warping,Transformation
+-40.86298,-21.39544,Time warping,Transformation
+-13.648939,18.314655,Time warping,Transformation
+21.314863,-36.98395,Time warping,Transformation
+13.430153,-43.172516,Time warping,Transformation
+39.281586,-22.701622,Time warping,Transformation
+27.853521,-4.7068205,Time warping,Transformation
+-6.105592,47.46801,Time warping,Transformation
+-44.73005,-21.005123,Time warping,Transformation
+46.6565,-9.556838,Time warping,Transformation
+40.916763,13.370138,Time warping,Transformation
+-34.543625,-0.049061783,Time warping,Transformation
+-57.08991,-5.514427,Time warping,Transformation
+40.86537,13.363746,Time warping,Transformation
+5.9293914,29.430635,Time warping,Transformation
+-27.752113,-6.171321,Time warping,Transformation
+-18.335855,40.719173,Time warping,Transformation
+-6.2325115,47.50469,Time warping,Transformation
+-30.820288,13.412066,Time warping,Transformation
+21.132751,-16.994915,Time warping,Transformation
+7.329217,-30.566263,Time warping,Transformation
+-56.50906,-1.7997953,Time warping,Transformation
+-2.7353492,-19.625694,Time warping,Transformation
+-10.941314,21.871489,Time warping,Transformation
+11.703234,10.892725,Time warping,Transformation
+-45.730423,-22.97245,Time warping,Transformation
+-20.120235,10.27755,Time warping,Transformation
+-11.988349,5.1291256,Time warping,Transformation
+-5.591438,23.407106,Time warping,Transformation
+5.7967696,17.911903,Time warping,Transformation
+46.99341,-10.178289,Time warping,Transformation
+18.412779,-37.578793,Time warping,Transformation
+42.251965,5.359926,Time warping,Transformation
+7.673723,-19.810602,Time warping,Transformation
+-51.305954,-2.7160892,Time warping,Transformation
+30.98987,-8.020704,Time warping,Transformation
+7.860374,16.80129,Time warping,Transformation
+7.231677,16.822393,Time warping,Transformation
+20.854088,8.180173,Time warping,Transformation
+-3.7867565,23.40395,Time warping,Transformation
+33.32279,32.129654,Time warping,Transformation
+-2.9350092,20.219288,Time warping,Transformation
+21.755428,-15.871609,Time warping,Transformation
+-20.684166,28.322044,Time warping,Transformation
+19.83442,25.66748,Time warping,Transformation
+-29.101282,-5.988428,Time warping,Transformation
+29.576208,-1.3806387,Time warping,Transformation
+-6.755259,20.043293,Time warping,Transformation
+9.089013,-29.82621,Time warping,Transformation
+-18.39384,25.985947,Time warping,Transformation
+-8.150582,47.74756,Time warping,Transformation
+18.978155,25.276516,Time warping,Transformation
+6.2045584,28.44556,Time warping,Transformation
+0.5341076,44.711277,Time warping,Transformation
+20.716883,-36.35422,Time warping,Transformation
+0.070569865,-17.673498,Time warping,Transformation
+-5.658485,47.47408,Time warping,Transformation
+7.130502,16.836676,Time warping,Transformation
+-11.547698,5.8762054,Time warping,Transformation
+-21.517847,15.439163,Time warping,Transformation
+30.958265,31.233263,Time warping,Transformation
+9.286526,-45.03316,Time warping,Transformation
+9.758808,-44.918102,Time warping,Transformation
+-17.835438,-6.164475,Time warping,Transformation
+41.756046,13.822633,Time warping,Transformation
+19.06309,-36.977196,Time warping,Transformation
+-31.088322,12.525573,Time warping,Transformation
+-18.466158,-6.626617,Time warping,Transformation
+23.226833,-3.6786828,Time warping,Transformation
+-30.756804,-3.738578,Time warping,Transformation
+-44.78992,-22.56553,Time warping,Transformation
+20.17201,8.974929,Time warping,Transformation
+9.539895,-29.520512,Time warping,Transformation
+1.8452191,-35.429024,Time warping,Transformation
+40.964996,12.349589,Time warping,Transformation
+-6.9537754,43.495373,Time warping,Transformation
+0.54778475,44.70311,Time warping,Transformation
+-9.017285,48.677437,Time warping,Transformation
+-7.9680333,38.105495,Time warping,Transformation
+-11.973169,5.4962096,Time warping,Transformation
+2.3025763,42.240852,Time warping,Transformation
+8.002527,23.445204,Time warping,Transformation
+27.914158,-6.1425776,Time warping,Transformation
+-30.90958,12.642435,Time warping,Transformation
+-20.144012,9.41184,Time warping,Transformation
+46.341022,-9.734888,Time warping,Transformation
+-56.871365,-5.1023946,Time warping,Transformation
+-31.511738,13.7642355,Time warping,Transformation
+21.701792,7.2917376,Time warping,Transformation
+19.921986,25.773523,Time warping,Transformation
+31.123114,31.345198,Time warping,Transformation
+6.312715,17.44739,Time warping,Transformation
+8.858985,34.194252,Time warping,Transformation
+9.55875,36.098682,Time warping,Transformation
+8.411665,-43.842583,Time warping,Transformation
+13.379941,-43.233032,Time warping,Transformation
+-0.8550505,19.685091,Time warping,Transformation
+-31.096676,-3.4726768,Time warping,Transformation
+-45.87112,-22.61569,Time warping,Transformation
+8.53476,34.582703,Time warping,Transformation
+31.968063,32.21461,Time warping,Transformation
+-32.64034,-0.20606646,Time warping,Transformation
+-17.957447,38.52091,Time warping,Transformation
+29.710579,-0.82396674,Time warping,Transformation
+-31.853632,-2.840044,Time warping,Transformation
+28.860403,33.28248,Time warping,Transformation
+36.486057,-26.230612,Time warping,Transformation
+-32.14967,-2.642422,Time warping,Transformation
+19.650898,25.483234,Time warping,Transformation
+-29.498243,12.477116,Time warping,Transformation
+7.3137527,-30.569744,Time warping,Transformation
+-37.021008,25.335526,Time warping,Transformation
+-35.842228,25.904966,Time warping,Transformation
+-7.5765824,48.337093,Time warping,Transformation
+-19.930986,-4.532838,Time warping,Transformation
+27.932055,-7.157906,Time warping,Transformation
+-34.512543,4.882412,Time warping,Transformation
+-9.536848,19.416847,Time warping,Transformation
+19.283268,-7.0282993,Time warping,Transformation
+-36.970192,25.246283,Time warping,Transformation
+-3.1111462,20.264004,Time warping,Transformation
+19.274498,-7.063111,Time warping,Transformation
+8.937531,-22.540174,Time warping,Transformation
+46.010326,-9.631287,Time warping,Transformation
+17.707628,26.534534,Time warping,Transformation
+38.547455,-24.481226,Time warping,Transformation
+-36.299435,26.150393,Time warping,Transformation
+-46.08619,-22.18776,Time warping,Transformation
+42.16662,0.8073174,Time warping,Transformation
+-17.2121,-6.4291506,Time warping,Transformation
+39.983383,-24.718536,Time warping,Transformation
+20.270664,9.0512905,Time warping,Transformation
+8.809983,16.707655,Time warping,Transformation
+-2.5112503,-19.777246,Time warping,Transformation
+-31.937761,13.9091,Time warping,Transformation
+2.2212124,-35.327034,Time warping,Transformation
+42.1676,1.587373,Time warping,Transformation
+39.243183,-22.860527,Time warping,Transformation
+-20.099552,10.6644125,Time warping,Transformation
+-56.911827,-5.4106812,Time warping,Transformation
+33.12894,32.191193,Time warping,Transformation
+-13.746337,18.263338,Time warping,Transformation
+30.953423,-8.180173,Time warping,Transformation
+-17.817703,-6.4071984,Time warping,Transformation
+-45.407505,-22.792885,Time warping,Transformation
+3.9895983,-32.757122,Time warping,Transformation
+8.401532,-19.801811,Time warping,Transformation
+29.002127,0.09635087,Time warping,Transformation
+-36.891117,25.910084,Time warping,Transformation
+-28.03394,-5.851087,Time warping,Transformation
+40.93494,12.616368,Time warping,Transformation
+13.6929035,10.731876,Time warping,Transformation
+20.87912,7.803672,Time warping,Transformation
+-56.776733,-5.1488695,Time warping,Transformation
+-7.385766,43.668762,Time warping,Transformation
+5.9147034,17.81406,Time warping,Transformation
+18.360065,-33.53646,Time warping,Transformation
+42.16347,0.78392094,Time warping,Transformation
+6.0027943,28.725409,Time warping,Transformation
+-18.51997,26.160616,Time warping,Transformation
+-44.89736,-20.648388,Time warping,Transformation
+17.629885,26.64827,Time warping,Transformation
+9.274123,36.13139,Time warping,Transformation
+-32.58615,-2.3197742,Time warping,Transformation
+11.0432825,-44.89587,Time warping,Transformation
+19.48637,8.987763,Time warping,Transformation
+9.355551,36.462513,Time warping,Transformation
+-18.561398,14.598277,Time warping,Transformation
+38.72387,-24.209364,Time warping,Transformation
+-56.123947,-4.4270964,Time warping,Transformation
+-11.830097,5.766383,Time warping,Transformation
+23.307371,-5.9367857,Time warping,Transformation
+4.0005636,-32.795185,Time warping,Transformation
+18.388945,-33.539173,Time warping,Transformation
+-57.030693,-5.3842235,Time warping,Transformation
+30.991335,-7.8913913,Time warping,Transformation
+-35.239017,28.453077,Time warping,Transformation
+-45.19075,-23.042795,Time warping,Transformation
+-18.101364,40.22099,Time warping,Transformation
+21.832638,7.1512203,Time warping,Transformation
+-25.889463,14.781895,Time warping,Transformation
+-55.90975,-4.739977,Time warping,Transformation
+18.846928,9.055045,Time warping,Transformation
+-35.761143,5.7105646,Time warping,Transformation
+41.3099,15.426315,Time warping,Transformation
+18.38301,-33.538914,Time warping,Transformation
+42.379604,4.301651,Time warping,Transformation
+-18.203266,40.61412,Time warping,Transformation
+-18.55273,40.84607,Time warping,Transformation
+-35.884186,5.8885956,Time warping,Transformation
+-11.808596,21.462988,Time warping,Transformation
+42.269764,5.089737,Time warping,Transformation
+32.632355,31.909626,Time warping,Transformation
+-18.623402,14.486627,Time warping,Transformation
+-3.2598517,-19.24654,Time warping,Transformation
+23.448574,-13.653331,Time warping,Transformation
+-29.714867,-4.604555,Time warping,Transformation
+10.896929,35.299664,Time warping,Transformation
+40.932747,12.497035,Time warping,Transformation
+-12.036829,4.7007775,Time warping,Transformation
+8.769598,16.711689,Time warping,Transformation
+-7.8556767,48.077538,Time warping,Transformation
+-40.852192,-21.392925,Time warping,Transformation
+29.60374,-1.4096702,Time warping,Transformation
+-35.962135,25.30226,Time warping,Transformation
+18.87238,-5.707206,Time warping,Transformation
+7.211831,-30.502975,Time warping,Transformation
+-13.41264,18.39592,Time warping,Transformation
+-17.740658,-6.671396,Time warping,Transformation
+42.40707,4.238132,Time warping,Transformation
+18.678307,-37.319057,Time warping,Transformation
+9.225699,36.105278,Time warping,Transformation
+-35.799435,5.8638253,Time warping,Transformation
+19.391819,8.974823,Time warping,Transformation
+-17.051159,15.861875,Time warping,Transformation
+1.6636741,44.119495,Time warping,Transformation
+-17.12378,-6.37244,Time warping,Transformation
+-25.686132,14.034834,Time warping,Transformation
+12.308388,10.917761,Time warping,Transformation
+-6.1853924,20.09281,Time warping,Transformation
+29.804798,-0.39147997,Time warping,Transformation
+-44.88224,-20.738626,Time warping,Transformation
+-20.090895,10.64767,Time warping,Transformation
+-44.94938,-21.872337,Time warping,Transformation
+-29.915846,-3.9129226,Time warping,Transformation
+2.2752757,-35.37369,Time warping,Transformation
+19.850185,9.191322,Time warping,Transformation
+2.3692448,-35.374916,Time warping,Transformation
+-7.956523,38.09968,Time warping,Transformation
+-2.824102,-19.195229,Time warping,Transformation
+13.336007,10.7746935,Time warping,Transformation
+11.483649,33.925594,Time warping,Transformation
+36.876995,-25.929173,Time warping,Transformation
+-31.739538,13.793316,Time warping,Transformation
+-6.4160676,47.34637,Time warping,Transformation
+30.67898,-8.644828,Magnitude warping,Transformation
+-3.4416797,20.34675,Magnitude warping,Transformation
+31.02149,-8.302984,Magnitude warping,Transformation
+10.508453,11.577116,Magnitude warping,Transformation
+38.12417,15.394519,Magnitude warping,Transformation
+10.169219,10.25059,Magnitude warping,Transformation
+-55.567448,-4.3257794,Magnitude warping,Transformation
+-28.568146,-5.2883654,Magnitude warping,Transformation
+-20.252625,27.98474,Magnitude warping,Transformation
+-37.335854,26.40203,Magnitude warping,Transformation
+38.671345,-26.34605,Magnitude warping,Transformation
+31.100243,-8.819783,Magnitude warping,Transformation
+-19.307663,-4.834073,Magnitude warping,Transformation
+-7.688035,43.80752,Magnitude warping,Transformation
+-18.539354,26.186293,Magnitude warping,Transformation
+9.041822,-29.881454,Magnitude warping,Transformation
+22.851986,-17.381552,Magnitude warping,Transformation
+32.474228,33.8787,Magnitude warping,Transformation
+-18.973278,39.628624,Magnitude warping,Transformation
+11.311404,-43.574368,Magnitude warping,Transformation
+22.822533,-17.32435,Magnitude warping,Transformation
+20.961926,9.481513,Magnitude warping,Transformation
+-43.203465,-22.286863,Magnitude warping,Transformation
+20.866825,-35.23085,Magnitude warping,Transformation
+-29.06935,14.636227,Magnitude warping,Transformation
+-43.253017,-22.598227,Magnitude warping,Transformation
+5.640474,18.036644,Magnitude warping,Transformation
+29.19942,-0.43881002,Magnitude warping,Transformation
+9.039809,-29.879885,Magnitude warping,Transformation
+1.6288241,17.909204,Magnitude warping,Transformation
+23.42551,-6.130311,Magnitude warping,Transformation
+10.850763,9.537379,Magnitude warping,Transformation
+37.825306,-25.220236,Magnitude warping,Transformation
+-21.833273,15.4186125,Magnitude warping,Transformation
+1.825745,43.75772,Magnitude warping,Transformation
+-7.4196467,47.074657,Magnitude warping,Transformation
+-55.28951,-4.040395,Magnitude warping,Transformation
+-29.18845,14.774651,Magnitude warping,Transformation
+9.970195,-18.66998,Magnitude warping,Transformation
+7.073093,16.824133,Magnitude warping,Transformation
+-29.637478,14.780969,Magnitude warping,Transformation
+8.01917,23.406723,Magnitude warping,Transformation
+-7.6808963,43.791664,Magnitude warping,Transformation
+22.974773,-16.950567,Magnitude warping,Transformation
+-43.09205,-24.992039,Magnitude warping,Transformation
+-3.350828,-18.726458,Magnitude warping,Transformation
+18.942675,24.106026,Magnitude warping,Transformation
+11.552753,35.58119,Magnitude warping,Transformation
+49.11935,-9.007646,Magnitude warping,Transformation
+1.130753,-33.779716,Magnitude warping,Transformation
+2.630844,43.950703,Magnitude warping,Transformation
+-43.13656,-24.923014,Magnitude warping,Transformation
+-7.481798,47.13644,Magnitude warping,Transformation
+31.168846,32.817142,Magnitude warping,Transformation
+-28.639194,-5.1439285,Magnitude warping,Transformation
+-19.600698,12.598067,Magnitude warping,Transformation
+19.213203,24.39424,Magnitude warping,Transformation
+7.132831,-30.672256,Magnitude warping,Transformation
+-43.371113,-23.230167,Magnitude warping,Transformation
+2.6522303,43.812492,Magnitude warping,Transformation
+-7.507101,47.40977,Magnitude warping,Transformation
+-34.045605,-1.6574544,Magnitude warping,Transformation
+-2.855263,23.643969,Magnitude warping,Transformation
+7.1477375,-30.661495,Magnitude warping,Transformation
+30.84277,-8.964255,Magnitude warping,Transformation
+-7.6641397,43.800583,Magnitude warping,Transformation
+-4.918192,23.834095,Magnitude warping,Transformation
+38.913403,-25.22721,Magnitude warping,Transformation
+-56.45532,-1.8038052,Magnitude warping,Transformation
+-35.235435,28.453892,Magnitude warping,Transformation
+10.836319,10.051267,Magnitude warping,Transformation
+30.646345,-8.623394,Magnitude warping,Transformation
+-35.723385,6.362846,Magnitude warping,Transformation
+10.167621,-19.19897,Magnitude warping,Transformation
+47.956142,-9.423323,Magnitude warping,Transformation
+1.9721861,-33.78035,Magnitude warping,Transformation
+-17.974586,-5.491274,Magnitude warping,Transformation
+-35.552486,6.1862283,Magnitude warping,Transformation
+19.138536,-8.506571,Magnitude warping,Transformation
+39.129036,-25.847208,Magnitude warping,Transformation
+-51.355427,-2.7240074,Magnitude warping,Transformation
+10.205774,-19.227058,Magnitude warping,Transformation
+-29.341398,15.003087,Magnitude warping,Transformation
+-37.518646,27.000298,Magnitude warping,Transformation
+-13.081001,5.535885,Magnitude warping,Transformation
+-1.4444009,19.872765,Magnitude warping,Transformation
+-37.66705,26.547125,Magnitude warping,Transformation
+5.81421,28.830454,Magnitude warping,Transformation
+31.019354,-8.890971,Magnitude warping,Transformation
+-13.731537,18.270084,Magnitude warping,Transformation
+38.11623,-25.528324,Magnitude warping,Transformation
+2.3264422,44.279198,Magnitude warping,Transformation
+-7.378657,47.455116,Magnitude warping,Transformation
+-12.946853,5.4383993,Magnitude warping,Transformation
+10.735842,-43.947216,Magnitude warping,Transformation
+1.8160964,-33.346188,Magnitude warping,Transformation
+-9.486935,38.753983,Magnitude warping,Transformation
+-2.611845,-18.0096,Magnitude warping,Transformation
+2.5345867,43.640602,Magnitude warping,Transformation
+39.05235,-26.600672,Magnitude warping,Transformation
+42.732285,3.2980893,Magnitude warping,Transformation
+2.0402286,44.21997,Magnitude warping,Transformation
+11.357785,-43.901356,Magnitude warping,Transformation
+21.483536,9.606219,Magnitude warping,Transformation
+-18.6631,-5.942868,Magnitude warping,Transformation
+11.742896,-45.357403,Magnitude warping,Transformation
+6.6421714,28.287546,Magnitude warping,Transformation
+38.67655,-25.298618,Magnitude warping,Transformation
+9.039716,-29.879562,Magnitude warping,Transformation
+20.734278,-35.027733,Magnitude warping,Transformation
+-3.358785,-18.686838,Magnitude warping,Transformation
+23.073034,-17.108654,Magnitude warping,Transformation
+2.675944,43.790215,Magnitude warping,Transformation
+39.927624,14.561255,Magnitude warping,Transformation
+22.781513,-8.726278,Magnitude warping,Transformation
+21.3242,9.59047,Magnitude warping,Transformation
+-4.9155064,23.798285,Magnitude warping,Transformation
+38.827843,-26.58941,Magnitude warping,Transformation
+-7.729204,43.83364,Magnitude warping,Transformation
+-16.235203,18.593096,Magnitude warping,Transformation
+11.1892,10.551216,Magnitude warping,Transformation
+-8.350921,46.449974,Magnitude warping,Transformation
+5.6594467,18.023117,Magnitude warping,Transformation
+39.112103,-25.172606,Magnitude warping,Transformation
+-7.907175,38.084816,Magnitude warping,Transformation
+-8.652546,46.40916,Magnitude warping,Transformation
+38.31204,-26.384148,Magnitude warping,Transformation
+-11.8315935,18.905115,Magnitude warping,Transformation
+-40.849033,-21.429888,Magnitude warping,Transformation
+23.431053,-6.1331005,Magnitude warping,Transformation
+42.306965,3.4904008,Magnitude warping,Transformation
+11.836697,-45.55121,Magnitude warping,Transformation
+-30.119455,13.772416,Magnitude warping,Transformation
+23.24525,-3.556333,Magnitude warping,Transformation
+17.247412,24.105251,Magnitude warping,Transformation
+-3.5597425,-18.503284,Magnitude warping,Transformation
+47.513126,-8.955202,Magnitude warping,Transformation
+11.66064,36.420155,Magnitude warping,Transformation
+0.28739396,19.374453,Magnitude warping,Transformation
+-12.812469,5.8173485,Magnitude warping,Transformation
+10.122109,10.252279,Magnitude warping,Transformation
+28.589108,-0.6480755,Magnitude warping,Transformation
+-34.054928,-1.4664465,Magnitude warping,Transformation
+11.260783,10.200958,Magnitude warping,Transformation
+2.6301153,43.819134,Magnitude warping,Transformation
+0.26782507,19.372345,Magnitude warping,Transformation
+-43.646355,-23.31147,Magnitude warping,Transformation
+-13.092502,5.6317997,Magnitude warping,Transformation
+23.44396,-6.140759,Magnitude warping,Transformation
+-51.36107,-2.7246196,Magnitude warping,Transformation
+42.208492,1.7959263,Magnitude warping,Transformation
+-7.4196215,47.427433,Magnitude warping,Transformation
+-44.084526,-23.401712,Magnitude warping,Transformation
+22.868423,-16.28057,Magnitude warping,Transformation
+32.442123,34.07493,Magnitude warping,Transformation
+10.074341,-18.659534,Magnitude warping,Transformation
+28.874805,33.30132,Magnitude warping,Transformation
+-7.6963797,43.82776,Magnitude warping,Transformation
+39.095676,-26.905611,Magnitude warping,Transformation
+40.11916,15.584402,Magnitude warping,Transformation
+32.306095,33.583035,Magnitude warping,Transformation
+20.397518,-35.840042,Magnitude warping,Transformation
+39.674484,15.48008,Magnitude warping,Transformation
+-0.40860167,-18.339033,Magnitude warping,Transformation
+39.862827,14.812113,Magnitude warping,Transformation
+-6.608959,20.08141,Magnitude warping,Transformation
+-16.242023,18.597448,Magnitude warping,Transformation
+31.918653,34.07742,Magnitude warping,Transformation
+42.208786,1.7997415,Magnitude warping,Transformation
+-18.56604,26.213396,Magnitude warping,Transformation
+18.79473,-5.4188824,Magnitude warping,Transformation
+-33.462723,-1.8218896,Magnitude warping,Transformation
+39.091263,-25.564518,Magnitude warping,Transformation
+11.771439,36.201107,Magnitude warping,Transformation
+11.54938,36.3242,Magnitude warping,Transformation
+11.240893,10.803661,Magnitude warping,Transformation
+-18.863754,39.666367,Magnitude warping,Transformation
+11.124595,35.90634,Magnitude warping,Transformation
+-16.242035,18.600086,Magnitude warping,Transformation
+1.4813843,-33.334686,Magnitude warping,Transformation
+19.290432,-6.985629,Magnitude warping,Transformation
+10.794174,-42.019165,Magnitude warping,Transformation
+-11.8196945,18.898836,Magnitude warping,Transformation
+1.2319984,-33.620914,Magnitude warping,Transformation
+10.531098,10.038523,Magnitude warping,Transformation
+38.1323,15.395727,Magnitude warping,Transformation
+9.84586,-18.791433,Magnitude warping,Transformation
+3.9847972,-32.72248,Magnitude warping,Transformation
+29.471846,-0.66221887,Magnitude warping,Transformation
+-43.24494,-23.054281,Magnitude warping,Transformation
+-44.555603,-23.337353,Magnitude warping,Transformation
+-8.232913,47.32136,Magnitude warping,Transformation
+10.234279,-19.13313,Magnitude warping,Transformation
+-18.998001,39.722057,Magnitude warping,Transformation
+9.844017,-18.791183,Magnitude warping,Transformation
+-18.565634,-5.939499,Magnitude warping,Transformation
+-20.489643,27.808737,Magnitude warping,Transformation
+10.349165,9.783385,Magnitude warping,Transformation
+30.71015,-8.846083,Magnitude warping,Transformation
+23.423777,-6.134745,Magnitude warping,Transformation
+-7.719469,43.836506,Magnitude warping,Transformation
+21.556,1.2475294,Magnitude warping,Transformation
+-20.121777,10.740771,Magnitude warping,Transformation
+-33.42362,-1.7198704,Magnitude warping,Transformation
+-40.858047,-21.441,Magnitude warping,Transformation
+32.290916,33.255604,Magnitude warping,Transformation
+28.73977,-0.620107,Magnitude warping,Transformation
+47.919388,-9.538001,Magnitude warping,Transformation
+18.70852,24.79713,Magnitude warping,Transformation
+-28.68425,13.858753,Magnitude warping,Transformation
+42.96388,4.027306,Magnitude warping,Transformation
+-18.570744,26.221592,Magnitude warping,Transformation
+-25.963833,14.897124,Magnitude warping,Transformation
+-55.574326,-4.0773377,Magnitude warping,Transformation
+40.38072,15.345729,Magnitude warping,Transformation
+10.820196,10.052309,Magnitude warping,Transformation
+32.036472,33.257633,Magnitude warping,Transformation
+2.4651723,44.169907,Magnitude warping,Transformation
+-10.943482,21.873627,Magnitude warping,Transformation
+5.912494,29.616684,Magnitude warping,Transformation
+8.018412,23.406923,Magnitude warping,Transformation
+2.3120651,42.359077,Magnitude warping,Transformation
+1.7315235,-33.762177,Magnitude warping,Transformation
+10.398688,-28.974897,Magnitude warping,Transformation
+-34.05806,-1.465387,Magnitude warping,Transformation
+-8.66042,46.82487,Magnitude warping,Transformation
+-37.487785,26.865437,Magnitude warping,Transformation
+1.9024038,43.713947,Magnitude warping,Transformation
+21.447628,9.337871,Magnitude warping,Transformation
+-44.00018,-23.605553,Magnitude warping,Transformation
+-28.85922,14.994746,Magnitude warping,Transformation
+-37.26767,27.211245,Magnitude warping,Transformation
+22.669554,-16.036375,Magnitude warping,Transformation
+37.90162,-25.808674,Magnitude warping,Transformation
+7.2068434,25.390753,Magnitude warping,Transformation
+19.286093,-6.981588,Magnitude warping,Transformation
+40.163357,14.456751,Magnitude warping,Transformation
+-35.498203,6.2493577,Magnitude warping,Transformation
+42.566372,3.4389489,Magnitude warping,Transformation
+-43.110405,-24.978388,Magnitude warping,Transformation
+9.821389,10.292783,Magnitude warping,Transformation
+38.257298,-26.035519,Magnitude warping,Transformation
+-28.704048,-5.287296,Magnitude warping,Transformation
+21.554651,1.252724,Magnitude warping,Transformation
+23.429468,-6.131016,Magnitude warping,Transformation
+10.433912,-28.969381,Magnitude warping,Transformation
+-7.728179,47.375713,Magnitude warping,Transformation
+1.5692029,-34.038147,Noise injection,Transformation
+-7.9203086,47.15142,Noise injection,Transformation
+23.41956,-13.725234,Noise injection,Transformation
+30.740862,-8.547627,Noise injection,Transformation
+9.898217,-18.987408,Noise injection,Transformation
+22.632336,-16.692373,Noise injection,Transformation
+40.187096,15.034961,Noise injection,Transformation
+10.730831,10.67537,Noise injection,Transformation
+10.794689,-42.01959,Noise injection,Transformation
+1.5941558,-34.203228,Noise injection,Transformation
+1.4091123,-34.171726,Noise injection,Transformation
+5.813062,28.829317,Noise injection,Transformation
+6.6209517,28.26886,Noise injection,Transformation
+11.344458,35.920483,Noise injection,Transformation
+-7.6875854,43.811405,Noise injection,Transformation
+7.2097206,25.37941,Noise injection,Transformation
+30.748419,-8.517783,Noise injection,Transformation
+-2.5990386,-18.561087,Noise injection,Transformation
+-6.0266848,23.265432,Noise injection,Transformation
+38.612133,-25.790108,Noise injection,Transformation
+-35.639713,6.1429715,Noise injection,Transformation
+31.800045,33.553368,Noise injection,Transformation
+-20.204348,27.405573,Noise injection,Transformation
+-18.015823,38.59123,Noise injection,Transformation
+40.47626,14.9375515,Noise injection,Transformation
+3.961194,-32.734814,Noise injection,Transformation
+-29.794437,14.228456,Noise injection,Transformation
+-7.921761,47.090332,Noise injection,Transformation
+21.065102,9.211031,Noise injection,Transformation
+-12.560076,5.762886,Noise injection,Transformation
+-4.9171095,23.803741,Noise injection,Transformation
+42.46341,3.693431,Noise injection,Transformation
+20.505856,-35.5878,Noise injection,Transformation
+-29.660107,14.241963,Noise injection,Transformation
+0.26256585,19.37564,Noise injection,Transformation
+-28.702139,-4.7511,Noise injection,Transformation
+2.372807,44.0301,Noise injection,Transformation
+-0.40246123,-18.332613,Noise injection,Transformation
+-32.82213,-0.29796457,Noise injection,Transformation
+2.3137224,42.356102,Noise injection,Transformation
+6.6204295,28.267603,Noise injection,Transformation
+8.021105,23.399109,Noise injection,Transformation
+7.0821977,16.816841,Noise injection,Transformation
+-51.339893,-2.721391,Noise injection,Transformation
+31.681787,33.713757,Noise injection,Transformation
+23.234926,-3.5793917,Noise injection,Transformation
+-35.698452,6.1871114,Noise injection,Transformation
+-8.461878,22.860888,Noise injection,Transformation
+1.5560896,-34.304214,Noise injection,Transformation
+-12.794789,5.4429264,Noise injection,Transformation
+-7.8897066,46.75388,Noise injection,Transformation
+-6.6022863,20.065434,Noise injection,Transformation
+21.415104,8.953592,Noise injection,Transformation
+40.32722,14.928273,Noise injection,Transformation
+-53.526794,-3.056057,Noise injection,Transformation
+-20.03474,27.964697,Noise injection,Transformation
+31.733795,33.266045,Noise injection,Transformation
+-43.7986,-22.757439,Noise injection,Transformation
+40.457882,14.845075,Noise injection,Transformation
+-2.7129447,-18.295744,Noise injection,Transformation
+11.264409,35.825466,Noise injection,Transformation
+10.727558,10.538007,Noise injection,Transformation
+30.715874,-8.555811,Noise injection,Transformation
+22.40348,-16.717876,Noise injection,Transformation
+-20.106354,10.753628,Noise injection,Transformation
+31.019726,-8.650051,Noise injection,Transformation
+10.830045,10.792674,Noise injection,Transformation
+-7.6929226,43.814888,Noise injection,Transformation
+-7.7973623,46.86157,Noise injection,Transformation
+11.580057,-44.385456,Noise injection,Transformation
+-43.121487,-24.95138,Noise injection,Transformation
+-20.093586,27.385843,Noise injection,Transformation
+48.44905,-9.116401,Noise injection,Transformation
+48.55811,-9.246782,Noise injection,Transformation
+-43.119984,-24.952934,Noise injection,Transformation
+-35.63068,6.1397605,Noise injection,Transformation
+-37.26253,26.544163,Noise injection,Transformation
+-36.928295,26.854856,Noise injection,Transformation
+-19.781876,27.664791,Noise injection,Transformation
+48.335735,-9.141982,Noise injection,Transformation
+-2.7966378,-18.242607,Noise injection,Transformation
+2.4070826,43.72667,Noise injection,Transformation
+11.208627,-44.976845,Noise injection,Transformation
+-35.252796,28.443325,Noise injection,Transformation
+48.283978,-9.353818,Noise injection,Transformation
+10.654843,10.704407,Noise injection,Transformation
+-29.539669,14.131846,Noise injection,Transformation
+31.48714,33.234188,Noise injection,Transformation
+21.32205,8.960156,Noise injection,Transformation
+-37.34831,26.629738,Noise injection,Transformation
+-20.306782,27.493385,Noise injection,Transformation
+-10.943301,21.879578,Noise injection,Transformation
+-29.786898,14.110773,Noise injection,Transformation
+-29.657265,14.250549,Noise injection,Transformation
+1.5020744,-34.275436,Noise injection,Transformation
+11.178559,35.791683,Noise injection,Transformation
+-19.601227,12.598617,Noise injection,Transformation
+40.53022,14.970676,Noise injection,Transformation
+-3.0233703,-18.267986,Noise injection,Transformation
+18.422747,-33.56364,Noise injection,Transformation
+-12.654961,5.7882705,Noise injection,Transformation
+-29.699522,13.946073,Noise injection,Transformation
+-32.822838,-0.3036565,Noise injection,Transformation
+-4.921951,23.809265,Noise injection,Transformation
+19.053465,24.333288,Noise injection,Transformation
+-18.593494,14.559244,Noise injection,Transformation
+-34.807632,5.472479,Noise injection,Transformation
+31.675951,33.20631,Noise injection,Transformation
+11.238112,35.964397,Noise injection,Transformation
+-29.713509,13.999364,Noise injection,Transformation
+21.173248,8.811707,Noise injection,Transformation
+23.234392,-3.5711453,Noise injection,Transformation
+-44.035908,-23.031078,Noise injection,Transformation
+-3.1345627,-18.375095,Noise injection,Transformation
+-29.6538,14.205373,Noise injection,Transformation
+-25.96061,14.892484,Noise injection,Transformation
+-25.96476,14.894056,Noise injection,Transformation
+-39.38571,-20.37156,Noise injection,Transformation
+48.641476,-9.217818,Noise injection,Transformation
+-3.148008,-18.408146,Noise injection,Transformation
+-13.740915,6.5262203,Noise injection,Transformation
+-55.89278,-3.8203163,Noise injection,Transformation
+11.128506,35.933853,Noise injection,Transformation
+-7.9126215,47.10617,Noise injection,Transformation
+-44.074768,-22.787756,Noise injection,Transformation
+3.963762,-32.73475,Noise injection,Transformation
+21.339407,8.89246,Noise injection,Transformation
+-7.8796973,46.77691,Noise injection,Transformation
+31.042158,-8.619301,Noise injection,Transformation
+-11.826397,18.885998,Noise injection,Transformation
+-18.149733,-5.734964,Noise injection,Transformation
+-28.506891,-4.951855,Noise injection,Transformation
+31.4668,33.626625,Noise injection,Transformation
+-29.678358,14.074867,Noise injection,Transformation
+-35.253532,28.442442,Noise injection,Transformation
+48.362514,-9.384197,Noise injection,Transformation
+21.207191,9.215732,Noise injection,Transformation
+42.476986,3.7405992,Noise injection,Transformation
+20.496254,-35.54894,Noise injection,Transformation
+22.39734,-16.867119,Noise injection,Transformation
+-19.940475,27.950521,Noise injection,Transformation
+10.804609,10.7352915,Noise injection,Transformation
+-12.883526,5.519666,Noise injection,Transformation
+-28.634933,-5.144802,Noise injection,Transformation
+38.142307,15.394257,Noise injection,Transformation
+2.326541,44.046574,Noise injection,Transformation
+11.029347,-44.511345,Noise injection,Transformation
+46.07832,-7.4426646,Noise injection,Transformation
+-20.177807,27.393187,Noise injection,Transformation
+9.887895,-18.935318,Noise injection,Transformation
+38.634205,-25.597557,Noise injection,Transformation
+-28.500343,-4.8606462,Noise injection,Transformation
+-43.919933,-22.774393,Noise injection,Transformation
+38.64181,-25.728207,Noise injection,Transformation
+-13.737613,18.282206,Noise injection,Transformation
+18.4211,-33.562443,Noise injection,Transformation
+8.942371,-22.531984,Noise injection,Transformation
+22.416298,-16.866743,Noise injection,Transformation
+-29.510181,14.097334,Noise injection,Transformation
+38.652496,-25.871021,Noise injection,Transformation
+-55.893547,-3.825172,Noise injection,Transformation
+-21.735136,15.420817,Noise injection,Transformation
+7.1789284,-30.640713,Noise injection,Transformation
+-18.650623,39.8045,Noise injection,Transformation
+-29.581497,14.025318,Noise injection,Transformation
+-3.1453142,-18.363796,Noise injection,Transformation
+-9.483906,38.75378,Noise injection,Transformation
+-3.4293509,20.31656,Noise injection,Transformation
+-2.7707164,-18.239315,Noise injection,Transformation
+5.6587615,18.025103,Noise injection,Transformation
+11.261898,35.945705,Noise injection,Transformation
+-4.9146748,23.803492,Noise injection,Transformation
+-7.9356465,47.061325,Noise injection,Transformation
+-35.661263,6.133323,Noise injection,Transformation
+-19.94664,27.93763,Noise injection,Transformation
+30.747587,-8.507305,Noise injection,Transformation
+1.373131,-34.26645,Noise injection,Transformation
+10.834358,10.677836,Noise injection,Transformation
+-7.80099,46.82068,Noise injection,Transformation
+22.524467,-16.702002,Noise injection,Transformation
+17.266445,24.097197,Noise injection,Transformation
+23.235687,-3.571243,Noise injection,Transformation
+40.3138,14.786409,Noise injection,Transformation
+-2.8803685,-18.196037,Noise injection,Transformation
+11.632977,-44.531796,Noise injection,Transformation
+23.236135,-3.5720823,Noise injection,Transformation
+-33.803394,-1.275079,Noise injection,Transformation
+5.8218756,28.832697,Noise injection,Transformation
+-43.889576,-22.749197,Noise injection,Transformation
+10.132345,-18.781439,Noise injection,Transformation
+21.02231,9.145992,Noise injection,Transformation
+-18.91544,40.211163,Noise injection,Transformation
+8.018708,23.404417,Noise injection,Transformation
+-35.694298,6.164755,Noise injection,Transformation
+-17.057198,15.838421,Noise injection,Transformation
+-11.163235,38.04013,Noise injection,Transformation
+20.471504,-35.42306,Noise injection,Transformation
+42.82167,3.8780577,Noise injection,Transformation
+31.394459,33.6499,Noise injection,Transformation
+-18.723503,39.743877,Noise injection,Transformation
+10.107377,-19.11996,Noise injection,Transformation
+-18.197989,-5.739412,Noise injection,Transformation
+-9.482269,38.751392,Noise injection,Transformation
+-55.88233,-3.8055735,Noise injection,Transformation
+-3.4270341,20.316923,Noise injection,Transformation
+-4.912189,23.803738,Noise injection,Transformation
+18.676012,24.598436,Noise injection,Transformation
+-28.82079,-5.1109014,Noise injection,Transformation
+23.4205,-13.721891,Noise injection,Transformation
+-2.661376,-18.605608,Noise injection,Transformation
+22.406004,-16.840775,Noise injection,Transformation
+-55.947113,-3.8765626,Noise injection,Transformation
+22.580101,-16.891539,Noise injection,Transformation
+30.731293,-8.597142,Noise injection,Transformation
+-6.6020503,20.065401,Noise injection,Transformation
+-34.808056,5.4563427,Noise injection,Transformation
+38.64969,-25.833105,Noise injection,Transformation
+-53.529404,-3.0576851,Noise injection,Transformation
+-19.79427,27.84831,Noise injection,Transformation
+31.790808,33.45051,Noise injection,Transformation
+8.5166,-19.74881,Noise injection,Transformation
+-20.146307,9.380283,Noise injection,Transformation
+-20.146246,9.382894,Noise injection,Transformation
+11.700085,-44.79775,Noise injection,Transformation
+-25.963556,14.898684,Noise injection,Transformation
+-7.739796,46.831615,Noise injection,Transformation
+31.538717,33.223797,Noise injection,Transformation
+20.5579,-35.664154,Noise injection,Transformation
+-29.21783,16.54146,Noise injection,Transformation
+-10.93738,21.880297,Noise injection,Transformation
+42.467415,3.6820295,Noise injection,Transformation
+38.585377,-25.81269,Noise injection,Transformation
+20.64405,-35.54153,Noise injection,Transformation
+-43.845615,-22.931913,Noise injection,Transformation
+10.655893,10.799263,Noise injection,Transformation
+-36.808212,26.77947,Noise injection,Transformation
+7.080848,16.817192,Noise injection,Transformation
+48.36654,-9.288323,Noise injection,Transformation
+2.3126028,42.38048,Noise injection,Transformation
+-18.058313,-5.951872,Noise injection,Transformation
+30.92679,-8.714793,Noise injection,Transformation
+-7.68722,43.81105,Noise injection,Transformation
+36.248215,-24.32928,Noise injection,Transformation
+48.635357,-9.2330065,Noise injection,Transformation
+-18.64942,39.823406,Noise injection,Transformation
+48.606533,-9.396106,Noise injection,Transformation
+-56.453922,-1.8366966,Noise injection,Transformation
+-2.8599312,23.637512,Frequency domain,Transformation
+0.2653499,19.374212,Frequency domain,Transformation
+40.031242,14.50366,Frequency domain,Transformation
+18.71991,24.116838,Frequency domain,Transformation
+-37.340683,27.13926,Frequency domain,Transformation
+-11.821134,18.885462,Frequency domain,Transformation
+10.791001,-42.005188,Frequency domain,Transformation
+39.732258,15.163814,Frequency domain,Transformation
+1.6166358,17.908417,Frequency domain,Transformation
+10.259144,-19.219343,Frequency domain,Transformation
+23.421385,-6.127995,Frequency domain,Transformation
+-7.2392273,46.821854,Frequency domain,Transformation
+46.09512,-7.452202,Frequency domain,Transformation
+7.080594,16.815554,Frequency domain,Transformation
+8.910132,16.696585,Frequency domain,Transformation
+-12.587608,5.2520046,Frequency domain,Transformation
+-43.260773,-23.456717,Frequency domain,Transformation
+10.758254,35.55829,Frequency domain,Transformation
+-18.599213,-6.167869,Frequency domain,Transformation
+21.394691,-35.09087,Frequency domain,Transformation
+-3.180263,-17.885511,Frequency domain,Transformation
+-0.4180785,-18.32162,Frequency domain,Transformation
+-17.915386,-5.8247194,Frequency domain,Transformation
+20.583626,-36.1006,Frequency domain,Transformation
+46.096264,-7.4579363,Frequency domain,Transformation
+20.083883,-35.04441,Frequency domain,Transformation
+-35.776745,6.269243,Frequency domain,Transformation
+-39.401627,-20.382467,Frequency domain,Transformation
+21.065504,-34.99538,Frequency domain,Transformation
+19.383715,24.46741,Frequency domain,Transformation
+-55.463673,-3.605212,Frequency domain,Transformation
+-12.983918,5.2431183,Frequency domain,Transformation
+23.418589,-6.134175,Frequency domain,Transformation
+-43.478584,-22.34702,Frequency domain,Transformation
+-43.52306,-22.359337,Frequency domain,Transformation
+-20.111929,10.742535,Frequency domain,Transformation
+28.748453,-0.43663722,Frequency domain,Transformation
+20.738329,-34.766212,Frequency domain,Transformation
+6.608907,28.2955,Frequency domain,Transformation
+-37.157593,27.200058,Frequency domain,Transformation
+37.70674,-25.66173,Frequency domain,Transformation
+-8.090007,46.21333,Frequency domain,Transformation
+28.601377,-0.7919679,Frequency domain,Transformation
+48.086838,-10.257009,Frequency domain,Transformation
+-17.989336,-5.5587015,Frequency domain,Transformation
+-37.587463,26.60731,Frequency domain,Transformation
+2.3090916,42.390644,Frequency domain,Transformation
+19.831785,-35.371628,Frequency domain,Transformation
+-35.662735,6.2815123,Frequency domain,Transformation
+30.63083,32.715645,Frequency domain,Transformation
+-18.573845,26.222866,Frequency domain,Transformation
+-40.863007,-21.455088,Frequency domain,Transformation
+49.8532,-9.776849,Frequency domain,Transformation
+20.460497,-34.698654,Frequency domain,Transformation
+-18.511463,26.154621,Frequency domain,Transformation
+-16.242292,18.60586,Frequency domain,Transformation
+-28.338644,-4.736914,Frequency domain,Transformation
+21.44768,9.474268,Frequency domain,Transformation
+10.792307,-42.008488,Frequency domain,Transformation
+-30.20027,14.760124,Frequency domain,Transformation
+10.601895,-45.259583,Frequency domain,Transformation
+42.200222,1.7756284,Frequency domain,Transformation
+11.273123,-45.851982,Frequency domain,Transformation
+-17.05736,15.834135,Frequency domain,Transformation
+-17.826275,-5.771636,Frequency domain,Transformation
+-1.4545268,19.877571,Frequency domain,Transformation
+38.57943,-26.88226,Frequency domain,Transformation
+-11.156384,38.042213,Frequency domain,Transformation
+1.8296226,43.82876,Frequency domain,Transformation
+-8.458183,22.87032,Frequency domain,Transformation
+1.4430236,-33.53299,Frequency domain,Transformation
+-34.070976,-1.48328,Frequency domain,Transformation
+-26.109665,14.951449,Frequency domain,Transformation
+22.917982,-16.339523,Frequency domain,Transformation
+-19.148043,39.719193,Frequency domain,Transformation
+-3.36852,-17.903269,Frequency domain,Transformation
+-28.837336,14.19296,Frequency domain,Transformation
+28.049517,-7.2304316,Frequency domain,Transformation
+11.119514,36.278225,Frequency domain,Transformation
+-7.6961145,46.40459,Frequency domain,Transformation
+0.6491166,-34.248096,Frequency domain,Transformation
+31.935787,34.472847,Frequency domain,Transformation
+11.468878,35.436512,Frequency domain,Transformation
+-18.582169,14.56837,Frequency domain,Transformation
+47.631157,-9.196907,Frequency domain,Transformation
+-55.312996,-3.9376261,Frequency domain,Transformation
+23.419434,-13.725346,Frequency domain,Transformation
+-28.273216,-5.1047893,Frequency domain,Transformation
+-8.253875,46.478775,Frequency domain,Transformation
+21.553444,1.2596787,Frequency domain,Transformation
+19.904999,-34.89037,Frequency domain,Transformation
+7.2185144,-30.620378,Frequency domain,Transformation
+-28.593897,-4.489877,Frequency domain,Transformation
+28.76984,-0.92401975,Frequency domain,Transformation
+-16.23947,18.593765,Frequency domain,Transformation
+43.151127,3.7905052,Frequency domain,Transformation
+-12.579742,5.980684,Frequency domain,Transformation
+-19.18884,39.95453,Frequency domain,Transformation
+7.1624107,-30.65306,Frequency domain,Transformation
+42.8291,4.1249247,Frequency domain,Transformation
+27.981161,-7.2051854,Frequency domain,Transformation
+-7.66401,46.43537,Frequency domain,Transformation
+-9.447395,19.42136,Frequency domain,Transformation
+-28.670916,-4.533044,Frequency domain,Transformation
+-20.238262,16.327215,Frequency domain,Transformation
+40.913975,15.221348,Frequency domain,Transformation
+-1.439195,19.877438,Frequency domain,Transformation
+10.760963,-43.797234,Frequency domain,Transformation
+30.60583,33.385124,Frequency domain,Transformation
+31.186348,-8.642314,Frequency domain,Transformation
+11.9060545,36.065907,Frequency domain,Transformation
+8.531065,-19.739227,Frequency domain,Transformation
+2.0924902,-33.881626,Frequency domain,Transformation
+11.770955,36.059933,Frequency domain,Transformation
+10.458718,-44.327946,Frequency domain,Transformation
+-16.239567,18.594666,Frequency domain,Transformation
+-34.02996,-1.1859564,Frequency domain,Transformation
+-40.849045,-21.441757,Frequency domain,Transformation
+48.943058,-8.729723,Frequency domain,Transformation
+10.386687,-44.00239,Frequency domain,Transformation
+1.6394501,17.900341,Frequency domain,Transformation
+-7.1825995,47.00048,Frequency domain,Transformation
+1.9013667,43.676,Frequency domain,Transformation
+-3.4176111,20.297993,Frequency domain,Transformation
+40.594704,15.681088,Frequency domain,Transformation
+30.714909,33.39439,Frequency domain,Transformation
+28.724491,-0.3249693,Frequency domain,Transformation
+31.874178,34.33003,Frequency domain,Transformation
+-33.895386,-1.7481301,Frequency domain,Transformation
+6.4975514,27.187798,Frequency domain,Transformation
+-8.433337,47.042267,Frequency domain,Transformation
+22.497534,-17.564928,Frequency domain,Transformation
+22.842958,-17.56709,Frequency domain,Transformation
+-3.5026476,-18.15885,Frequency domain,Transformation
+27.997158,-7.200873,Frequency domain,Transformation
+30.866049,34.603664,Frequency domain,Transformation
+11.409836,9.787217,Frequency domain,Transformation
+-8.454105,22.862772,Frequency domain,Transformation
+10.348807,-19.037447,Frequency domain,Transformation
+21.275137,-35.609013,Frequency domain,Transformation
+37.891563,-25.641996,Frequency domain,Transformation
+38.067986,-26.303183,Frequency domain,Transformation
+42.36654,3.479605,Frequency domain,Transformation
+18.42476,-33.56677,Frequency domain,Transformation
+12.239415,-44.86487,Frequency domain,Transformation
+11.8017645,-45.835297,Frequency domain,Transformation
+2.1688015,-34.120716,Frequency domain,Transformation
+-18.995205,39.624474,Frequency domain,Transformation
+21.078201,9.612174,Frequency domain,Transformation
+-19.15256,40.290974,Frequency domain,Transformation
+0.75135154,-33.756287,Frequency domain,Transformation
+-3.409728,20.317593,Frequency domain,Transformation
+18.801447,-5.418648,Frequency domain,Transformation
+28.007257,-7.1994867,Frequency domain,Transformation
+-8.468032,22.865927,Frequency domain,Transformation
+23.067175,-16.506546,Frequency domain,Transformation
+11.343354,11.235095,Frequency domain,Transformation
+23.400269,-16.932207,Frequency domain,Transformation
+-18.982819,40.4562,Frequency domain,Transformation
+-33.887627,-1.7552589,Frequency domain,Transformation
+23.011936,-17.029161,Frequency domain,Transformation
+-19.290272,39.89496,Frequency domain,Transformation
+-28.222685,-5.093509,Frequency domain,Transformation
+10.146582,9.563221,Frequency domain,Transformation
+-34.04765,-1.3296068,Frequency domain,Transformation
+-3.43346,20.313368,Frequency domain,Transformation
+9.270289,33.993855,Frequency domain,Transformation
+23.42345,-6.132991,Frequency domain,Transformation
+31.176352,-8.701504,Frequency domain,Transformation
+20.08955,-35.230427,Frequency domain,Transformation
+20.588512,-34.653004,Frequency domain,Transformation
+-30.124788,15.006088,Frequency domain,Transformation
+8.469778,-19.764397,Frequency domain,Transformation
+28.821533,-0.9033804,Frequency domain,Transformation
+-28.616436,-4.503581,Frequency domain,Transformation
+-11.832367,18.879654,Frequency domain,Transformation
+-12.379034,21.19383,Frequency domain,Transformation
+48.57268,-9.988997,Frequency domain,Transformation
+23.241125,-16.74218,Frequency domain,Transformation
+-18.159378,-5.528933,Frequency domain,Transformation
+36.250748,-24.331635,Frequency domain,Transformation
+-43.117268,-24.95716,Frequency domain,Transformation
+39.69022,14.97858,Frequency domain,Transformation
+18.999184,24.017101,Frequency domain,Transformation
+-2.436053,-17.73122,Frequency domain,Transformation
+-29.055332,-5.2206054,Frequency domain,Transformation
+19.281572,-6.98396,Frequency domain,Transformation
+49.33398,-10.32763,Frequency domain,Transformation
+22.779934,-8.732302,Frequency domain,Transformation
+1.1595582,-33.669865,Frequency domain,Transformation
+49.584198,-8.846859,Frequency domain,Transformation
+-33.562477,-1.7521051,Frequency domain,Transformation
+38.254696,-26.74631,Frequency domain,Transformation
+23.235378,-3.5840437,Frequency domain,Transformation
+-12.538503,5.910464,Frequency domain,Transformation
+-9.49656,38.748642,Frequency domain,Transformation
+9.783728,10.757967,Frequency domain,Transformation
+-28.317102,-4.7699065,Frequency domain,Transformation
+-20.106745,10.776861,Frequency domain,Transformation
+28.928207,-0.95431113,Frequency domain,Transformation
+-12.717446,5.9228354,Frequency domain,Transformation
+30.937082,34.16151,Frequency domain,Transformation
+6.506649,27.14889,Frequency domain,Transformation
+9.319043,33.991173,Frequency domain,Transformation
+-7.923559,38.08648,Frequency domain,Transformation
+11.184852,9.562937,Frequency domain,Transformation
+-11.85968,18.865898,Frequency domain,Transformation
+-28.879036,13.987873,Frequency domain,Transformation
+20.974987,9.666807,Frequency domain,Transformation
+48.848892,-9.9519615,Frequency domain,Transformation
+-56.458866,-1.8156614,Frequency domain,Transformation
+30.700413,-8.882661,Frequency domain,Transformation
+29.25806,-0.44629812,Frequency domain,Transformation
+-9.4533415,19.432327,Frequency domain,Transformation
+40.31775,14.472663,Frequency domain,Transformation
+37.836224,-26.6821,Frequency domain,Transformation
+10.615453,-45.10279,Frequency domain,Transformation
+2.4830353,44.19807,Frequency domain,Transformation
+1.6418121,17.895195,Frequency domain,Transformation
+48.932465,-10.3079815,Frequency domain,Transformation
+49.398945,-9.69829,Frequency domain,Transformation
+-1.4461045,19.872871,Frequency domain,Transformation
+21.166159,-34.832382,Frequency domain,Transformation
+-13.703047,6.4953437,Frequency domain,Transformation
+1.357826,-33.405594,Frequency domain,Transformation
+43.066677,3.506346,Frequency domain,Transformation
+-18.802717,40.407787,Frequency domain,Transformation
+23.416946,-13.734591,Frequency domain,Transformation
+0.81896865,-34.284904,Frequency domain,Transformation
+9.013143,-29.894438,Frequency domain,Transformation
+-43.00919,-23.047855,Frequency domain,Transformation
+40.73641,15.475377,Frequency domain,Transformation
+-19.257212,-4.88958,Frequency domain,Transformation
+18.721758,24.015358,Frequency domain,Transformation
+31.27931,34.13625,Frequency domain,Transformation
+-12.387218,21.177889,Frequency domain,Transformation
+-29.856434,15.115372,Frequency domain,Transformation
+11.716465,35.90852,Frequency domain,Transformation
+-19.685352,27.92843,Frequency domain,Transformation
+-51.30105,-2.715934,Frequency domain,Transformation
+18.861078,23.963701,Frequency domain,Transformation
+-19.082617,39.665432,Frequency domain,Transformation
+18.971148,25.027534,Frequency domain,Transformation
+-18.023388,38.600727,Frequency domain,Transformation
+9.900389,10.655637,Frequency domain,Transformation
+-43.233562,-22.786964,Frequency domain,Transformation
+8.939191,-22.545734,Frequency domain,Transformation
+10.68212,11.676961,Comprehensive,Transformation
+-40.882996,-21.337984,Comprehensive,Transformation
+18.720627,25.239422,Comprehensive,Transformation
+42.47057,4.7266264,Comprehensive,Transformation
+-30.340195,12.946663,Comprehensive,Transformation
+-3.3404217,-19.275408,Comprehensive,Transformation
+6.528481,28.310677,Comprehensive,Transformation
+-18.608503,14.551862,Comprehensive,Transformation
+-4.6374726,23.705809,Comprehensive,Transformation
+-12.197865,5.694772,Comprehensive,Transformation
+-37.30258,25.82704,Comprehensive,Transformation
+-17.18053,15.783456,Comprehensive,Transformation
+17.219303,24.108067,Comprehensive,Transformation
+-17.906921,38.51119,Comprehensive,Transformation
+-29.27953,12.115936,Comprehensive,Transformation
+-0.33658203,-18.354843,Comprehensive,Transformation
+-30.199432,-4.1780505,Comprehensive,Transformation
+1.8184859,44.33189,Comprehensive,Transformation
+33.454754,32.32425,Comprehensive,Transformation
+9.227016,34.003757,Comprehensive,Transformation
+11.219092,34.80014,Comprehensive,Transformation
+20.689444,8.806153,Comprehensive,Transformation
+13.504335,10.753237,Comprehensive,Transformation
+38.79622,-24.003473,Comprehensive,Transformation
+-20.541864,27.617239,Comprehensive,Transformation
+-45.039234,-22.265219,Comprehensive,Transformation
+-36.47929,26.58194,Comprehensive,Transformation
+-18.16579,-6.420713,Comprehensive,Transformation
+-18.53906,14.63063,Comprehensive,Transformation
+23.38506,-6.0777593,Comprehensive,Transformation
+5.9240246,29.445616,Comprehensive,Transformation
+28.01136,-7.1803565,Comprehensive,Transformation
+-30.20247,-4.1467295,Comprehensive,Transformation
+21.361748,-37.500404,Comprehensive,Transformation
+21.398485,-37.44206,Comprehensive,Transformation
+-29.363726,12.167806,Comprehensive,Transformation
+31.294315,31.293362,Comprehensive,Transformation
+-20.167332,28.241072,Comprehensive,Transformation
+-25.795778,14.7053175,Comprehensive,Transformation
+21.644436,-16.717274,Comprehensive,Transformation
+46.672047,-10.718256,Comprehensive,Transformation
+5.8386393,28.852242,Comprehensive,Transformation
+-20.693697,27.488733,Comprehensive,Transformation
+31.24097,31.092663,Comprehensive,Transformation
+-18.215967,-6.5111265,Comprehensive,Transformation
+29.47952,-0.16520064,Comprehensive,Transformation
+28.905535,0.35551098,Comprehensive,Transformation
+41.147858,14.862024,Comprehensive,Transformation
+23.43238,-13.686196,Comprehensive,Transformation
+-53.43653,-3.0391924,Comprehensive,Transformation
+19.95314,-36.455338,Comprehensive,Transformation
+-27.237356,-4.039227,Comprehensive,Transformation
+41.749683,4.2248425,Comprehensive,Transformation
+8.843306,36.141838,Comprehensive,Transformation
+30.9581,-7.2023606,Comprehensive,Transformation
+8.451678,-43.853004,Comprehensive,Transformation
+-11.894343,18.85925,Comprehensive,Transformation
+18.38231,-33.547897,Comprehensive,Transformation
+-5.0398846,23.761724,Comprehensive,Transformation
+8.940321,-22.554523,Comprehensive,Transformation
+-8.404413,22.86309,Comprehensive,Transformation
+29.672129,-1.4524873,Comprehensive,Transformation
+30.687796,31.2932,Comprehensive,Transformation
+47.68135,-7.524266,Comprehensive,Transformation
+-18.521994,-6.351546,Comprehensive,Transformation
+47.798504,-7.3648486,Comprehensive,Transformation
+-40.91109,-21.30274,Comprehensive,Transformation
+-29.311924,-5.2566366,Comprehensive,Transformation
+-56.530495,-4.6406875,Comprehensive,Transformation
+47.12195,-8.696893,Comprehensive,Transformation
+21.238205,-17.199615,Comprehensive,Transformation
+-51.31481,-2.715669,Comprehensive,Transformation
+-40.844593,-21.388103,Comprehensive,Transformation
+47.079586,-9.959456,Comprehensive,Transformation
+-56.51695,-1.8082604,Comprehensive,Transformation
+-55.856583,-4.8231525,Comprehensive,Transformation
+11.586249,11.987996,Comprehensive,Transformation
+21.3116,-37.253918,Comprehensive,Transformation
+7.1744795,-30.642416,Comprehensive,Transformation
+2.2464993,44.258343,Comprehensive,Transformation
+41.632526,3.9200344,Comprehensive,Transformation
+11.193769,12.381193,Comprehensive,Transformation
+-31.142042,13.120329,Comprehensive,Transformation
+-20.884142,27.568043,Comprehensive,Transformation
+-44.686195,-20.94999,Comprehensive,Transformation
+29.367775,-1.1189216,Comprehensive,Transformation
+-56.91463,-4.8778043,Comprehensive,Transformation
+-12.235429,21.243643,Comprehensive,Transformation
+-56.526855,-1.7666024,Comprehensive,Transformation
+9.334468,36.191456,Comprehensive,Transformation
+10.021493,-44.596653,Comprehensive,Transformation
+31.295189,-8.629395,Comprehensive,Transformation
+42.696644,4.435547,Comprehensive,Transformation
+23.20728,-3.5499446,Comprehensive,Transformation
+-51.254402,-2.703663,Comprehensive,Transformation
+47.79954,-7.4424934,Comprehensive,Transformation
+-2.3814833,-19.89411,Comprehensive,Transformation
+-31.033445,-3.5221536,Comprehensive,Transformation
+11.139979,34.701607,Comprehensive,Transformation
+-53.48026,-3.0446253,Comprehensive,Transformation
+19.251972,24.864496,Comprehensive,Transformation
+-44.583614,-21.955423,Comprehensive,Transformation
+18.349195,-33.516735,Comprehensive,Transformation
+-10.869616,21.89416,Comprehensive,Transformation
+-21.589615,15.468724,Comprehensive,Transformation
+47.07324,-8.818102,Comprehensive,Transformation
+12.180109,10.761116,Comprehensive,Transformation
+-30.067276,13.366802,Comprehensive,Transformation
+29.15625,-1.0207813,Comprehensive,Transformation
+-55.709347,-4.9974537,Comprehensive,Transformation
+20.617273,-36.533955,Comprehensive,Transformation
+31.268826,32.10058,Comprehensive,Transformation
+19.142647,-8.531438,Comprehensive,Transformation
+-56.671604,-4.4882455,Comprehensive,Transformation
+-36.917976,26.028416,Comprehensive,Transformation
+10.3126335,-18.716593,Comprehensive,Transformation
+19.938421,-36.015427,Comprehensive,Transformation
+10.331592,-18.707514,Comprehensive,Transformation
+-29.509409,13.296964,Comprehensive,Transformation
+10.831957,-18.48735,Comprehensive,Transformation
+-9.375342,38.69228,Comprehensive,Transformation
+-18.330091,40.65013,Comprehensive,Transformation
+-43.863216,-21.804277,Comprehensive,Transformation
+-19.646696,12.366151,Comprehensive,Transformation
+-30.141262,12.987113,Comprehensive,Transformation
+-3.7806356,23.353418,Comprehensive,Transformation
+-20.567835,28.19616,Comprehensive,Transformation
+46.77229,-10.883149,Comprehensive,Transformation
+27.882324,-4.67363,Comprehensive,Transformation
+-21.74595,15.41762,Comprehensive,Transformation
+-35.21844,28.466026,Comprehensive,Transformation
+-12.352515,5.309919,Comprehensive,Transformation
+6.4374585,27.615402,Comprehensive,Transformation
+31.91977,32.4707,Comprehensive,Transformation
+46.780003,-10.888183,Comprehensive,Transformation
+1.6021574,-35.700497,Comprehensive,Transformation
+20.659897,9.172378,Comprehensive,Transformation
+-18.402918,25.981112,Comprehensive,Transformation
+39.121914,-23.785881,Comprehensive,Transformation
+42.21015,15.3919525,Comprehensive,Transformation
+10.406366,-18.857271,Comprehensive,Transformation
+27.990925,-7.0424385,Comprehensive,Transformation
+33.314743,32.441547,Comprehensive,Transformation
+47.121204,-10.4376,Comprehensive,Transformation
+42.19129,1.7932569,Comprehensive,Transformation
+6.492449,27.25468,Comprehensive,Transformation
+-1.2172784,19.802614,Comprehensive,Transformation
+-45.611748,-23.020088,Comprehensive,Transformation
+-53.48049,-3.0544698,Comprehensive,Transformation
+19.140186,-36.914253,Comprehensive,Transformation
+-5.0046973,23.75436,Comprehensive,Transformation
+21.928802,-15.707651,Comprehensive,Transformation
+21.272867,-37.127247,Comprehensive,Transformation
+16.925535,24.28187,Comprehensive,Transformation
+21.231335,-17.018198,Comprehensive,Transformation
+-36.19166,26.511753,Comprehensive,Transformation
+23.401648,-6.073522,Comprehensive,Transformation
+-44.598057,-21.155678,Comprehensive,Transformation
+10.04193,-18.436998,Comprehensive,Transformation
+9.8163185,35.817642,Comprehensive,Transformation
+-9.451871,38.7343,Comprehensive,Transformation
+11.12705,12.563988,Comprehensive,Transformation
+-20.901602,28.023602,Comprehensive,Transformation
+33.380863,32.31927,Comprehensive,Transformation
+-11.157615,6.038458,Comprehensive,Transformation
+-29.57844,-4.414555,Comprehensive,Transformation
+21.6542,-16.554379,Comprehensive,Transformation
+-9.469865,38.729454,Comprehensive,Transformation
+22.785341,-8.719262,Comprehensive,Transformation
+-30.028418,-4.305177,Comprehensive,Transformation
+20.376032,8.959115,Comprehensive,Transformation
+18.323168,-33.46437,Comprehensive,Transformation
+-25.64993,14.620945,Comprehensive,Transformation
+-16.288885,18.549713,Comprehensive,Transformation
+-5.867912,23.30654,Comprehensive,Transformation
+31.265324,31.291695,Comprehensive,Transformation
+-55.539448,-4.4487257,Comprehensive,Transformation
+9.572876,36.103138,Comprehensive,Transformation
+20.7395,8.276504,Comprehensive,Transformation
+18.551542,25.495312,Comprehensive,Transformation
+-12.4067545,5.79802,Comprehensive,Transformation
+-8.403225,22.874117,Comprehensive,Transformation
+-12.40769,5.173097,Comprehensive,Transformation
+11.231308,34.556892,Comprehensive,Transformation
+7.217275,-30.611843,Comprehensive,Transformation
+7.2794394,16.825958,Comprehensive,Transformation
+12.257908,-43.909306,Comprehensive,Transformation
+21.029451,8.226841,Comprehensive,Transformation
+-35.14703,28.432995,Comprehensive,Transformation
+42.18045,15.378915,Comprehensive,Transformation
+21.597145,7.5706387,Comprehensive,Transformation
+-29.136019,-5.0961885,Comprehensive,Transformation
+-29.750877,13.286554,Comprehensive,Transformation
+-9.59173,38.694218,Comprehensive,Transformation
+29.41788,-0.8940753,Comprehensive,Transformation
+-34.273655,-0.6748787,Comprehensive,Transformation
+-18.252838,40.19795,Comprehensive,Transformation
+1.6849164,-35.066334,Comprehensive,Transformation
+-8.484271,22.85356,Comprehensive,Transformation
+11.755154,10.987059,Comprehensive,Transformation
+42.12358,15.325078,Comprehensive,Transformation
+-16.327429,18.5214,Comprehensive,Transformation
+46.025215,-7.4004025,Comprehensive,Transformation
+12.306664,-43.933598,Comprehensive,Transformation
+39.041134,-23.611794,Comprehensive,Transformation
+-29.585169,12.619111,Comprehensive,Transformation
+-13.832521,6.602713,Comprehensive,Transformation
+-36.567513,26.010376,Comprehensive,Transformation
+28.859434,33.29247,Comprehensive,Transformation
+1.3291898,-19.914885,Comprehensive,Transformation
+-7.627569,48.040215,Comprehensive,Transformation
+36.24209,-24.31591,Comprehensive,Transformation
+7.1939387,25.431732,Comprehensive,Transformation
+32.802494,31.751217,Comprehensive,Transformation
+-37.13767,25.580704,Comprehensive,Transformation
+0.16718568,19.393103,Comprehensive,Transformation
+-33.26571,-1.727105,Comprehensive,Transformation
+9.848596,35.885876,Comprehensive,Transformation
+-2.9712331,-19.11994,Comprehensive,Transformation
+-8.679288,48.269707,Comprehensive,Transformation
+31.147346,30.912119,Comprehensive,Transformation
+1.8010496,-35.21512,Comprehensive,Transformation
+0.70424896,-35.426487,Comprehensive,Transformation
+-20.70523,27.667746,Comprehensive,Transformation
+41.337196,13.898532,Comprehensive,Transformation
+46.626347,-10.76703,Comprehensive,Transformation
+21.483202,8.117495,Comprehensive,Transformation
+22.036497,-36.222305,Comprehensive,Transformation
+31.184847,32.827465,Comprehensive,Transformation
+19.13925,-8.480625,Comprehensive,Transformation
+-20.607376,28.560217,Comprehensive,Transformation
+1.7966533,44.04559,Comprehensive,Transformation
+10.36322,-28.993414,Comprehensive,Transformation
+-3.8634014,-19.459608,Comprehensive,Transformation
+-40.863605,-21.443996,Comprehensive,Transformation
+9.536623,-44.94197,Comprehensive,Transformation
+-1.4765416,19.876245,Comprehensive,Transformation
+-44.315384,-22.283218,Comprehensive,Transformation
+19.167446,-36.908028,Comprehensive,Transformation
+1.2130673,-34.996193,Comprehensive,Transformation
+7.2510595,25.259996,Comprehensive,Transformation
+11.505143,33.865494,Comprehensive,Transformation
+40.11281,-24.577929,Comprehensive,Transformation
+42.1132,4.514481,Comprehensive,Transformation
+11.442717,34.059814,Comprehensive,Transformation
+-9.471989,19.42066,Comprehensive,Transformation
+-3.2765927,20.264458,Comprehensive,Transformation

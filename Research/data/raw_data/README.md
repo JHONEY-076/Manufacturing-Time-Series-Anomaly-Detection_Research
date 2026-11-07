@@ -1,5 +1,5 @@
-# 원본 train/test 데이터
+# raw_data
 
-원본 센서 CSV를 train/와 test/에 배치하는 단계입니다. 데이터는 공개하지 않으며 이용 권한이 있는 자료를 준비해야 합니다.
+원본 train/test 센서 CSV를 포함합니다. prepare 명령이 이 자료에서 윈도우를 다시 구성합니다.
 
-[연구 설명](../../../README.md) · [코드 대응표](../../../docs/research-guide.md)
+[실행 안내](../../../docs/reproduction.md)

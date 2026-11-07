@@ -1,26 +1,18 @@
-# 포트폴리오 업데이트
+# 저장과 업데이트
 
-이 폴더의 최상위 Git 저장소 하나로 공개 파일을 관리합니다. 기존 Research 내부 Git 메타데이터와 양쪽 커밋 백업은 `.local-only/`에 보관하며 업로드하지 않습니다.
+전체 실험 코드는 최상위 Git 저장소 하나로 관리합니다. 새 결과는 `Research/runs/`에 저장하므로 연구 이력과 자동으로 섞이지 않습니다. 공유할 결과를 선별해 docs/results에 복사하고 실행 설정과 해시를 함께 설명하세요.
 
-## 평소 작업
-
-```powershell
+```bash
 git pull --ff-only
-# 코드 수정 및 공개할 결과 정리
+python Research/run.py check
 git status
 git diff
-git add README.md docs Research
+git add README.md .gitignore Research docs
 git diff --cached --stat
-git commit -m "Update public research code and results"
+git commit -m "Update research experiment and results"
 git push origin main
 ```
 
-루트 .gitignore는 공개 폴더를 허용하는 방식입니다. 원고, 원본 데이터, 모델과 미선별 연구 출력은 로컬에 남습니다. 노트북은 실행 출력과 개인정보를 확인한 뒤 공개하세요. 강제 추가(`git add -f`)는 제외 규칙을 우회하므로 사용 전에 공개 범위를 확인하세요.
+원본·분할·생성 후보를 수정해 실험을 이어갈 수 있습니다. 기존 입력 해시와 달라지는 경우 새 입력의 출처·생성 방법과 해시를 기록하세요. 기존 연구 기록은 덮어쓰지 말고 구분합니다.
 
-## 다른 컴퓨터에서 받기
-
-```powershell
-git clone https://github.com/JHONEY-076/Manufacturing-Time-Series-Anomaly-Detection_Research.git
-```
-
-clone으로 받는 것은 공개용 코드·문서·대표 결과입니다. 제외한 원고와 연구 자료는 별도 백업이 필요합니다. 이미 과거 커밋에 올라간 자료는 .gitignore나 현재 트리에서의 제외만으로 지워지지 않습니다.
+PPT·Word·PDF·논문 원고와 참고논문, codex_tmp 계열 임시파일, 가상환경과 로그는 업로드하지 않습니다. 이미 추적 중인 파일에는 .gitignore만으로 제외가 적용되지 않으므로 커밋 목록도 확인해야 합니다. 과거 공개 커밋에 있던 파일은 현재 트리에서 제외해도 기록에 남습니다.

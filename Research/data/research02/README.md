@@ -1,7 +1,5 @@
-# 생성 데이터 품질 비교
+# research02
 
-GT-GAN, Diffusion과 마스킹 기반 생성 방법을 비교합니다. 생성 배열은 공개하지 않습니다.
+GT-GAN, Diffusion과 마스킹 기반 생성 후보 및 집계를 포함합니다. compare는 저장된 후보를 사용하고 generate는 이를 갱신합니다.
 
-[공개 집계 결과](results/research02_summary.json)
-
-[연구 설명](../../../README.md) · [코드 대응표](../../../docs/research-guide.md)
+[실행 안내](../../../docs/reproduction.md)

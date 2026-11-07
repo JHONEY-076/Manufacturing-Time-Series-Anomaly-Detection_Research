@@ -1,16 +1,20 @@
-# 연구 코드
+# 실행 가능한 연구 폴더
 
-공개 포트폴리오의 상세 실행 코드를 보관하는 폴더입니다.
+공통 진입점은 `run.py`입니다. 저장소 루트에서 실행할 수 있습니다.
 
-- `tools/`: 전처리·증강·학습·평가 및 그림 생성
-- `data/`: 원본·전처리·분할과 Research01–10의 단계 설명 및 공개 집계 결과
-- `notebooks/`: 연구 진행 과정을 담은 노트북 (실행 출력 제외)
-- `pictures/`: README와 논문·발표용 주요 그림
-- `fmd_api/`: 연구 결과를 응용한 추론 API와 대시보드
+```bash
+python -m pip install -r Research/requirements.txt
+python Research/run.py check
+python Research/run.py baseline
+python Research/run.py compare
+```
 
-[연구 설명과 코드 대응표](../docs/research-guide.md)에서 각 실험의 구현 위치를 확인할 수 있습니다.
+- `data/`: 원본 CSV·분할 배열·메타데이터·생성 후보와 기존 단계별 결과
+- `notebooks/`: 연구 과정 노트북 (실행 출력 제외)
+- `tools/`: 전처리·생성·필터링·평가·시각화
+- `pictures/`: 연구 설명용 그림
+- `output/`: 고정 비교에 필요한 입력
+- `runs/`: 새 실험별 출력 (Git 제외)
+- `fmd_api/`: 부가 구현인 API와 대시보드
 
-최신 대표 결과와 해석은 [루트 README](../README.md)를 확인하세요.
-환경 구성과 공개하지 않는 필수 입력은 [재현 안내](../docs/reproduction.md)에 정리했습니다.
-
-원본 데이터·생성 표본·학습 모델·논문 작업 파일은 현재 공개 트리에 포함되지 않습니다. 필요한 입력을 복원하면 기존 상대 경로로 작업할 수 있습니다.
+[연구 포트폴리오](../README.md) · [실행·확장 안내](../docs/reproduction.md) · [검증 기록](../docs/validation.md)

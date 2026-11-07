@@ -10,17 +10,11 @@ from datetime import datetime, timezone
 import hashlib
 import json
 from pathlib import Path
-import sys
-import types
 
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import average_precision_score, confusion_matrix, f1_score, fbeta_score, precision_score, recall_score, roc_auc_score
-
-# Experiment helpers import seaborn only for their optional plotting routines.
-# A lightweight stub keeps this analysis runnable in the project's lean runtime.
-sys.modules.setdefault("seaborn", types.ModuleType("seaborn"))
 
 import research_section441_matched_rf as matched
 from research05_balanced_aug_experiment import ensure_window_3d, sample_rows

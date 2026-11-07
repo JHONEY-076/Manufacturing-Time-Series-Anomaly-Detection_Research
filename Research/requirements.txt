@@ -1,0 +1,6 @@
+# Tested cached-pool evaluation environment: Python 3.13
+numpy==2.3.5
+pandas==3.0.3
+scikit-learn==1.8.0
+matplotlib==3.10.7
+seaborn==0.13.2
