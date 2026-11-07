@@ -4,6 +4,12 @@
 
 ## 환경 준비
 
+원본 데이터 없이 집계 지표를 검산하려면 저장소 루트에서 다음을 실행합니다. Python 표준 라이브러리만 사용합니다.
+
+```powershell
+python Research/tools/verify_public_metrics.py
+```
+
 아래 패키지는 기존 README의 설치 예시이며 전체 학습 환경을 고정한 목록은 아닙니다. PyTorch는 운영체제와 가속기 환경에 맞춰 준비해야 합니다.
 
 ```powershell

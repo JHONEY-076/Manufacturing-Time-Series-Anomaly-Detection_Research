@@ -4,6 +4,15 @@
 
 현재 연구는 원본 baseline부터 생성 데이터 품질 평가, 지도학습 증강 검증, threshold 최적화, 필터링 전략, 반복 안정성, 증강량 포화, 필터링 강도, 마스킹 비율 분석까지 정리되어 있습니다.
 
+이 포트폴리오는 연구 문제를 정의하고, 비교 실험을 설계하고, 결과와 한계를 분석한 경험을 설명하기 위해 공개합니다. 독자가 연구 설명과 실제 구현을 연결해 검토할 수 있도록 실험 코드와 집계 결과를 함께 제공합니다. 대시보드는 연구 결과를 추론 시스템으로 연결해 본 추가 구현 사례입니다.
+
+## 읽는 순서
+
+1. 아래 연구 질문과 Research01–10에서 연구 과정과 판단 근거를 확인합니다.
+2. [연구 과정과 코드 대응표](docs/research-guide.md)에서 설명에 해당하는 구현과 결과를 찾아봅니다.
+3. [분할 수정 후 비교](docs/latest-results.md)와 [재현 범위](docs/reproduction.md)에서 평가 조건과 검증 가능한 범위를 확인합니다.
+4. [추가 구현: API·대시보드](docs/dashboard.md)에서 연구 결과의 응용 사례를 확인합니다.
+
 > 이 README는 기존 Research01–10의 연구 설명과 당시 실험 결과를 정리한 문서입니다. 이후 분할 감사에서 기존 seed–validation 사이 원시 행 136개, validation–final_test 사이 원시 행 1개의 겹침이 발견되었습니다. 아래 기존 결과를 완전히 독립된 평가 성능으로 해석하면 안 됩니다. 분할을 수정한 최신 비교는 [별도 결과 안내](docs/latest-results.md)에 구분했습니다.
 
 ## 연구 질문
@@ -274,9 +283,17 @@ python tools/research10_masking_ratio.py
 - `pictures/threshold_fp_fn_curves_filtered_masking_diffusion.png`
 - `pictures/threshold_fp_fn_bar_filtered_masking_diffusion.png`
 
+## 추가 구현: 추론 API와 대시보드
+
+연구에서 비교한 Baseline, Magnitude warping, FMD 증강 Random Forest를 HTTP API와 브라우저 화면으로 연결했습니다. 정상·이상 샘플을 선택하고 모델별 이상 점수, 임계값, 판정과 응답시간을 비교하는 구현 사례입니다. 연구 방법과 성능 검증은 위 실험을 기준으로 설명하며, 이 구현은 저장된 제조 데이터의 로컬 재생 사례입니다.
+
+![연구 결과를 응용한 비교 대시보드](docs/images/dashboard_desktop.png)
+
+[구현 설명과 코드](docs/dashboard.md) · [API 실행 안내](Research/fmd_api/README.md)
+
 ## 공개 파일과 업데이트
 
-이 저장소는 연구 질문, 방법, 실험 흐름, 성능 해석을 README와 그림으로 설명하는 포트폴리오입니다. 대시보드/API는 공개 소개 대상에서 제외했습니다.
+이 저장소는 연구 질문, 방법, 실험 흐름, 성능 해석을 README와 그림으로 설명하고, 독자가 구현을 검토할 수 있도록 코드를 공개하는 포트폴리오입니다. 대시보드/API는 부가 구현 사례로 함께 제공합니다.
 
 - [기존 실험의 선별된 집계 결과](docs/results/research/)
 - [분할 수정 후 최신 비교 결과](docs/latest-results.md)
