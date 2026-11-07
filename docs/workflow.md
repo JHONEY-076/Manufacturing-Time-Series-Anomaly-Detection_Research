@@ -9,13 +9,13 @@ git pull --ff-only
 # 코드 수정 및 공개할 결과 정리
 git status
 git diff
-git add README.md docs Research/tools
+git add README.md docs Research
 git diff --cached --stat
 git commit -m "Update public research code and results"
 git push origin main
 ```
 
-루트 .gitignore는 공개 폴더를 허용하는 방식입니다. 원고, 데이터, 모델, 노트북과 연구 출력은 로컬에 남습니다. 강제 추가(`git add -f`)는 제외 규칙을 우회하므로 사용 전에 공개 범위를 확인하세요.
+루트 .gitignore는 공개 폴더를 허용하는 방식입니다. 원고, 원본 데이터, 모델과 미선별 연구 출력은 로컬에 남습니다. 노트북은 실행 출력과 개인정보를 확인한 뒤 공개하세요. 강제 추가(`git add -f`)는 제외 규칙을 우회하므로 사용 전에 공개 범위를 확인하세요.
 
 ## 다른 컴퓨터에서 받기
 

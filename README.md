@@ -61,7 +61,7 @@
 
 Filtered Masking Diffusion의 가장 좋은 단일 F1 결과는 750개 선별 조건에서 F1 0.874, precision 0.952, recall 0.807이었습니다. 더 느슨한 필터링을 적용하면 precision은 0.849로 낮아지지만 recall은 0.855까지 올라 false negative를 줄이는 데 유리했습니다. 즉, 이 방법은 “최고 점수 하나”보다 불량 미검출 비용이 큰 제조 현장에서 탐지 민감도를 조절할 수 있다는 점이 핵심입니다.
 
-![Filtered Masking Diffusion filtering structure](docs/images/research/filtered_masking_diffusion_quality_criteria_with_distribution.png)
+![Filtered Masking Diffusion filtering structure](Research/pictures/filtered_masking_diffusion_quality_criteria_with_distribution.png)
 
 | Filtered Masking Diffusion 설정 | Precision | Recall | F1 | F2 | AUPRC | 특징 |
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
@@ -82,7 +82,7 @@ Filtered Masking Diffusion의 가장 좋은 단일 F1 결과는 750개 선별 �
 
 원본 데이터만으로도 precision은 높지만 recall이 낮아, 실제 불량을 놓치는 문제가 확인되었습니다.
 
-![Baseline confusion matrix](docs/images/research/randomforest_original_baseline_confusion_matrix.png)
+![Baseline confusion matrix](Research/pictures/randomforest_original_baseline_confusion_matrix.png)
 
 ### Research02: 생성 데이터 품질 비교
 
@@ -92,7 +92,7 @@ Masking 전략은 element-wise random masking이 아니라 정상-불량 분포 
 
 품질 평가는 t-SNE, 실제 불량 centroid와의 거리, 정상 centroid와의 분리, IsolationForest downstream 성능으로 확인했습니다. 생성 품질 순위는 대체로 Masking GT-GAN, Masking Diffusion, Diffusion, GT-GAN 순이었습니다.
 
-![t-SNE comparison](docs/images/research/tsne_2x2_real_vs_generated_full.png)
+![t-SNE comparison](Research/pictures/tsne_2x2_real_vs_generated_full.png)
 
 ### Research03-04: 지도학습 증강과 threshold 최적화
 
@@ -107,14 +107,14 @@ Threshold 최적화에서는 precision-recall trade-off가 크게 달라졌습�
 
 Filtered Masking Diffusion에서도 threshold 선택은 핵심입니다. Best F1 threshold는 false positive를 낮게 유지하면서 균형 성능을 만들고, Best F2 threshold는 recall을 더 높이는 대신 false positive가 증가하는 방향으로 움직입니다.
 
-![Filtered Masking Diffusion threshold curves and error counts](docs/images/research/threshold_metric_curves_and_error_counts_final_layout_legend_up.png)
+![Filtered Masking Diffusion threshold curves and error counts](Research/pictures/threshold_metric_curves_and_error_counts_final_layout_legend_up.png)
 
 추가 threshold 분석 그림:
 
-- [Filtering criteria diagram](docs/images/research/filtered_masking_diffusion_quality_criteria_v2.png)
-- [Metric curves](docs/images/research/threshold_metric_curves_filtered_masking_diffusion.png)
-- [False positive / false negative curves](docs/images/research/threshold_fp_fn_curves_filtered_masking_diffusion.png)
-- [Selected threshold error count bars](docs/images/research/threshold_fp_fn_bar_filtered_masking_diffusion.png)
+- [Filtering criteria diagram](Research/pictures/filtered_masking_diffusion_quality_criteria_v2.png)
+- [Metric curves](Research/pictures/threshold_metric_curves_filtered_masking_diffusion.png)
+- [False positive / false negative curves](Research/pictures/threshold_fp_fn_curves_filtered_masking_diffusion.png)
+- [Selected threshold error count bars](Research/pictures/threshold_fp_fn_bar_filtered_masking_diffusion.png)
 
 ### Research05-06: 전통 증강, class balance, 생성 샘플 필터링
 
@@ -159,7 +159,7 @@ Precision floor 0.90 조건에서 threshold sweep을 수행하고, 주요 후보
 | 750 | Filtered Masking Diffusion | 0.952 | 0.807 | 0.874 | 0.833 | 0.943 |
 | 1,000 | Filtered Masking Diffusion | 0.833 | 0.845 | 0.839 | 0.842 | 0.922 |
 
-![Filtered Masking Diffusion by count](docs/images/research/filtered_masking_diffusion_count_performance.jpg)
+![Filtered Masking Diffusion by count](Research/pictures/filtered_masking_diffusion_count_performance.jpg)
 
 ### Research09: 필터링 강도 분석
 
@@ -174,7 +174,7 @@ Filtered Masking Diffusion의 필터링 강도를 `loose`, `default`, `strict`�
 
 Loose 조건은 anomaly radius를 넓히고 normal radius 기준을 완화해 더 다양한 후보를 남겼습니다. 그 결과 false positive는 늘었지만 false negative가 크게 줄어 recall 중심 목적에 유리했습니다. 제조 불량 탐지처럼 놓친 불량의 비용이 큰 경우에는 이 설정이 Filtered Masking Diffusion의 실무적 장점을 가장 잘 보여줍니다.
 
-![Filtering strength heatmap](docs/images/research/research09_filtering_strength_heatmap.jpg)
+![Filtering strength heatmap](Research/pictures/research09_filtering_strength_heatmap.jpg)
 
 ### Research10: 마스킹 비율 분석
 
@@ -188,7 +188,7 @@ Loose filtering과 750개 target count를 고정하고, Masking Diffusion의 tem
 
 마스킹 비율은 precision과 recall의 균형을 바꿨습니다. Small mask는 매우 높은 precision과 낮은 FP를 보였고, default mask는 recall/F2가 가장 좋았으며, large mask는 F1과 AUPRC 관점에서 좋은 절충안을 보였습니다. 따라서 Filtered Masking Diffusion은 고정된 하나의 증강기가 아니라, 마스킹 강도와 필터링 강도를 조합해 목적 함수에 맞게 조절하는 생성형 증강 프레임워크로 해석할 수 있습니다.
 
-![Masking ratio scores](docs/images/research/research10_masking_ratio_score_bars.jpg)
+![Masking ratio scores](Research/pictures/research10_masking_ratio_score_bars.jpg)
 
 ## 현재 결론
 
@@ -201,9 +201,9 @@ Loose filtering과 750개 target count를 고정하고, Masking Diffusion의 tem
 - 전통 증강, 특히 Magnitude warping과 Noise injection은 여전히 강한 baseline입니다.
 - 생성형 후보 중에서는 Filtered Masking Diffusion이 가장 실용적인 방향이며, 특히 false negative 감소가 중요한 제조 불량 탐지 목적에 맞춰 조정 가능한 방법입니다.
 
-## 기존 로컬 연구 프로젝트 구조
+## 연구 프로젝트 구조
 
-아래는 전체 로컬 연구 구조입니다. 공개 저장소에는 코드와 선별된 결과·그림만 포함하며 데이터와 노트북은 포함하지 않습니다.
+아래 구조를 Research 폴더에 공개합니다. data에는 단계별 설명과 선별한 집계 결과, notebooks에는 실행 출력을 정리한 연구 노트북을 제공합니다. 원본 데이터·전처리 배열·생성 표본은 포함하지 않습니다.
 
 ```text
 data/
@@ -263,25 +263,25 @@ python tools/research10_masking_ratio.py
 
 각 실험의 CSV, JSON 결과는 `data/researchXX/results/` 아래에 저장되며, 주요 그림은 `pictures/`에 정리되어 있습니다.
 
-## 주요 결과 파일 (로컬 경로)
+## 주요 결과 파일
 
-- `data/research01/results/research01_randomforest_baseline_summary.json`
-- `data/research02/results/research02_summary.json`
-- `data/research03/results/research03_model_improvement_summary.json`
-- `data/research05/results/research05_summary.json`
-- `data/research07/results/research07_stability_summary.csv`
-- `data/research08/results/research08_summary.json`
-- `data/research09/results/research09_filtering_strength_summary.json`
-- `data/research10/results/research10_masking_ratio_summary.json`
+- [research01_randomforest_baseline_summary.json](Research/data/research01/results/research01_randomforest_baseline_summary.json)
+- [research02_summary.json](Research/data/research02/results/research02_summary.json)
+- [research03_model_improvement_summary.json](Research/data/research03/results/research03_model_improvement_summary.json)
+- [research05_summary.json](Research/data/research05/results/research05_summary.json)
+- [research07_stability_summary.csv](Research/data/research07/results/research07_stability_summary.csv)
+- [research08_summary.json](Research/data/research08/results/research08_summary.json)
+- [research09_filtering_strength_summary.json](Research/data/research09/results/research09_filtering_strength_summary.json)
+- [research10_masking_ratio_summary.json](Research/data/research10/results/research10_masking_ratio_summary.json)
 
-## 주요 그림 파일 (로컬 경로)
+## 주요 그림 파일
 
-- `pictures/filtered_masking_diffusion_quality_criteria_with_distribution.png`
-- `pictures/filtered_masking_diffusion_quality_criteria_v2.png`
-- `pictures/threshold_metric_curves_and_error_counts_final_layout_legend_up.png`
-- `pictures/threshold_metric_curves_filtered_masking_diffusion.png`
-- `pictures/threshold_fp_fn_curves_filtered_masking_diffusion.png`
-- `pictures/threshold_fp_fn_bar_filtered_masking_diffusion.png`
+- [filtered_masking_diffusion_quality_criteria_with_distribution.png](Research/pictures/filtered_masking_diffusion_quality_criteria_with_distribution.png)
+- [filtered_masking_diffusion_quality_criteria_v2.png](Research/pictures/filtered_masking_diffusion_quality_criteria_v2.png)
+- [threshold_metric_curves_and_error_counts_final_layout_legend_up.png](Research/pictures/threshold_metric_curves_and_error_counts_final_layout_legend_up.png)
+- [threshold_metric_curves_filtered_masking_diffusion.png](Research/pictures/threshold_metric_curves_filtered_masking_diffusion.png)
+- [threshold_fp_fn_curves_filtered_masking_diffusion.png](Research/pictures/threshold_fp_fn_curves_filtered_masking_diffusion.png)
+- [threshold_fp_fn_bar_filtered_masking_diffusion.png](Research/pictures/threshold_fp_fn_bar_filtered_masking_diffusion.png)
 
 ## 추가 구현: 추론 API와 대시보드
 
@@ -300,4 +300,4 @@ python tools/research10_masking_ratio.py
 - [재현 범위](docs/reproduction.md)
 - [업데이트 방법](docs/workflow.md)
 
-원본 데이터·생성 표본·학습 모델·노트북·논문 원고·참고논문 PDF는 로컬에 보관합니다. 기존 공개 커밋 기록은 보존되어 있으므로 현재 트리에서 제외한 파일이 과거 기록에는 남아 있을 수 있습니다.
+원본 데이터·생성 표본·학습 모델·논문 원고·참고논문 PDF와 노트북 원본은 로컬에 보관합니다. 공개 노트북은 실행 출력을 제외한 버전입니다. 기존 공개 커밋 기록은 보존되어 있으므로 현재 트리에서 제외한 파일이 과거 기록에는 남아 있을 수 있습니다.

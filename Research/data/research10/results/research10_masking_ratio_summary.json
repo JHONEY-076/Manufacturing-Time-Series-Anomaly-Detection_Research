@@ -1,0 +1,272 @@
+{
+  "objective": "Masking ratio analysis for Filtered Masking Diffusion.",
+  "target_count": 750,
+  "filtering_strength": "loose",
+  "filtering_params": {
+    "anomaly_radius_multiplier": 1.5,
+    "normal_radius_multiplier": 0.5,
+    "within_anomaly_range_threshold": 0.8
+  },
+  "masking_ratio_configs": {
+    "small": {
+      "temporal_block_ratio": 0.15,
+      "feature_group_ratio": 0.2
+    },
+    "default": {
+      "temporal_block_ratio": 0.25,
+      "feature_group_ratio": 0.4
+    },
+    "large": {
+      "temporal_block_ratio": 0.35,
+      "feature_group_ratio": 0.6
+    }
+  },
+  "device": "cpu",
+  "normal_train_used_each_method": 5000,
+  "generation_summaries": {
+    "small": {
+      "loaded_from_cache": false,
+      "generated_path": "Research/data/research10/generated/diffusion_masked_small_windows.npz",
+      "temporal_block_ratio": 0.15,
+      "feature_group_ratio": 0.2,
+      "adaptive_masking": {
+        "strategy": "data_driven_adaptive_temporal_feature_group_masking",
+        "normal_sample_size": 5000,
+        "temporal_block_ratio": 0.15,
+        "feature_group_ratio": 0.2,
+        "block_len": 4,
+        "group_len": 1,
+        "top_time_starts": [
+          25,
+          24,
+          26,
+          23,
+          4
+        ],
+        "top_feature_groups": [
+          [
+            "RealPower"
+          ],
+          [
+            "SetPower"
+          ],
+          [
+            "Length"
+          ],
+          [
+            "Speed"
+          ],
+          [
+            "GateOnTime"
+          ]
+        ],
+        "feature_scores": {
+          "RealPower": 0.5583903193473816,
+          "GateOnTime": 0.11019281297922134,
+          "SetPower": 0.12541624903678894,
+          "Speed": 0.12428056448698044,
+          "Length": 0.12437879294157028
+        }
+      },
+      "n_generated": 1000
+    },
+    "default": {
+      "loaded_from_cache": false,
+      "generated_path": "Research/data/research10/generated/diffusion_masked_default_windows.npz",
+      "temporal_block_ratio": 0.25,
+      "feature_group_ratio": 0.4,
+      "adaptive_masking": {
+        "strategy": "data_driven_adaptive_temporal_feature_group_masking",
+        "normal_sample_size": 5000,
+        "temporal_block_ratio": 0.25,
+        "feature_group_ratio": 0.4,
+        "block_len": 8,
+        "group_len": 2,
+        "top_time_starts": [
+          22,
+          21,
+          20,
+          2,
+          3
+        ],
+        "top_feature_groups": [
+          [
+            "RealPower",
+            "SetPower"
+          ],
+          [
+            "SetPower",
+            "Speed"
+          ],
+          [
+            "Speed",
+            "Length"
+          ],
+          [
+            "GateOnTime",
+            "SetPower"
+          ]
+        ],
+        "feature_scores": {
+          "RealPower": 0.5583903193473816,
+          "GateOnTime": 0.11019281297922134,
+          "SetPower": 0.12541624903678894,
+          "Speed": 0.12428056448698044,
+          "Length": 0.12437879294157028
+        }
+      },
+      "n_generated": 1000
+    },
+    "large": {
+      "loaded_from_cache": false,
+      "generated_path": "Research/data/research10/generated/diffusion_masked_large_windows.npz",
+      "temporal_block_ratio": 0.35,
+      "feature_group_ratio": 0.6,
+      "adaptive_masking": {
+        "strategy": "data_driven_adaptive_temporal_feature_group_masking",
+        "normal_sample_size": 5000,
+        "temporal_block_ratio": 0.35,
+        "feature_group_ratio": 0.6,
+        "block_len": 10,
+        "group_len": 3,
+        "top_time_starts": [
+          20,
+          19,
+          18,
+          17,
+          16
+        ],
+        "top_feature_groups": [
+          [
+            "RealPower",
+            "SetPower",
+            "Length"
+          ],
+          [
+            "SetPower",
+            "Speed",
+            "Length"
+          ],
+          [
+            "GateOnTime",
+            "SetPower",
+            "Speed"
+          ]
+        ],
+        "feature_scores": {
+          "RealPower": 0.5583903193473816,
+          "GateOnTime": 0.11019281297922134,
+          "SetPower": 0.12541624903678894,
+          "Speed": 0.12428056448698044,
+          "Length": 0.12437879294157028
+        }
+      },
+      "n_generated": 1000
+    }
+  },
+  "best_by_f1": {
+    "method": "Filtered Masking Diffusion (large mask)",
+    "augmentation_family": "generative_filtered_mask_ratio",
+    "augmentation_count": 750,
+    "normal_train_used": 5000,
+    "real_anomaly_seed_used": 247,
+    "augmented_anomaly_used": 750,
+    "total_anomaly_train_used": 997,
+    "normal_to_anomaly_ratio": 5.015045135406218,
+    "threshold": 0.8599999999999999,
+    "validation_precision": 0.9354838709677419,
+    "validation_recall": 0.7073170731707317,
+    "validation_f1": 0.8055555555555556,
+    "validation_f2": 0.7435897435897436,
+    "precision": 0.9557522123893806,
+    "recall": 0.7297297297297297,
+    "f1": 0.8275862068965517,
+    "f2": 0.7659574468085106,
+    "auroc": 0.9908122664855161,
+    "auprc": 0.941392508044574,
+    "false_negative": 80,
+    "false_positive": 10,
+    "masking_ratio": "large",
+    "filtering_strength": "loose",
+    "temporal_block_ratio": 0.35,
+    "feature_group_ratio": 0.6,
+    "candidate_count": 1000,
+    "candidate_ratio": 1.0,
+    "fallback_used": false,
+    "selected_count": 750,
+    "selected_quality_mean": 4.092619742075602,
+    "selected_dist_to_anomaly_mean": 12.67664623260498,
+    "selected_dist_to_normal_mean": 13.538531303405762,
+    "selected_within_anomaly_range_mean": 1.0
+  },
+  "best_by_f2": {
+    "method": "Filtered Masking Diffusion (default mask)",
+    "augmentation_family": "generative_filtered_mask_ratio",
+    "augmentation_count": 750,
+    "normal_train_used": 5000,
+    "real_anomaly_seed_used": 247,
+    "augmented_anomaly_used": 750,
+    "total_anomaly_train_used": 997,
+    "normal_to_anomaly_ratio": 5.015045135406218,
+    "threshold": 0.8599999999999999,
+    "validation_precision": 0.8,
+    "validation_recall": 0.6829268292682927,
+    "validation_f1": 0.7368421052631579,
+    "validation_f2": 0.7035175879396985,
+    "precision": 0.8646616541353384,
+    "recall": 0.777027027027027,
+    "f1": 0.8185053380782918,
+    "f2": 0.7931034482758621,
+    "auroc": 0.9881350380901547,
+    "auprc": 0.9112115954089157,
+    "false_negative": 66,
+    "false_positive": 36,
+    "masking_ratio": "default",
+    "filtering_strength": "loose",
+    "temporal_block_ratio": 0.25,
+    "feature_group_ratio": 0.4,
+    "candidate_count": 1000,
+    "candidate_ratio": 1.0,
+    "fallback_used": false,
+    "selected_count": 750,
+    "selected_quality_mean": 4.103092615127563,
+    "selected_dist_to_anomaly_mean": 12.646364212036133,
+    "selected_dist_to_normal_mean": 13.498916625976562,
+    "selected_within_anomaly_range_mean": 1.0
+  },
+  "best_by_recall": {
+    "method": "Filtered Masking Diffusion (default mask)",
+    "augmentation_family": "generative_filtered_mask_ratio",
+    "augmentation_count": 750,
+    "normal_train_used": 5000,
+    "real_anomaly_seed_used": 247,
+    "augmented_anomaly_used": 750,
+    "total_anomaly_train_used": 997,
+    "normal_to_anomaly_ratio": 5.015045135406218,
+    "threshold": 0.8599999999999999,
+    "validation_precision": 0.8,
+    "validation_recall": 0.6829268292682927,
+    "validation_f1": 0.7368421052631579,
+    "validation_f2": 0.7035175879396985,
+    "precision": 0.8646616541353384,
+    "recall": 0.777027027027027,
+    "f1": 0.8185053380782918,
+    "f2": 0.7931034482758621,
+    "auroc": 0.9881350380901547,
+    "auprc": 0.9112115954089157,
+    "false_negative": 66,
+    "false_positive": 36,
+    "masking_ratio": "default",
+    "filtering_strength": "loose",
+    "temporal_block_ratio": 0.25,
+    "feature_group_ratio": 0.4,
+    "candidate_count": 1000,
+    "candidate_ratio": 1.0,
+    "fallback_used": false,
+    "selected_count": 750,
+    "selected_quality_mean": 4.103092615127563,
+    "selected_dist_to_anomaly_mean": 12.646364212036133,
+    "selected_dist_to_normal_mean": 13.498916625976562,
+    "selected_within_anomaly_range_mean": 1.0
+  }
+}
